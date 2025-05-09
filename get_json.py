@@ -4,6 +4,7 @@ from pathlib import Path
 import os
 import requests
 from concurrent.futures import ThreadPoolExecutor
+import re
 
 def safe_get(data, key, default=None):
     """安全获取嵌套字典值的通用方法"""
@@ -46,6 +47,7 @@ def replace_text_tag(text) -> str:
         "]]" : "</i></b>",
         "- …" : "<bul> ...",
         "\n-" : "\n<bul>",
+        "\n -" : "\n <bul>",
     }
 
     for old, new in replacements.items():
@@ -57,6 +59,8 @@ def fix_X_cost(cost):
         cost = 'X'    
     elif cost == 'None':
         return '-'
+    elif cost == 'null':
+        return "-"
     return cost
 
 def process_card(card):
@@ -70,13 +74,17 @@ def process_card(card):
         'type': safe_get(card, 'type_code', '未知类型'),
         'subtype': safe_get(card, 'subtype_code', ''),
         'xp': safe_get(card, 'xp', 0), # 默认 XP 为 0
-        'faction_code': safe_get(card, 'faction_code', '未知类型'),
+        'faction_code': safe_get(card, 'faction_code', 'None'),
+        'faction2_code': safe_get(card, 'faction2_code', 'None'),
+        'faction3_code': safe_get(card, 'faction3_code', 'None'),
         'illustrator': safe_get(card, 'illustrator', '未知作家'),
         'traits': safe_get(card, 'traits', '')+'.',
         'text': text,
         'flavor': '\n'+safe_get(card, 'flavor', ''),
         'pack_code': safe_get(card, 'pack_code', ''),
         'position': safe_get(card, 'position', '0'),
+        'subname': safe_get(card, 'subname', ''),
+        'encounter_code': safe_get(card, 'encounter_code', ''),
     }
 
     # 动态处理不同卡片类型的特性字段
@@ -84,8 +92,11 @@ def process_card(card):
     
     # 根据不同卡片类型提取特征属性
     if card_type == 'asset':
+        cost = str(safe_get(card, 'cost', 0))
+        cost = fix_X_cost(cost)
+
         result.update({
-            'cost': safe_get(card, 'cost', 0),
+            'cost': cost,
             'slot': safe_get(card, 'slot', '无装备槽'),
             'sanity': safe_get(card, 'sanity', 'N/A'),
             'skill_combat': safe_get(card, 'skill_combat', '0'),
@@ -109,13 +120,8 @@ def process_card(card):
             
             
         })
-    elif card_type == 'event':
-        # cost = fix_X_cost(safe_get(card, 'cost', 0))
-        # print(type(cost),cost)
-        # print(card)
+    elif card_type == 'event':        
         cost = str(safe_get(card, 'cost', 0))
-        # if '-' in cost:
-        #     cost = 'X'
 
         cost = fix_X_cost(cost)
         result.update({
@@ -143,7 +149,10 @@ def load_cards(file_path_list):
             with open(file_path, 'r', encoding='utf-8') as f:
                 raw_data = json.load(f)
                 for c in raw_data:
-                    result_list.append(process_card(c))
+                    result = process_card(c)
+                    if result['encounter_code'] == '':
+                        result_list.append(result)
+                    # result_list.append(process_card(c))
         except Exception as e:
             print(f"读取文件失败: {str(e)}")
             return []
@@ -166,13 +175,6 @@ def json_to_csv(json_data, csv_path, encoding='utf-8'):
             data = json_data
         else:
             raise ValueError("无效的 JSON 数据类型")
-
-        # 获取所有字段（保持顺序）
-        # all_fields = set()
-        # for item in data:
-        #     print('item.keys():',item.keys())
-        #     all_fields.update(item.keys())
-        # fieldnames = sorted(all_fields)  # 按字母排序，可按需自定义顺序      
         
         # 获取所有字段（保持顺序）
         fieldnames = list(dict.fromkeys(key for item in json_data for key in item))
@@ -186,8 +188,7 @@ def json_to_csv(json_data, csv_path, encoding='utf-8'):
         with open(output_path, 'w', newline='', encoding=encoding) as csvfile:
             writer = csv.DictWriter(
                 csvfile,
-                fieldnames=fieldnames,
-                # fieldnames=['file', 'name', '$SpecialText', 'portSource', 'portX', 'portY', 'portScale', '$Unique', '$CardClass', '$ResourceCost', '$Level', '$Skill1', '$Skill2', '$Skill3', '$Skill4', '$Skill5', '$Skill6', '$Artist', '$Copyright', '$Traits', '$Keywords', '$Rules', '$Flavor', '$Victory', '$Collection', '$CollectionNumber'],
+                fieldnames=fieldnames,                
                 quoting=csv.QUOTE_MINIMAL,  # 自动处理特殊字符
                 extrasaction='ignore'       # 忽略多余字段
             )
@@ -271,7 +272,7 @@ def specific_key_merge(json_list_a, json_list_b, key_fields=None):
     :return: 合并后的新列表
     """
     if key_fields is None:
-        key_fields = ['flavor', 'name', 'text', 'traits']
+        key_fields = ['flavor', 'name', 'text', 'traits','subname']
 
     # 创建索引字典（code为键）
     merged_index = {item["code"]: item.copy() for item in json_list_a}
@@ -496,13 +497,15 @@ def download_manager(url_list, save_dir, max_workers=5):
 # 处理图片下载
 def init_picture(url_list):
     # 目标目录
-    save_directory = "D:\\Projects\\Arkham-Horror-LCG-Cards\\temp"    
+    save_directory = "e:\\Projects\\Arkham-Horror-LCG-Cards\\temp"    
     # 执行下载
     download_manager(url_list, save_directory)
     # print(url_list)
 
 
 def fix_file_name(name) -> str:
+    if name.startswith('.'):
+        name = '點' + name[1:]
     return name.replace('!','').replace('"','').replace("?",'')
 
 #将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
@@ -529,12 +532,12 @@ def init_skill_csv_json(original_json):
         xp = safe_get(card,'xp','unknown')
         if xp > 0:
             filename = filename + ' (' + str(xp) + ')'
-        print("名称",filename,pack_code)
+        
         result = {
             'file': filename,
             'name': safe_get(card,'name','unknown'),
             '$SpecialText': safe_get(card,'','unknown'),
-            'portSource': 'D:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
             'portX': safe_get(card,'','0'),
             'portY': '70',
             'portScale': 1.25,
@@ -585,22 +588,33 @@ def init_event_csv_json(original_json):
         pack_code = safe_get(card,'pack_code','unknown')        
         collection = map_collection(pack_code)
         copy_right = map_copyright(collection)
+        card_class = card_map.get(safe_get(card,'faction_code','unknown'))
+        card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
+        card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
+        code = safe_get(card,'code','unknown')    
         
         filename = fix_file_name(safe_get(card,'name','unknown'))
+
+        card_class_name,card_class2, card_class3  = solve_class_name(card_class, card_class2, card_class3)
+
         xp = safe_get(card,'xp','unknown')
         if xp > 0:
-            filename = filename + ' (' + str(xp) + ')'
-        print("名称",filename,pack_code,safe_get(card,'subtype_code',''))
+            filename = filename + ' (' + str(xp) + ')' + ' '+ card_class_name
+        else:
+            filename = filename + ' ' + card_class_name
+        # print("名称",filename,pack_code,safe_get(card,'subtype_code',''),code ,card_class,card_class2,card_class3)
         result = {
             'file': filename,
             'name': safe_get(card,'name','unknown'),
             '$SpecialText': safe_get(card,'','unknown'),
-            'portSource': 'D:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-            'portX': safe_get(card,'','0'),
+            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+            'portX': '0',
             'portY': '120',
             'portScale': 1.35,
             '$Unique': safe_get(card,'','unknown'),
-            '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
+            '$CardClass': card_class,
+            '$CardClass2': card_class2,
+            '$CardClass3': card_class3,
             '$ResourceCost': safe_get(card,'cost','0'),
             '$Level': safe_get(card,'xp','unknown'),
             '$Skill1': skill_list[0],
@@ -619,9 +633,7 @@ def init_event_csv_json(original_json):
             '$Collection': collection,
             '$CollectionNumber': safe_get(card,'position','unknown'),
 
-        }
-        if safe_get(card,'code','unknown') == '03238':
-            print('result',card)
+        }        
 
 
         card_list.append(result)        
@@ -630,9 +642,97 @@ def init_event_csv_json(original_json):
 
     return card_list
 
+# 处理职阶名称
+def solve_class_name(card_class, card_class2, card_class3):
+    card_class_name = str(card_class)
+    card_class2_name = str(card_class2)
+    card_class3_name = str(card_class3)
+
+        
+        
+    if card_class2_name != '' and card_class2_name != 'None':
+        card_class_name = card_class_name + '_'+ card_class2_name
+        
+    if card_class3_name != '' and card_class3_name != 'None':
+        card_class_name = card_class_name + '_'+ card_class3_name
+
+    if card_class2 == '' or card_class2 is None:
+        card_class2='None'
+
+    if card_class3 == '' or card_class3 is None:
+        card_class3='None'
+    return card_class_name,card_class2,card_class3
+
 
 #将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
-def init_asset_csv_json(original_json):
+# def init_asset_csv_json(original_json):
+#     card_list = []
+#     url_list = []
+#     card_map={
+#         'guardian':'Guardian',
+#         'seeker':'Seeker',
+#         'rogue':'Rogue',        
+#         'mystic':'Mystic',
+#         'survivor':'Survivor',
+#         'neutral':'Neutral',
+#         'unknown':'unknown',
+#     }
+
+#     for card in original_json:
+#         skill_list = sort_skill(card)
+#         pack_code = safe_get(card,'pack_code','unknown')        
+#         collection = map_collection(pack_code)
+#         copy_right = map_copyright(collection)
+        
+#         filename = fix_file_name(safe_get(card,'name','unknown'))
+        
+#         xp = safe_get(card,'xp','unknown')
+#         if xp > 0:
+#             filename = filename + ' (' + str(xp) + ')'
+#         print("名称",filename,pack_code)
+#         result = {
+#             'file': filename,
+#             'name': safe_get(card,'name','unknown'),
+#             '$Subtitle': safe_get(card,'subname',''),
+#             '$SpecialText': safe_get(card,'','unknown'),
+#             'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+#             'portX': '0',
+#             'portY': '90',
+#             'portScale': 1.25,
+#             '$Unique': safe_get(card,'','unknown'),
+#             '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
+#             '$ResourceCost': safe_get(card,'cost','0'),
+#             '$Level': safe_get(card,'xp','unknown'),
+#             '$Skill1': skill_list[0],
+#             '$Skill2': skill_list[1],
+#             '$Skill3': skill_list[2],
+#             '$Skill4': skill_list[3],
+#             '$Skill5': skill_list[4],
+#             '$Skill6': skill_list[5],
+#             '$Artist': safe_get(card,'illustrator','unknown'),            
+#             '$Copyright': copy_right,
+#             '$Traits': safe_get(card,'traits','unknown'),
+#             '$Keywords': '',
+#             '$Rules': safe_get(card,'text',''),
+#             '$Flavor': safe_get(card,'flavor',''),
+#             '$Victory': '',
+#             '$Collection': collection,
+#             '$CollectionNumber': safe_get(card,'position','unknown'),
+
+#         }
+#         if safe_get(card,'code','unknown') == '03238':
+#             print('result',card)
+
+
+#         card_list.append(result)        
+#         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
+#         # init_picture(url_list)
+
+#     return card_list
+
+
+#将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
+def init_csv_json(original_json,portX,portY,portScale):
     card_list = []
     url_list = []
     card_map={
@@ -650,22 +750,46 @@ def init_asset_csv_json(original_json):
         pack_code = safe_get(card,'pack_code','unknown')        
         collection = map_collection(pack_code)
         copy_right = map_copyright(collection)
+        card_class = card_map.get(safe_get(card,'faction_code','unknown'))
+        card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
+        card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
+        code = safe_get(card,'code','unknown')    
         
         filename = fix_file_name(safe_get(card,'name','unknown'))
+
+        card_class_name,card_class2, card_class3  = solve_class_name(card_class, card_class2, card_class3)
+
         xp = safe_get(card,'xp','unknown')
         if xp > 0:
-            filename = filename + ' (' + str(xp) + ')'
-        print("名称",filename,pack_code)
+            filename = filename + ' (' + str(xp) + ')' + ' '+ '['+card_class_name+']'
+        else:
+            filename = filename + ' ' + '['+card_class_name+']'
+
+        type = card['type']
+        filename = filename + '['+ type +']'
+
+        code = re.sub(r'\D','',str(safe_get(card,'code','0')))
+
+        
+        print("名称",filename,pack_code,safe_get(card,'subtype_code',''),code ,card_class,card_class2,card_class3)
+
+        # subtitle = safe_get(card,'subname','')
+        # if subtitle:
+        #     print('filename',filename,'subtitle',subtitle)
         result = {
             'file': filename,
             'name': safe_get(card,'name','unknown'),
+            '$Subtitle': safe_get(card,'subname',''),
             '$SpecialText': safe_get(card,'','unknown'),
-            'portSource': 'D:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-            'portX': safe_get(card,'','0'),
-            'portY': '120',
-            'portScale': 1.35,
+            # 'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+ code +'.png',
+            'portX': portX,
+            'portY': portY,
+            'portScale': portScale,
             '$Unique': safe_get(card,'','unknown'),
-            '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
+            '$CardClass': card_class,
+            '$CardClass2': card_class2,
+            '$CardClass3': card_class3,
             '$ResourceCost': safe_get(card,'cost','0'),
             '$Level': safe_get(card,'xp','unknown'),
             '$Skill1': skill_list[0],
@@ -685,24 +809,25 @@ def init_asset_csv_json(original_json):
             '$CollectionNumber': safe_get(card,'position','unknown'),
 
         }
-        if safe_get(card,'code','unknown') == '03238':
-            print('result',card)
+        # if safe_get(card,'code','unknown') == '03238':
+        #     print('result',card)
 
 
         card_list.append(result)        
         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
-        init_picture(url_list)
+        # init_picture(url_list)
 
     return card_list
+
 
 #遍历json 路径
 def find_json_files(root_dir):
     json_files = []
     for root, dirs, files in os.walk(root_dir):
         for file in files:
-            if file.endswith('.json'):
+            if file.endswith('.json') and 'encounter' not in file:
                 absolute_path = os.path.join(root, file)
-                json_files.append(absolute_path)
+                json_files.append(absolute_path)    
     return json_files
 
 
@@ -713,79 +838,27 @@ if __name__ == "__main__":
 
     processed_cards_merge = specific_key_merge(processed_cards,processed_cards_zh)
 
-    for card in processed_cards_merge:
-        if card['code'] == '07308':
-            print(card)
-
-    # 打印处理后的结构化数据
-    # for card in processed_cards_merge:
-    #     print(f"\n【{card['name']}】")
-    #     print(f"code: {card['code']}")
-        
-    #     # 根据不同类型显示特征信息
-    #     if card['type'] == 'asset':
-    #         print(f"类型: {card['type']}")
-    #         print(f"XP: {card['xp']}")
-    #         print(f"装备槽: {card['slot']}")
-    #         print(f"理智值: {card['sanity']}")
-    #         print(f"消耗: {card['cost']}")
-    #         print(f"skill_agility: {card['skill_agility']}")
-    #         print(f"skill_combat: {card['skill_combat']}")
-    #         print(f"skill_intellect: {card['skill_intellect']}")
-    #         print(f"skill_willpower: {card['skill_willpower']}")
-    #         print(f"skill_wild: {card['skill_wild']}")
-            
-    #     elif card['type'] == 'treachery':
-    #         print(f"隐藏属性: {'是' if card['hidden'] else '否'}")
-    #         print(f"子类型: {card['subtype']}")
-
-    #     elif card['type'] == 'skill':
-    #         print(f"XP: {card['xp']}")
-    #         print(f"faction_code: {card['faction_code']}")
-    #         print(f"skill_combat: {card['skill_combat']}")
-    #         print(f"skill_agility: {card['skill_agility']}")
-    #         print(f"skill_wild: {card['skill_wild']}")
-    #         print(f"skill_willpower: {card['skill_willpower']}")
-    #         print(f"skill_intellect: {card['skill_intellect']}")
-    #         print(f"illustrator: {card['illustrator']}")
-    #         print(f"position: {card['position']}")
-    #         print(f"pack_code: {card['pack_code']}")
-        
-    #     # 显示公共字段
-    #     if card['traits'] != '':
-    #         print(f"特性: {card['traits']}")
-    #     if card['text'] != '':
-    #         print(f"效果描述: {card['text']}")
-    #     if card['flavor'] != '':
-    #         print(f"flavor: {card['flavor']}")
-            
-    #     print("=" * 50)
-
-    # skill_cards = filter_skill_cards(processed_cards_merge)   
-    # skill_csv_json_list = init_skill_csv_json(processed_cards_merge)
-    
-    # json_to_csv(
-    #         json_data=skill_csv_json_list,
-    #         csv_path="D:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_skill.csv",
-    #         encoding='utf-8'
-    #     )
-
-
-    event_cards = filter_event_cards(processed_cards_merge)
-    event_csv_json_list = init_event_csv_json(event_cards)
-
+    skill_cards = filter_skill_cards(processed_cards_merge)
+    skill_csv_json_list = init_csv_json(skill_cards,'0','90',1.35)    
     json_to_csv(
-        json_data=event_csv_json_list,
-        csv_path="D:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_event.csv",
+        json_data=skill_csv_json_list,
+        csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_skill.csv",
         encoding='utf-8'
     )
 
-    # asset_cards = filter_asset_cards(processed_cards_merge)
-    # asset_csv_json_list = init_asset_csv_json(asset_cards)
+    # event_cards = filter_event_cards(processed_cards_merge)
+    # event_csv_json_list = init_csv_json(event_cards,'0','120',1.35)    
+    # json_to_csv(
+    #     json_data=event_csv_json_list,
+    #     csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_event.csv",
+    #     encoding='utf-8'
+    # )
 
+    # asset_cards = filter_asset_cards(processed_cards_merge)
+    # asset_csv_json_list = init_csv_json(asset_cards,'0','90',1.25)
     # json_to_csv(
     #     json_data=asset_csv_json_list,
-    #     csv_path="D:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_asset.csv",
+    #     csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_asset.csv",
     #     encoding='utf-8'
     # )
 
@@ -797,3 +870,5 @@ if __name__ == "__main__":
 # - 版权准确性 (按照年份批量制作?)
 # - 各种标志要换成标签
 # - 找不到对应的collection (图片右下角标志)
+# - 多class 的问题要考虑一下
+# - filename 分类
