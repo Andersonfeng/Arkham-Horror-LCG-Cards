@@ -85,55 +85,70 @@ def process_card(card):
         'position': safe_get(card, 'position', '0'),
         'subname': safe_get(card, 'subname', ''),
         'encounter_code': safe_get(card, 'encounter_code', ''),
+        'health': safe_get(card, 'health', ''),
+        'sanity': safe_get(card, 'sanity', ''),
+        'slot': safe_get(card, 'slot', ''),
+        'unique': safe_get(card, 'is_unique', ''),
+        'skill_combat': safe_get(card, 'skill_combat', '0'),
+        'skill_agility': safe_get(card, 'skill_agility', '0'),
+        'skill_wild': safe_get(card, 'skill_wild', '0'),
+        'skill_willpower': safe_get(card, 'skill_willpower', '0'),
+        'skill_intellect': safe_get(card, 'skill_intellect', '0'),
+        'victory': safe_get(card, 'victory', ''),
     }
 
     # 动态处理不同卡片类型的特性字段
     card_type = result['type']    
     
+    cost = str(safe_get(card, 'cost', 0))
+    cost = fix_X_cost(cost)
+    result.update({
+        'cost': cost,
+    })
     # 根据不同卡片类型提取特征属性
-    if card_type == 'asset':
-        cost = str(safe_get(card, 'cost', 0))
-        cost = fix_X_cost(cost)
+    # if card_type == 'asset':
+    #     cost = str(safe_get(card, 'cost', 0))
+    #     cost = fix_X_cost(cost)
 
-        result.update({
-            'cost': cost,
-            'slot': safe_get(card, 'slot', '无装备槽'),
-            'sanity': safe_get(card, 'sanity', 'N/A'),
-            'skill_combat': safe_get(card, 'skill_combat', '0'),
-            'skill_agility': safe_get(card, 'skill_agility', '0'),
-            'skill_wild': safe_get(card, 'skill_wild', '0'),
-            'skill_willpower': safe_get(card, 'skill_willpower', '0'),
-            'skill_intellect': safe_get(card, 'skill_intellect', '0'),            
-        })
-    elif card_type == 'treachery':
-        result.update({
-            'hidden': safe_get(card, 'hidden', False),
-            'subtype': safe_get(card, 'subtype_code', '无子类型')
-        })
-    elif card_type == 'skill':
-        result.update({
-            'skill_combat': safe_get(card, 'skill_combat', '0'),
-            'skill_agility': safe_get(card, 'skill_agility', '0'),
-            'skill_wild': safe_get(card, 'skill_wild', '0'),
-            'skill_willpower': safe_get(card, 'skill_willpower', '0'),
-            'skill_intellect': safe_get(card, 'skill_intellect', '0'),
+        # result.update({
+            # 'cost': cost,
+            # 'slot': safe_get(card, 'slot', '无装备槽'),
+            # 'sanity': safe_get(card, 'sanity', 'N/A'),
+            # 'skill_combat': safe_get(card, 'skill_combat', '0'),
+            # 'skill_agility': safe_get(card, 'skill_agility', '0'),
+            # 'skill_wild': safe_get(card, 'skill_wild', '0'),
+            # 'skill_willpower': safe_get(card, 'skill_willpower', '0'),
+            # 'skill_intellect': safe_get(card, 'skill_intellect', '0'),            
+    #     })
+    # elif card_type == 'treachery':
+    #     result.update({
+    #         'hidden': safe_get(card, 'hidden', False),
+    #         'subtype': safe_get(card, 'subtype_code', '无子类型')
+    #     })
+    # elif card_type == 'skill':
+    #     result.update({
+    #         'skill_combat': safe_get(card, 'skill_combat', '0'),
+    #         'skill_agility': safe_get(card, 'skill_agility', '0'),
+    #         'skill_wild': safe_get(card, 'skill_wild', '0'),
+    #         'skill_willpower': safe_get(card, 'skill_willpower', '0'),
+    #         'skill_intellect': safe_get(card, 'skill_intellect', '0'),
             
             
-        })
-    elif card_type == 'event':        
-        cost = str(safe_get(card, 'cost', 0))
+    #     })
+    # elif card_type == 'event':        
+    #     cost = str(safe_get(card, 'cost', 0))
 
-        cost = fix_X_cost(cost)
-        result.update({
-            'cost': cost,
-            'slot': safe_get(card, 'slot', '无装备槽'),
-            'sanity': safe_get(card, 'sanity', 'N/A'),
-            'skill_combat': safe_get(card, 'skill_combat', '0'),
-            'skill_agility': safe_get(card, 'skill_agility', '0'),
-            'skill_wild': safe_get(card, 'skill_wild', '0'),
-            'skill_willpower': safe_get(card, 'skill_willpower', '0'),
-            'skill_intellect': safe_get(card, 'skill_intellect', '0'),            
-        })
+    #     cost = fix_X_cost(cost)
+    #     result.update({
+    #         'cost': cost,
+    #         'slot': safe_get(card, 'slot', '无装备槽'),
+    #         'sanity': safe_get(card, 'sanity', 'N/A'),
+    #         'skill_combat': safe_get(card, 'skill_combat', '0'),
+    #         'skill_agility': safe_get(card, 'skill_agility', '0'),
+    #         'skill_wild': safe_get(card, 'skill_wild', '0'),
+    #         'skill_willpower': safe_get(card, 'skill_willpower', '0'),
+    #         'skill_intellect': safe_get(card, 'skill_intellect', '0'),            
+    #     })
 
     # 处理所有卡片可能存在的公共可选字段
     # optional_fields = ['traits', 'text', 'flavor']
@@ -509,138 +524,138 @@ def fix_file_name(name) -> str:
     return name.replace('!','').replace('"','').replace("?",'')
 
 #将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
-def init_skill_csv_json(original_json):
-    card_list = []
-    url_list = []
-    card_map={
-        'guardian':'Guardian',
-        'seeker':'Seeker',
-        'rogue':'Rogue',        
-        'mystic':'Mystic',
-        'survivor':'Survivor',
-        'neutral':'Neutral',
-        'unknown':'unknown',
-    }
+# def init_skill_csv_json(original_json):
+#     card_list = []
+#     url_list = []
+#     card_map={
+#         'guardian':'Guardian',
+#         'seeker':'Seeker',
+#         'rogue':'Rogue',        
+#         'mystic':'Mystic',
+#         'survivor':'Survivor',
+#         'neutral':'Neutral',
+#         'unknown':'unknown',
+#     }
 
-    for card in original_json:
-        skill_list = sort_skill(card)
-        pack_code = safe_get(card,'pack_code','unknown')        
-        collection = map_collection(pack_code)
-        copy_right = map_copyright(collection)
+#     for card in original_json:
+#         skill_list = sort_skill(card)
+#         pack_code = safe_get(card,'pack_code','unknown')        
+#         collection = map_collection(pack_code)
+#         copy_right = map_copyright(collection)
         
-        filename = fix_file_name(safe_get(card,'name','unknown'))
-        xp = safe_get(card,'xp','unknown')
-        if xp > 0:
-            filename = filename + ' (' + str(xp) + ')'
+#         filename = fix_file_name(safe_get(card,'name','unknown'))
+#         xp = safe_get(card,'xp','unknown')
+#         if xp > 0:
+#             filename = filename + ' (' + str(xp) + ')'
         
-        result = {
-            'file': filename,
-            'name': safe_get(card,'name','unknown'),
-            '$SpecialText': safe_get(card,'','unknown'),
-            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-            'portX': safe_get(card,'','0'),
-            'portY': '70',
-            'portScale': 1.25,
-            '$Unique': safe_get(card,'','unknown'),
-            '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
-            '$ResourceCost': safe_get(card,'cost','0'),
-            '$Level': safe_get(card,'xp','unknown'),
-            '$Skill1': skill_list[0],
-            '$Skill2': skill_list[1],
-            '$Skill3': skill_list[2],
-            '$Skill4': skill_list[3],
-            '$Skill5': skill_list[4],
-            '$Skill6': skill_list[5],
-            '$Artist': safe_get(card,'illustrator','unknown'),            
-            '$Copyright': copy_right,
-            '$Traits': safe_get(card,'traits','unknown'),
-            '$Keywords': '',
-            '$Rules': safe_get(card,'text',''),
-            '$Flavor': safe_get(card,'flavor',''),
-            '$Victory': '',
-            '$Collection': collection,
-            '$CollectionNumber': safe_get(card,'position','unknown'),
-        }
+#         result = {
+#             'file': filename,
+#             'name': safe_get(card,'name','unknown'),
+#             '$SpecialText': safe_get(card,'','unknown'),
+#             'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+#             'portX': safe_get(card,'','0'),
+#             'portY': '70',
+#             'portScale': 1.25,
+#             '$Unique': safe_get(card,'','unknown'),
+#             '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
+#             '$ResourceCost': safe_get(card,'cost','0'),
+#             '$Level': safe_get(card,'xp','unknown'),
+#             '$Skill1': skill_list[0],
+#             '$Skill2': skill_list[1],
+#             '$Skill3': skill_list[2],
+#             '$Skill4': skill_list[3],
+#             '$Skill5': skill_list[4],
+#             '$Skill6': skill_list[5],
+#             '$Artist': safe_get(card,'illustrator','unknown'),            
+#             '$Copyright': copy_right,
+#             '$Traits': safe_get(card,'traits','unknown'),
+#             '$Keywords': '',
+#             '$Rules': safe_get(card,'text',''),
+#             '$Flavor': safe_get(card,'flavor',''),
+#             '$Victory': safe_get(card,'Victory','None'),
+#             '$Collection': collection,
+#             '$CollectionNumber': safe_get(card,'position','unknown'),
+#         }
 
 
-        card_list.append(result)        
-        url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
-        init_picture(url_list)
+#         card_list.append(result)        
+#         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
+#         init_picture(url_list)
 
-    return card_list
+#     return card_list
 
 #将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
-def init_event_csv_json(original_json):
-    card_list = []
-    url_list = []
-    card_map={
-        'guardian':'Guardian',
-        'seeker':'Seeker',
-        'rogue':'Rogue',        
-        'mystic':'Mystic',
-        'survivor':'Survivor',
-        'neutral':'Neutral',
-        'unknown':'unknown',
-    }
+# def init_event_csv_json(original_json):
+#     card_list = []
+#     url_list = []
+#     card_map={
+#         'guardian':'Guardian',
+#         'seeker':'Seeker',
+#         'rogue':'Rogue',        
+#         'mystic':'Mystic',
+#         'survivor':'Survivor',
+#         'neutral':'Neutral',
+#         'unknown':'unknown',
+#     }
 
-    for card in original_json:
-        skill_list = sort_skill(card)
-        pack_code = safe_get(card,'pack_code','unknown')        
-        collection = map_collection(pack_code)
-        copy_right = map_copyright(collection)
-        card_class = card_map.get(safe_get(card,'faction_code','unknown'))
-        card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
-        card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
-        code = safe_get(card,'code','unknown')    
+#     for card in original_json:
+#         skill_list = sort_skill(card)
+#         pack_code = safe_get(card,'pack_code','unknown')        
+#         collection = map_collection(pack_code)
+#         copy_right = map_copyright(collection)
+#         card_class = card_map.get(safe_get(card,'faction_code','unknown'))
+#         card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
+#         card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
+#         code = safe_get(card,'code','unknown')    
         
-        filename = fix_file_name(safe_get(card,'name','unknown'))
+#         filename = fix_file_name(safe_get(card,'name','unknown'))
 
-        card_class_name,card_class2, card_class3  = solve_class_name(card_class, card_class2, card_class3)
+#         card_class_name,card_class2, card_class3  = solve_class_name(card_class, card_class2, card_class3)
 
-        xp = safe_get(card,'xp','unknown')
-        if xp > 0:
-            filename = filename + ' (' + str(xp) + ')' + ' '+ card_class_name
-        else:
-            filename = filename + ' ' + card_class_name
-        # print("名称",filename,pack_code,safe_get(card,'subtype_code',''),code ,card_class,card_class2,card_class3)
-        result = {
-            'file': filename,
-            'name': safe_get(card,'name','unknown'),
-            '$SpecialText': safe_get(card,'','unknown'),
-            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-            'portX': '0',
-            'portY': '120',
-            'portScale': 1.35,
-            '$Unique': safe_get(card,'','unknown'),
-            '$CardClass': card_class,
-            '$CardClass2': card_class2,
-            '$CardClass3': card_class3,
-            '$ResourceCost': safe_get(card,'cost','0'),
-            '$Level': safe_get(card,'xp','unknown'),
-            '$Skill1': skill_list[0],
-            '$Skill2': skill_list[1],
-            '$Skill3': skill_list[2],
-            '$Skill4': skill_list[3],
-            '$Skill5': skill_list[4],
-            '$Skill6': skill_list[5],
-            '$Artist': safe_get(card,'illustrator','unknown'),            
-            '$Copyright': copy_right,
-            '$Traits': safe_get(card,'traits','unknown'),
-            '$Keywords': '',
-            '$Rules': safe_get(card,'text',''),
-            '$Flavor': safe_get(card,'flavor',''),
-            '$Victory': '',
-            '$Collection': collection,
-            '$CollectionNumber': safe_get(card,'position','unknown'),
+#         xp = safe_get(card,'xp','unknown')
+#         if xp > 0:
+#             filename = filename + ' (' + str(xp) + ')' + ' '+ card_class_name
+#         else:
+#             filename = filename + ' ' + card_class_name
+#         # print("名称",filename,pack_code,safe_get(card,'subtype_code',''),code ,card_class,card_class2,card_class3)
+#         result = {
+#             'file': filename,
+#             'name': safe_get(card,'name','unknown'),
+#             '$SpecialText': safe_get(card,'','unknown'),
+#             'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
+#             'portX': '0',
+#             'portY': '120',
+#             'portScale': 1.35,
+#             '$Unique': safe_get(card,'','unknown'),
+#             '$CardClass': card_class,
+#             '$CardClass2': card_class2,
+#             '$CardClass3': card_class3,
+#             '$ResourceCost': safe_get(card,'cost','0'),
+#             '$Level': safe_get(card,'xp','unknown'),
+#             '$Skill1': skill_list[0],
+#             '$Skill2': skill_list[1],
+#             '$Skill3': skill_list[2],
+#             '$Skill4': skill_list[3],
+#             '$Skill5': skill_list[4],
+#             '$Skill6': skill_list[5],
+#             '$Artist': safe_get(card,'illustrator','unknown'),            
+#             '$Copyright': copy_right,
+#             '$Traits': safe_get(card,'traits','unknown'),
+#             '$Keywords': '',
+#             '$Rules': safe_get(card,'text',''),
+#             '$Flavor': safe_get(card,'flavor',''),
+#             '$Victory': safe_get(card,'Victory','None'),
+#             '$Collection': collection,
+#             '$CollectionNumber': safe_get(card,'position','unknown'),
 
-        }        
+#         }        
 
 
-        card_list.append(result)        
-        url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
-        # init_picture(url_list)
+#         card_list.append(result)        
+#         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
+#         # init_picture(url_list)
 
-    return card_list
+#     return card_list
 
 # 处理职阶名称
 def solve_class_name(card_class, card_class2, card_class3):
@@ -665,73 +680,6 @@ def solve_class_name(card_class, card_class2, card_class3):
 
 
 #将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
-# def init_asset_csv_json(original_json):
-#     card_list = []
-#     url_list = []
-#     card_map={
-#         'guardian':'Guardian',
-#         'seeker':'Seeker',
-#         'rogue':'Rogue',        
-#         'mystic':'Mystic',
-#         'survivor':'Survivor',
-#         'neutral':'Neutral',
-#         'unknown':'unknown',
-#     }
-
-#     for card in original_json:
-#         skill_list = sort_skill(card)
-#         pack_code = safe_get(card,'pack_code','unknown')        
-#         collection = map_collection(pack_code)
-#         copy_right = map_copyright(collection)
-        
-#         filename = fix_file_name(safe_get(card,'name','unknown'))
-        
-#         xp = safe_get(card,'xp','unknown')
-#         if xp > 0:
-#             filename = filename + ' (' + str(xp) + ')'
-#         print("名称",filename,pack_code)
-#         result = {
-#             'file': filename,
-#             'name': safe_get(card,'name','unknown'),
-#             '$Subtitle': safe_get(card,'subname',''),
-#             '$SpecialText': safe_get(card,'','unknown'),
-#             'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-#             'portX': '0',
-#             'portY': '90',
-#             'portScale': 1.25,
-#             '$Unique': safe_get(card,'','unknown'),
-#             '$CardClass': card_map.get(safe_get(card,'faction_code','unknown')),
-#             '$ResourceCost': safe_get(card,'cost','0'),
-#             '$Level': safe_get(card,'xp','unknown'),
-#             '$Skill1': skill_list[0],
-#             '$Skill2': skill_list[1],
-#             '$Skill3': skill_list[2],
-#             '$Skill4': skill_list[3],
-#             '$Skill5': skill_list[4],
-#             '$Skill6': skill_list[5],
-#             '$Artist': safe_get(card,'illustrator','unknown'),            
-#             '$Copyright': copy_right,
-#             '$Traits': safe_get(card,'traits','unknown'),
-#             '$Keywords': '',
-#             '$Rules': safe_get(card,'text',''),
-#             '$Flavor': safe_get(card,'flavor',''),
-#             '$Victory': '',
-#             '$Collection': collection,
-#             '$CollectionNumber': safe_get(card,'position','unknown'),
-
-#         }
-#         if safe_get(card,'code','unknown') == '03238':
-#             print('result',card)
-
-
-#         card_list.append(result)        
-#         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
-#         # init_picture(url_list)
-
-#     return card_list
-
-
-#将json 整理成Strange Eons可导入的csv格式 (有些顺序很关键 , 比如portScale 需要在portSource 之后)
 def init_csv_json(original_json,portX,portY,portScale):
     card_list = []
     url_list = []
@@ -746,6 +694,7 @@ def init_csv_json(original_json,portX,portY,portScale):
     }
 
     for card in original_json:
+        
         skill_list = sort_skill(card)
         pack_code = safe_get(card,'pack_code','unknown')        
         collection = map_collection(pack_code)
@@ -754,6 +703,8 @@ def init_csv_json(original_json,portX,portY,portScale):
         card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
         card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
         code = safe_get(card,'code','unknown')    
+        if(code!='07017' and code!='09080' and code!='06328'):
+            continue
         
         filename = fix_file_name(safe_get(card,'name','unknown'))
 
@@ -776,35 +727,57 @@ def init_csv_json(original_json,portX,portY,portScale):
         # subtitle = safe_get(card,'subname','')
         # if subtitle:
         #     print('filename',filename,'subtitle',subtitle)
+
+        slot1, slot2 = get_slot(card)
+
+
+        # 判断卡牌是否有血 恐
+        health = safe_get(card,'health','')
+        sanity = safe_get(card,'sanity','')
+
+        if health != '' and sanity == '':
+            sanity = '-'
+        elif health == '' and sanity != '':
+            health = '-'
+        elif health == '' and sanity == '':
+            health = 'None'
+            sanity = 'None'
+        
+        unique = safe_get(card,'unique','')
+        if unique == True:
+            unique = '1'
+        else:
+            unique = ''
         result = {
             'file': filename,
+            '$Unique': unique,            
             'name': safe_get(card,'name','unknown'),
-            '$Subtitle': safe_get(card,'subname',''),
-            '$SpecialText': safe_get(card,'','unknown'),
-            # 'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+str(safe_get(card,'code','0'))+'.png',
-            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+ code +'.png',
-            'portX': portX,
-            'portY': portY,
-            'portScale': portScale,
-            '$Unique': safe_get(card,'','unknown'),
+            '$Subtitle': safe_get(card,'subname',''),            
             '$CardClass': card_class,
             '$CardClass2': card_class2,
             '$CardClass3': card_class3,
             '$ResourceCost': safe_get(card,'cost','0'),
             '$Level': safe_get(card,'xp','unknown'),
+            '$Slot': slot1,
+            '$Slot2': slot2,
+            '$Stamina': health,
+            '$Sanity': sanity,
             '$Skill1': skill_list[0],
             '$Skill2': skill_list[1],
             '$Skill3': skill_list[2],
             '$Skill4': skill_list[3],
             '$Skill5': skill_list[4],
             '$Skill6': skill_list[5],
-            '$Artist': safe_get(card,'illustrator','unknown'),            
             '$Copyright': copy_right,
             '$Traits': safe_get(card,'traits','unknown'),
-            '$Keywords': '',
+            'portScale': portScale,            
             '$Rules': safe_get(card,'text',''),
             '$Flavor': safe_get(card,'flavor',''),
-            '$Victory': '',
+            '$Victory': safe_get(card,'victory',''),
+            'portSource': 'E:\\Projects\\Arkham-Horror-LCG-Cards\\temp\\'+ code +'.png',
+            'portX': portX,
+            'portY': portY,
+            '$Artist': safe_get(card,'illustrator','unknown'),
             '$Collection': collection,
             '$CollectionNumber': safe_get(card,'position','unknown'),
 
@@ -812,12 +785,35 @@ def init_csv_json(original_json,portX,portY,portScale):
         # if safe_get(card,'code','unknown') == '03238':
         #     print('result',card)
 
-
+        
         card_list.append(result)        
         url_list.append("https://zh.arkhamdb.com/bundles/cards/"+safe_get(card,'code','0')+".png")
         # init_picture(url_list)
 
     return card_list
+
+# 获取手部槽位
+def get_slot(card):
+    slot_map = {
+        'Hand':'1 Hand',
+        'Hand x2':'2 Hands',
+        'Arcane':'1 Arcane',
+        'Arcane x2':'2 Arcane',
+    }
+    slot = safe_get(card,'slot','')
+    slot1 = 'None'
+    slot2 = 'None'
+    if slot == '':
+        slot = 'None'
+    else:
+        slot_list = slot.split('.')
+        slot1 = slot_list[0]
+        slot1 = safe_get(slot_map,slot1,'None')
+        if len(slot_list) > 1:
+            slot2 = slot_list[1]
+        
+        slot2 = safe_get(slot_map,slot2,'None')        
+    return slot1,slot2
 
 
 #遍历json 路径
@@ -846,21 +842,21 @@ if __name__ == "__main__":
         encoding='utf-8'
     )
 
-    # event_cards = filter_event_cards(processed_cards_merge)
-    # event_csv_json_list = init_csv_json(event_cards,'0','120',1.35)    
-    # json_to_csv(
-    #     json_data=event_csv_json_list,
-    #     csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_event.csv",
-    #     encoding='utf-8'
-    # )
+    event_cards = filter_event_cards(processed_cards_merge)
+    event_csv_json_list = init_csv_json(event_cards,'0','120',1.35)    
+    json_to_csv(
+        json_data=event_csv_json_list,
+        csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_event.csv",
+        encoding='utf-8'
+    )
 
-    # asset_cards = filter_asset_cards(processed_cards_merge)
-    # asset_csv_json_list = init_csv_json(asset_cards,'0','90',1.25)
-    # json_to_csv(
-    #     json_data=asset_csv_json_list,
-    #     csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_asset.csv",
-    #     encoding='utf-8'
-    # )
+    asset_cards = filter_asset_cards(processed_cards_merge)
+    asset_csv_json_list = init_csv_json(asset_cards,'0','90',1.25)
+    json_to_csv(
+        json_data=asset_csv_json_list,
+        csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_asset.csv",
+        encoding='utf-8'
+    )
 
 
 # todo
