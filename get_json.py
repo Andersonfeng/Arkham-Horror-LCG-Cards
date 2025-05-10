@@ -17,7 +17,96 @@ import re
 # - 两张独特事件卡重做 [Done]
 # - 做卡时先忽略限定卡组 restrictions [Done]
 # - 忽略没有汉化的卡牌 [Done]
-# - 同名同等级卡要考虑一下
+# - 同名同等级卡要考虑一下 [Done: 加上subname 了] 
+'''
+https://steamusercontent-a.akamaihd.net/ugc/10905241397881077175/CFFA53F8A3B0DE707B3C709F95E8C314D38A1898/
+
+# SKILL
+Guardian
+16
+https://steamusercontent-a.akamaihd.net/ugc/17732419635487435338/DE6A7931E001775024C25E65ED9C3A0B263914E5/
+Seeker
+16
+https://steamusercontent-a.akamaihd.net/ugc/11402909173224140102/8E7C0B7703A3D0863F15FEED3B56614178688CB7/
+Rogue
+21
+https://steamusercontent-a.akamaihd.net/ugc/14972634393972709854/4B088203321F079052526B6BFE37F2B077E934AE/
+Mystic
+15
+https://steamusercontent-a.akamaihd.net/ugc/10943431180037000495/A13039E1524EA6F66E025A3323133C73DFFFC6BE/
+Survivor
+26
+https://steamusercontent-a.akamaihd.net/ugc/17104993361052881179/39C7EED498EE8FD17C540C0D6C93B64ECF658C48/
+
+Neutral
+10
+https://steamusercontent-a.akamaihd.net/ugc/18139753114041224948/1ECE756CE4434254422FE3E52113F3F10143F660/
+# ASSET
+Guardian
+https://steamusercontent-a.akamaihd.net/ugc/10543334433840929116/93BE6F7D78F50557C04B6ACA039E5F761D29122D/
+43
+https://steamusercontent-a.akamaihd.net/ugc/10446415808110787879/1FF8E1D443DCE5D9C1143253D1DB66D178351AD0/
+
+Seeker
+https://steamusercontent-a.akamaihd.net/ugc/12779563778923896602/354D82F08C957C6165DA62926A536BE8E68525D3/
+https://steamusercontent-a.akamaihd.net/ugc/10433539388238535803/436337BF51117B4C922850BC46AA4972FFCFA90B/
+1
+https://steamusercontent-a.akamaihd.net/ugc/10592950541985823431/6969E888A2D446FA46EB4D480B910C03539B8B3F/
+
+Rogue
+https://steamusercontent-a.akamaihd.net/ugc/15619834257663482819/B4E3F63B0EA4B3AFD47B29845150D7C984427E87/
+54
+https://steamusercontent-a.akamaihd.net/ugc/14139153343575391185/C00C51CFAD01E1EC73B3D6DAE837E759CA2AC5E4/
+
+Mystic
+https://steamusercontent-a.akamaihd.net/ugc/11126285996779418087/96032BB31874F532A3C2680D4B6C827203FDB9B3/
+69
+https://steamusercontent-a.akamaihd.net/ugc/10230792398903030630/E7F808F83593F158A8809602F739B3282711E5B0/
+
+Survivor
+https://steamusercontent-a.akamaihd.net/ugc/9300682814529985562/0DBCEFFB7A865944CD8FA86853D6370C489D0B1B/
+41
+https://steamusercontent-a.akamaihd.net/ugc/17224183804070964427/DF0A49EE5E8D99AD8499C7AB3340830B4BF4FB58/
+Neutral
+42
+https://steamusercontent-a.akamaihd.net/ugc/14957673940978101251/D92568A1D5382A58313DE114587D77354AE8707F/
+
+
+# Event
+## Guardian
+### 69
+https://steamusercontent-a.akamaihd.net/ugc/17779736787007749983/1F536F611D75EA57973C941109EDA30C51EF3CE1/
+### 20
+https://steamusercontent-a.akamaihd.net/ugc/13626475346278529819/F9457F5DD8608E008E9F39C497B735F5D4EE7FCD/
+
+Seeker
+### 69
+https://steamusercontent-a.akamaihd.net/ugc/17517563552056739163/A8CC42F77CD59F0987FC87AE08B0277252E56E7D/
+
+### 1
+https://steamusercontent-a.akamaihd.net/ugc/12923576918906896184/DFE8A439961F72ED66AA4EAEEF99BDF8368D3617/
+
+Rogue
+### 69
+https://steamusercontent-a.akamaihd.net/ugc/13536926113318784458/04184789B2771F9A5854528177D1F34B3B596588/
+### 5
+https://steamusercontent-a.akamaihd.net/ugc/16081623492054780745/08414924D9B81527E9179D4A1EC19185FB913997/
+
+Mystic
+### 68
+https://steamusercontent-a.akamaihd.net/ugc/9717304444944155577/122AAC859E14F47FEC48D1D83F8CC754E2AEF748/
+
+Survivor
+### 69
+https://steamusercontent-a.akamaihd.net/ugc/16173992829996080790/906338EC3D32E1F4911341796F6861B211C5B567/
+### 8
+https://steamusercontent-a.akamaihd.net/ugc/15196312272121941373/7D433837A3610C414D1E97850DCDBBC0454D78E8/
+
+Neutral
+### 12
+https://steamusercontent-a.akamaihd.net/ugc/9892996788443780851/8B477A6715DCEB5E928342CA087795850E1102D8/
+'''
+
 
 
 def safe_get(data, key, default=None):
@@ -52,6 +141,7 @@ def replace_text_tag(text) -> str:
         "[force]" : "<for>",
         "[]" : "<hau>",
         "[object]" : "<obj>",
+        "[per_investigator]" : "<per>",
         "[]" : "<rev>",
         "[]" : "<uni>",
         "[]" : "<per>",
@@ -362,7 +452,15 @@ def map_collection(collection):
         'wos':'TheCircleUndone',
         'tdoy':'TheForgottenAge',
         'uad':'TheCircleUndone',
-        '':'',
+        'rttcu':'ReturnToTheCircleUndone',
+        'tcoa':'TheForgottenAge',
+        'lod':'TheInnsmouthConspiracy',
+        'tsn':'TheCircleUndone',
+        'rtptc':'ReturnToThePathToCarcosa',
+        'fgg':'TheCircleUndone',
+        'tuo':'ThePathToCarcosa',
+        'fgg':'TheCircleUndone',
+        'apot':'ThePathToCarcosa',
         '':'',
 
         # ThePathToCarcosa 卡尔克撒之路
@@ -384,7 +482,6 @@ def map_copyright(collection):
         'ReturnToTheNightOfTheZealot' :'<family "Arial"><cop> 2016 FFG</family>',
         'GuardiansOfTheAbyss' :'<family "Arial"><cop> 2016 FFG</family>',
         'ReturnToTheDunwichLegacy' :'<family "Arial"><cop> 2016 FFG</family>',
-        'ReturnToThePathToCarcosa' :'<family "Arial"><cop> 2016 FFG</family>',
         'TheDreamEaters' :'<family "Arial"><cop> 2016 FFG</family>',
         'MurderAtTheExcelsiorHotel' :'<family "Arial"><cop> 2016 FFG</family>',
         'ParallelInvestigators' :'<family "Arial"><cop> 2016 FFG</family>',
@@ -404,6 +501,8 @@ def map_copyright(collection):
         'fhvp' :'<family "Arial"><cop> 2024 FFG</family>',
         'TheCircleUndone' :'<family "Arial"><cop> 2018 FFG</family>',
         'NathanielCho' :'<family "Arial"><cop> 2019 FFG</family>',
+        'ReturnToTheCircleUndone' :'<family "Arial"><cop> 2021 FFG</family>',
+        'ReturnToThePathToCarcosa' :'<family "Arial"><cop> 2019 FFG</family>',
 }
     return safe_get(year_map,collection,collection)
 
@@ -523,7 +622,7 @@ def init_csv_json(original_json,portX,portY,portScale):
         card_class2 = card_map.get(safe_get(card,'faction2_code','None'))
         card_class3 = card_map.get(safe_get(card,'faction3_code','None'))
         code = safe_get(card,'code','unknown')    
-        # if(code!='01018' and code!='09042'):
+        # if(code!='07189' and code!='54011'):
             # continue
         
         filename = fix_file_name(safe_get(card,'name','unknown'))
@@ -538,6 +637,13 @@ def init_csv_json(original_json,portX,portY,portScale):
 
         type = card['type']
         filename = filename + '['+ type +']'
+        subname = safe_get(card,'subname','')
+
+        for tmp_card in card_list.copy():
+            if tmp_card['file'] == filename:
+                print('old_filename',filename)
+                filename = filename + '[' + subname + ']'
+                print('new_filename',filename)
 
         code = re.sub(r'\D','',str(safe_get(card,'code','0')))
 
@@ -551,17 +657,8 @@ def init_csv_json(original_json,portX,portY,portScale):
         slot1, slot2 = get_slot(card)
 
 
-        # 判断卡牌是否有血 恐
-        health = safe_get(card,'health','')
-        sanity = safe_get(card,'sanity','')
-
-        if health != '' and sanity == '':
-            sanity = '-'
-        elif health == '' and sanity != '':
-            health = '-'
-        elif health == '' and sanity == '':
-            health = 'None'
-            sanity = 'None'
+        
+        health, sanity = get_health_sanity(card)        
         
         unique = safe_get(card,'unique','')
         if unique == True:
@@ -572,7 +669,7 @@ def init_csv_json(original_json,portX,portY,portScale):
             'file': filename,
             '$Unique': unique,            
             'name': safe_get(card,'name','unknown'),
-            '$Subtitle': safe_get(card,'subname',''),            
+            '$Subtitle': subname,
             '$CardClass': card_class,
             '$CardClass2': card_class2,
             '$CardClass3': card_class3,
@@ -612,15 +709,37 @@ def init_csv_json(original_json,portX,portY,portScale):
 
     return card_list
 
+# 判断卡牌是否有血 恐
+def get_health_sanity(card):
+    health = safe_get(card,'health','')
+    sanity = safe_get(card,'sanity','')    
+
+    if isinstance(health,(int,float)) and health < 0:
+        health = '*'
+    if isinstance(sanity,(int,float)) and sanity < 0:
+        sanity = '*'
+
+    if health != '' and sanity == '':
+        sanity = '-'
+    elif health == '' and sanity != '':
+        health = '-'
+    elif health == '' and sanity == '':
+        health = 'None'
+        sanity = 'None'
+    
+    return health,sanity
+
 # 获取手部槽位
 def get_slot(card):
     slot_map = {
+        'Ally':'Ally',
+        'Accessory':'Accessory',
+        'Body':'Body',
         'Hand':'1 Hand',
         'Hand x2':'2 Hands',
         'Arcane':'1 Arcane',
         'Arcane x2':'2 Arcane',
-        'Ally':'Ally',
-        'Accessory':'Accessory',
+        'Tarot':'Tarot',
     }
     # Accessory
     # Ally
@@ -632,12 +751,11 @@ def get_slot(card):
     else:
         slot_list = slot.split('.')
         slot1 = slot_list[0]
-        slot1 = safe_get(slot_map,slot1,'None')
+        slot1 = safe_get(slot_map,slot1.strip(),'None')
         if len(slot_list) > 1:
             slot2 = slot_list[1]
         
-        slot2 = safe_get(slot_map,slot2,'None')
-    print('slot:',slot,slot1,slot2)
+        slot2 = safe_get(slot_map,slot2.strip(),'None')    
     return slot1,slot2
 
 
@@ -685,16 +803,3 @@ if __name__ == "__main__":
         csv_path="E:\\Projects\\Arkham-Horror-LCG-Cards\\Project\\New Task Name\\data_asset.csv",
         encoding='utf-8'
     )
-
-
-
-
-
-# 转换成功！文件已保存至：E:\Projects\Arkham-Horror-LCG-Cards\Project\New Task Name\data_skill.csv
-# 本次转换数目:104
-# 转换成功！文件已保存至：E:\Projects\Arkham-Horror-LCG-Cards\Project\New Task Name\data_event.csv
-# 本次转换数目:383
-# 转换成功！文件已保存至：E:\Projects\Arkham-Horror-LCG-Cards\Project\New Task Name\data_asset.csv
-# 本次转换数目:623
-
-# 
