@@ -41,6 +41,7 @@ https://steamusercontent-a.akamaihd.net/ugc/17104993361052881179/39C7EED498EE8FD
 Neutral
 10
 https://steamusercontent-a.akamaihd.net/ugc/18139753114041224948/1ECE756CE4434254422FE3E52113F3F10143F660/
+
 # ASSET
 Guardian
 https://steamusercontent-a.akamaihd.net/ugc/10543334433840929116/93BE6F7D78F50557C04B6ACA039E5F761D29122D/

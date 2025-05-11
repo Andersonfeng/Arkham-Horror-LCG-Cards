@@ -1,0 +1,275 @@
+file,$Unique,name,$Subtitle,$CardClass,$CardClass2,$CardClass3,$ResourceCost,$Level,$Slot,$Slot2,$Stamina,$Sanity,$Skill1,$Skill2,$Skill3,$Skill4,$Skill5,$Skill6,$Copyright,$Traits,$Rules,$Flavor,$Victory,portSource,portScale,portX,portY,$Artist,$Collection,$CollectionNumber
+致命打擊 [Guardian][skill],,致命打擊,,Guardian,None,None,0,0,None,None,None,None,Combat,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通.,如果攻擊期間的這次技能檢定成功，則該次攻擊造成+1傷害。,"
+大斧砸在肉上，發出令人作嘔的響聲，他停不住地反覆打擊著那個怪物，直到它再也無法動彈為止。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01025.png,1.25,0,75,JB Casacop,CoreSet,25
+推理 [Seeker][skill],,推理,,Seeker,None,None,0,0,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通.,如果調查一個地點時本技能檢定成功，額外發現該地點的1個線索。,"
+我就知道我看過這個符號。我現在通知其他人還為時不晚！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01039.png,1.25,0,75,Felicia Cano,CoreSet,39
+機會主義者 [Rogue][skill],,機會主義者,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,"只能在你執行的技能檢定中投入。
+如果你成功且超過難度至少3點，在檢定後不丟棄機會主義者，改為將其返回你的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01053.png,1.25,0,75,Rafał Hrynkiewicz,CoreSet,53
+無所畏懼 [Mystic][skill],,無所畏懼,,Mystic,None,None,0,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,如果該次技能檢定成功，治癒1點恐懼。,"
+只有在黑暗面前站穩腳步，才能看到明天的太陽。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01067.png,1.25,0,75,RJ Palmer,CoreSet,67
+求生本能 [Survivor][skill],,求生本能,,Survivor,None,None,0,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,如果躲避嘗試期間這次技能檢定成功，躲避的調查員可以立即和每個與其交戰的其他敵人解除交戰，並可以移動到一個連接地點。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01081.png,1.25,0,75,David Auden Nash,CoreSet,81
+膽識 [Neutral][skill],,膽識,,Neutral,None,None,0,0,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌。","
+退後！我會搞定的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01089.png,1.25,0,75,Clark Huggins,CoreSet,89
+洞察力 [Neutral][skill],,洞察力,,Neutral,None,None,0,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌。","
+總算找到了！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01090.png,1.25,0,75,Andreia Ugrai,CoreSet,90
+壓制 [Neutral][skill],,壓制,,Neutral,None,None,0,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌。","
+去死吧，你這個怪物！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01091.png,1.25,0,75,Jose Vega,CoreSet,91
+心靈手巧 [Neutral][skill],,心靈手巧,,Neutral,None,None,0,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌。","
+易如反掌。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01092.png,1.25,0,75,Priscilla Kim,CoreSet,92
+絕處逢生 [Neutral][skill],,絕處逢生,,Neutral,None,None,0,0,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,每次技能檢定最多投入1張。,"
+有時候，最危險的情況反而能激發人的奉獻精神。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01093.png,1.25,0,75,Dleoblack,CoreSet,93
+逆反 [Mystic][skill],,逆反,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,在你為這次檢定抽取混亂標記前，選擇下列一個符號：(<sku>、<cul>、<tab>或<mon>)。在這次檢定中，忽略所選符號的效果(包括其修正值)。,"
+""不。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02190.png,1.25,0,75,Nicholas Gregory,TheDunwichLegacy,190
+隨機應變 [Survivor][skill],,隨機應變,,Survivor,None,None,0,0,None,None,None,None,Wild,Wild,Wild,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,只能在你執行的技能檢定中投入，且該檢定難度必須比你基礎技能值高出至少2點。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02192.png,1.25,0,75,Clark Huggins,TheDunwichLegacy,192
+賭一把 [Rogue][skill],,賭一把,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"每次技能檢定最多投入1張。
+將該次檢定難度加倍。如果檢定成功，結算勝利效果兩次。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02026.png,1.25,0,75,Mark Molnar,TheDunwichLegacy,26
+致命打擊 (2) [Guardian][skill],,致命打擊,,Guardian,None,None,0,2,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通. 專家.,如果攻擊中的這次技能檢定成功，則該次攻擊造成+1傷害(如果超過難度至少2點，改為造成+2傷害)。,"
+大斧砸在肉上，發出令人作嘔的響聲，他停不住地反覆打擊著那個怪物，直到它再也無法動彈為止。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02299.png,1.25,0,75,JB Casacop,TheDunwichLegacy,299
+推理 (2) [Seeker][skill],,推理,,Seeker,None,None,0,2,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通. 專家.,如果調查一個地點時本技能檢定成功，額外發現該地點的1個線索(如果超過難度至少2點，改為額外發現2個線索)。,"
+我就知道我看過這個符號。我現在通知其他人還為時不晚！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02150.png,1.25,0,75,Felicia Cano,TheDunwichLegacy,150
+追根究底 [Seeker][skill],,追根究底,,Seeker,None,None,0,0,None,None,None,None,Wild,Wild,Wild,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,你所在地點必須有至少1個線索，你才能在技能檢定中投入該卡。,"
+敏而好事，不恥下問。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02227.png,1.25,0,75,Andreia Ugrai,TheDunwichLegacy,227
+思維敏捷 [Rogue][skill],,思維敏捷,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,如果該技能檢定超過難度至少2點，在完成結算後，你可以立刻進行一個行動，如同在你的回合中(該行動不計入你每回合可進行的行動數)。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02229.png,1.25,0,75,David Auden Nash,TheDunwichLegacy,229
+機會主義者 (2) [Rogue][skill],,機會主義者,,Rogue,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性. 熟練.,"只能在你執行的技能檢定中投入。
+如果你成功且超過難度至少2點，在檢定後不丟棄機會主義者，改為將其返回你的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02231.png,1.25,0,75,Rafał Hrynkiewicz,TheDunwichLegacy,231
+求生本能 (2) [Survivor][skill],,求生本能,,Survivor,None,None,0,2,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性. 熟練.,如果躲避嘗試期間這次技能檢定成功，躲避的調查員可以立即躲避與其交戰的每個其他敵人，並可以移動到一個連接地點。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02235.png,1.25,0,75,David Nash,TheDunwichLegacy,235
+領導力 [Guardian][skill],,領導力,,Guardian,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通.,當領導力被投入另一位調查員的技能檢定時，領導力獲得<wil><wild>。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02260.png,1.25,0,75,Jeff Lee Johnson,TheDunwichLegacy,260
+無所畏懼 (2) [Mystic][skill],,無所畏懼,,Mystic,None,None,0,2,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性. 熟練.,如果該次檢定成功，治癒1點恐懼(如果超過難度至少2點，則改為治癒2點恐懼)。,"
+只有在黑暗面前站穩腳步，才能看到明天的太陽。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02268.png,1.25,0,75,RJ Palmer,TheDunwichLegacy,268
+鴻運當頭 (2) [Survivor][skill],,鴻運當頭,,Survivor,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性. 幸運.,"只能在你執行的技能檢定中投入。
+在該次檢定抽出混亂標記後，你可以放逐鴻運當頭。如果你這麼做，該次檢定自動成功(除非抽出<ten>標記)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02271.png,1.25,0,75,Tiziano Baracchi,TheDunwichLegacy,271
+防禦姿態 (1) [Guardian][skill],,防禦姿態,,Guardian,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",精通. 專家.,只要防禦姿態在你手中或被投入到技能檢定中，其獲得等於你<agi>的<com>圖標，以及等於你<com>的<agi>圖標。,"
+你邁開步伐，架好姿勢、深吸一口氣，站穩了身子，周圍敵人無數，而你孤身一人。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08024.png,1.25,0,75,Lin Hsiang,EdgeOfTheEarthInv,24
+地區勘測 (1) [Seeker][skill],,地區勘測,,Seeker,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",精通. 專家.,只要地區勘測在你手中或被投入到技能檢定中，其獲得等於你<agi>的<int>圖標，以及等於你<int>的<agi>圖標。,"
+不拍進相片上就沒有人會相信你。該死，就算拍了還是不會有人相信你。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08037.png,1.25,0,75,Nicole Cardiff,EdgeOfTheEarthInv,37
+行業專家 (1) [Rogue][skill],,行業專家,,Rogue,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",天性. 熟練.,行業專家獲得等於(除正在檢定的技能外)你最低技能值的<wild>圖標。,"
+五十分的運氣，一百分的實力。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08052.png,1.25,0,75,Sarah Finnigan,EdgeOfTheEarthInv,52
+密教理論 (1) [Mystic][skill],,密教理論,,Mystic,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",精通. 專家.,只要密教理論在你手中或被投入到技能檢定中，其獲得等於你<int>的<wil>圖標，以及等於你<wil>的<int>圖標。,"
+知識一旦匱乏，信仰便足以。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08065.png,1.25,0,75,Mark Bulahao,EdgeOfTheEarthInv,65
+人多力量大 (1) [Survivor][skill],,人多力量大,,Survivor,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",天性. 協作.,你控制的卡牌之中每有一個不同的職階，人多力量大獲得一個<wild>圖標。,"
+""可以在後方掩護我嗎？其實前方也需要你掩護。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08077.png,1.25,0,75,Yoann Boissonnet,EdgeOfTheEarthInv,77
+無畏精神 (1) [Survivor][skill],,無畏精神,,Survivor,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",天性. 熟練.,只要無畏精神在你手中或被投入到技能檢定中，其獲得等於你<com>的<wil>圖標，以及等於你<wil>的<com>圖標。,"
+今天正漸入佳境。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08078.png,1.25,0,75,Brian Valenzuela,EdgeOfTheEarthInv,78
+淨化 [Guardian][skill],,淨化,,Guardian,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",天性. 祝福.,"每次技能檢定最多投入1張。
+你可以在任何類型的檢定中投入淨化。
+如果這次檢定成功，你每超過難度1點(最多5點)，加入1個<ble>標記到混亂袋，或從混亂袋移除1個<cur>標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10029.png,1.25,0,75,Cristina Vela,fhvp,29
+強健雙臂 (1) [Guardian][skill],,強健雙臂,,Guardian,None,None,0,1,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",天性.,使用<b><i>近戰</i></b>或<b><i>遠程</i></b>支援卡的攻擊中投入強健雙臂的時候，這次攻擊造成+1傷害。這次技能檢定抽出混亂標記後，你可以受到1點傷害來取消該一個混亂標記，將其放回混亂袋，並抽出一個新的標記。<i>(你可以執行任意次。)</i>,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10031.png,1.25,0,75,João Bosco,fhvp,31
+資金充裕 [Seeker][skill],,資金充裕,,Seeker,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",幸運.,你控制<b><i>科學</i></b>或<b><i>工具</i></b>支援卡的時候，資金充裕獲得<wild>(你控制3個以上的<b><i>科學</i></b>和/或<b><i>工具</i></b>支援卡的時候，資金充裕改為獲得<wild><wild>)。,"
+花在這個研究上的每分錢都值得。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10051.png,1.25,0,75,Pixoloid Studios,fhvp,51
+奇詭手法 (1) [Seeker][skill],,奇詭手法,,Seeker,None,None,0,1,None,None,None,None,Wild,Wild,Wild,Wild,None,None,"<family ""Arial""><cop> 2024 FFG</family>",精通. 詛咒縈繞.,在這次技能檢定結束後，執行檢定的調查員每成功且超過難度1點，或每失敗且低於難度1點，就加入1個<cur>標記到混亂袋。,"
+有傳言說大學裡最後一位顱像學教授擁有長的不自然的任期。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10055.png,1.25,0,75,G Portal,fhvp,55
+極糟的運氣 [Rogue][skill],,極糟的運氣,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",幸運. 詛咒縈繞.,在你執行的技能檢定期間抽出<cur>標記時，你可以從你的手牌中投入極糟的運氣到該技能檢定。如果你這麼做，極糟的運氣獲得<wild><wild><wild>。,"
+""修格斯，為什麼每次都是修格斯？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10075.png,1.25,0,75,Darren Tan,fhvp,75
+身輕如燕 [Rogue][skill],,身輕如燕,,Rogue,None,None,0,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",精通. 技巧.,如果躲避期間這次技能檢定成功，你可以自動躲避你所在地點的另一名敵人。,"
+""我從沒見過那種惡魔，也從來沒跑得像今晚這麼快過。希望我不會再遇到這種事。""
+-<i>—麗塔‧楊，《詭鎮奇談》調查員</i>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10076.png,1.25,0,75,Lin Hsiang,fhvp,76
+受詛者 [Mystic][skill],,受詛者,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",天性. 詛咒縈繞.,在你投入受詛者到技能檢定時，加入最多3個<cur>標記到混亂袋。這次技能檢定期間，將每個抽出的<cur>標記的修正值視為0。,"
+並非所有的流浪者都是因為迷失路途。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10095.png,1.25,0,75,David Hovey,fhvp,95
+醉人誘引 (1) [Mystic][skill],,醉人誘引,,Mystic,None,None,0,1,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",精通.,投入此卡牌到技能檢定的時候，執行的調查員可以忽略這次檢定期間將要觸發的所有關鍵詞或地點效果。,"
+幻夢的識海跟任何海洋一般深沉。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10096.png,1.25,0,75,Daniel Watson,fhvp,96
+百步穿楊 [Survivor][skill],,百步穿楊,,Survivor,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",精通.,"你可以投入百步穿楊到你所在地點或連接地點對敵人的攻擊或躲避檢定。
+如果這次檢定成功，對該敵人造成1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10116.png,1.25,0,75,Carlos Palma Cruchaga,fhvp,116
+毅力 (1) [Survivor][skill],,毅力,,Survivor,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",天性.,你可以從你的棄牌堆將毅力投入到技能檢定。如果你這麼做，在這次檢定結束後將其混洗入你的牌堆。,"
+""任何人都可能沉迷其中並失去理智，除了專心致志的農夫……""—H.P.洛夫克拉夫特，<u>《星之彩》</u>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10118.png,1.25,0,75,Tiziano Baracchi,fhvp,118
+神佑 (2) [Survivor][skill],,神佑,,Survivor,None,None,0,2,None,None,None,None,Combat,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",天性. 祝福.,如果這次技能檢定成功，你每有1點傷害或恐懼(取其中較低的數值)，加入1個<ble>標記到混亂袋。,"
+面對潛伏的恐懼，勇氣是你最好的防禦。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10125.png,1.25,0,75,Yoann Boissonnet,fhvp,125
+衣著華麗 [Neutral][skill],,衣著華麗,,Neutral,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",精通. 幸運.,在談判行動期間投入衣著華麗到技能檢定的時候，其獲得<wild><wild><wild>。,"
+人要衣裝。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10130.png,1.25,0,75,Andreia Ugrai,fhvp,130
+洞察力 (2) [Seeker][skill],,洞察力,,Seeker,None,None,0,2,None,None,None,None,Intellect,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",精通. 專家.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌(如果超過難度至少2點，改為抽取2張卡牌)。","
+總算找到了！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60228.png,1.25,0,75,Andreia Ugrai,CoreSet,28
+先見之明 [Mystic][skill],,先見之明,,Mystic,None,None,0,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通. 預言.,"每次技能檢定最多投入1張。
+在你將先見之明投入到技能檢定後，聲明""雙數""、""單數""或""符號""。在這次檢定結束後，如果這次檢定中抽出了聲明類型的混亂標記，你可以將你棄牌堆的一張<b><i>法術</i></b>卡返回手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60419.png,1.25,0,75,Magali Villeneuve,JacquelineFine,19
+膽識 (2) [Mystic][skill],,膽識,,Mystic,None,None,0,2,None,None,None,None,Willpower,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌(如果超過難度至少2點，改為抽取2張卡牌)。","
+退後！我會搞定的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60424.png,1.25,0,75,Clark Huggins,JacquelineFine,24
+壓制 (2) [Guardian][skill],,壓制,,Guardian,None,None,0,2,None,None,None,None,Combat,Combat,Combat,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",精通. 專家.,"每次技能檢定最多投入1張。
+如果這次檢定成功，抽取1張卡牌(如果超過難度至少2點，改為抽取2張卡牌)。","
+去死吧，你這個怪物！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60126.png,1.25,0,75,Jose Vega,NathanielCho,26
+絕處逢生 (2) [Survivor][skill],,絕處逢生,,Survivor,None,None,0,2,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+如果這次檢定失敗，將絕處逢生返回你的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60526.png,1.25,0,75,Dleoblack,StellaClark,26
+身手矯捷 [Rogue][skill],,身手矯捷,,Rogue,None,None,0,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性.,這次技能檢定成功且每超過難度1點，在本次檢定結算後你可以立即移動到一個連接地點(最多移動3次)。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60317.png,1.25,0,75,David Auden Nash,WinifredHabbamock,17
+虎口拔牙 [Rogue][skill],,虎口拔牙,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運. 精通.,在你將虎口拔牙投入到技能檢定後，從你牌堆頂部棄牌，直到丟棄一張可以投入這次檢定的<rog>技能卡。將其投入。將本效果中丟棄的所有弱點卡洗回你的牌堆。,"
+""你是個瘋子，溫妮！""
+""我知道！這難道不是件好事嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60318.png,1.25,0,75,Borja Pindado,WinifredHabbamock,18
+心靈手巧 (2) [Rogue][skill],,心靈手巧,,Rogue,None,None,0,2,None,None,None,None,Agility,Agility,Agility,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+如果這次技能檢定成功，抽取1張卡牌(如果超過難度至少2點，改為抽取2張卡牌)。","
+易如反掌。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60325.png,1.25,0,75,Priscilla Kim,WinifredHabbamock,25
+學人精 (3) [Rogue][skill],,學人精,,Rogue,None,None,0,3,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",局勢.,在你將學人精投入到技能檢定後，在另一位調查員的棄牌堆中查找並投入一張你能夠投入到這次檢定中的技能卡。這次檢定結束後，將該卡放到其所有者的牌堆底部。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60330.png,1.25,0,75,Aleksander Karcz,WinifredHabbamock,30
+放馬過來！ [Survivor][skill],,"""放馬過來！""",,Survivor,None,None,0,0,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",天性.,"你與敵人交戰時才可投入技能檢定。
+你每與一個敵人交戰，""放馬過來！""獲得<wil><com><agi>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03272.png,1.25,0,75,Aurore Folny,ThePathToCarcosa,272
+遠古印記封印 (5) [Mystic][skill],,遠古印記封印,,Mystic,None,None,0,5,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術. 專家.,"本次檢定中不要從混亂袋中抽取混亂標記。本次檢定抽出的混亂標記視為<eld>。
+在本次檢定結束時，從遊戲中移除遠古印記封印。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03312.png,1.25,0,75,David Demaret,ThePathToCarcosa,312
+臨危禱告 [Neutral][skill],,臨危禱告,,Neutral,None,None,0,0,None,None,None,None,Willpower,Willpower,Willpower,Willpower,None,None,"<family ""Arial""><cop> 2017 FFG</family>",絕望.,"每次技能檢定最多投入1張。
+你剩餘神智值為3點或更少時才可投入技能檢定。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03116.png,1.25,0,75,Melissa Findley,ThePathToCarcosa,116
+冥思苦想 [Neutral][skill],,冥思苦想,,Neutral,None,None,0,0,None,None,None,None,Intellect,Intellect,Intellect,Intellect,None,None,"<family ""Arial""><cop> 2017 FFG</family>",絕望.,"每次技能檢定最多投入1張。
+你剩餘神智值為3點或更少時才可投入技能檢定。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03117.png,1.25,0,75,Cristina Vela,ThePathToCarcosa,117
+拚死出擊 [Neutral][skill],,拚死出擊,,Neutral,None,None,0,0,None,None,None,None,Combat,Combat,Combat,Combat,None,None,"<family ""Arial""><cop> 2017 FFG</family>",絕望.,"每次技能檢定最多投入1張。
+你剩餘神智值為3點或更少時才可投入技能檢定。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03118.png,1.25,0,75,Nicholas Stohlman,ThePathToCarcosa,118
+絕命奔逃 [Neutral][skill],,絕命奔逃,,Neutral,None,None,0,0,None,None,None,None,Agility,Agility,Agility,Agility,None,None,"<family ""Arial""><cop> 2017 FFG</family>",絕望.,"每次技能檢定最多投入1張。
+你剩餘神智值為3點或更少時才可投入技能檢定。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03119.png,1.25,0,75,Nicholas Elias,ThePathToCarcosa,119
+急中生智 [Survivor][skill],,急中生智,,Survivor,None,None,0,0,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",天性.,如果本次技能檢定成功，選擇你棄牌堆中一張標題不是急中生智的<sur>卡牌。將選中的卡牌加入你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03039.png,1.25,0,75,Audrey Hotte,ThePathToCarcosa,39
+先身士卒 [Guardian][skill],,先身士卒,,Guardian,None,None,0,0,None,None,None,None,Combat,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",天性.,如果本次技能檢定成功，準備你所在地點的一張<b><i>盟友</i></b>支援卡並為其治癒1點傷害或1點恐懼。,"
+""安德森對手下確實狠。他平時把蘭姆酒都鎖起來，還經常天一亮就把我們叫起來。但現在，在這種不毛之地，我就希望他能打頭陣。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03228.png,1.25,0,75,Christine Mitzuk,ThePathToCarcosa,228
+重大發現 [Seeker][skill],,重大發現,,Seeker,None,None,0,0,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",天性.,如果本次技能檢定成功，執行本次檢定的調查員查找其牌堆頂的3張卡牌，抽取其中1張並混洗其牌堆。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03231.png,1.25,0,75,Ilich Henriquez,ThePathToCarcosa,231
+吃我一招！ [Rogue][skill],,"""吃我一招！""",,Rogue,None,None,0,0,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",局勢.,"只能投入你正在進行的技能檢定。將""吃我一招！""投入技能檢定時，花費最多3資源作為額外費用。
+如果你成功且超過難度至少1點，獲得同等花費數量的兩倍的資源。","
+赤裸裸的炫耀。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03233.png,1.25,0,75,Andreia Ugrai,ThePathToCarcosa,233
+力量洪流 [Mystic][skill],,力量洪流,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",精通.,"將力量洪流投入技能檢定時，從你控制的支援卡上花費最多3充能作為額外費用。
+每以此方式花費1點充能，力量洪流獲得<wil><wild>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03235.png,1.25,0,75,Axel Hutt,ThePathToCarcosa,235
+隨機應變 (3) [Survivor][skill],,隨機應變,,Survivor,None,None,0,3,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",天性.,"只能在你執行的技能檢定中投入，且該檢定難度必須高於你的基礎技能值。
+隨機應變獲得+X個<wild>圖標，其中X為你的基礎技能值和這次檢定難度之差(最多+3個<wild>圖標)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\51010.png,1.25,0,75,Clark Huggins,TheDunwichLegacy,10
+堅定不移 [Guardian][skill],,堅定不移,,Guardian,None,None,0,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,只要你剩餘生命值和神智值總合至少為5時，堅定不移獲得<wil><com>(只要你剩餘生命值和神智值總合至少為10時，改為堅定不移獲得<wil><wil><com><com>。)。,"
+勇敢和愚蠢之間只有一線之隔。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05022.png,1.25,0,75,Dani Hartel,TheCircleUndone,22
+好奇心 [Seeker][skill],,好奇心,,Seeker,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,只要你至少有4張手牌，好奇心獲得<wil><int>(只要你至少有7張手牌，改為好奇心獲得<wil><wil><int><int>)。,"
+如果你就是被好奇心害死的那隻貓呢？",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05026.png,1.25,0,75,Nacho Molina,TheCircleUndone,26
+狡猾 [Rogue][skill],,狡猾,,Rogue,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,只要你擁有至少5資源，狡猾獲得<int><agi>(只要你擁有至少10資源，改為狡猾獲得<int><int><agi><agi>)。,"
+""別擔心。""她堅持說。""我能搞定這事。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05030.png,1.25,0,75,Michel Koch,TheCircleUndone,30
+預見未來 [Mystic][skill],,預見未來,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",精通.,只要場上至少有3個毀滅標記，預見未來獲得<wild>(只要場上至少有6個毀滅標記，改為預見未來獲得<wild><wild>)。,"
+末日將至",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05034.png,1.25,0,75,Torstein Nordstrand,TheCircleUndone,34
+體格強健 [Survivor][skill],,體格強健,,Survivor,None,None,0,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,只要你控制的<b><i>道具</i></b>支援卡不超過2張，體格強健獲得<com><agi>(只要你控制的<b><i>道具</i></b>支援卡不超過1張，改為體格強健獲得<com><com><agi><agi>)。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05038.png,1.25,0,75,Anna Steinbauer,TheCircleUndone,38
+三條A (1) [Rogue][skill],,三條A,,Rogue,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運. 精通.,"多重。
+如果你將3張三條A投入到一次技能檢定，該次檢定自動成功<i>(不要從混亂袋抽出混亂標記)</i>。然後，抽取3張卡牌並獲得3資源(本效果每次檢定最多一次)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06199.png,1.25,0,75,Diana Martínez,TheDreamEaters,199
+目力敏銳 (1) [Survivor][skill],,目力敏銳,,Survivor,None,None,0,1,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+只要在基礎調查行動中投入目力敏銳，其獲得<int><int>和以下文本：""如果這次檢定成功且超過難度至少2點，在此地點發現額外1個線索。""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06204.png,1.25,0,75,Andreas Zafiratos,TheDreamEaters,204
+領導力 (2) [Guardian][skill],,領導力,,Guardian,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",精通.,"只要領導力被投入到另一位調查員執行的技能檢定，領導力獲得<wil><wild>。
+如果這次檢定成功，獲得2資源。如果領導力被投入到另一位調查員執行的技能檢定，該調查員也獲得2資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06235.png,1.25,0,75,Jeff Lee Johnson,TheDreamEaters,235
+虎口拔牙 (2) [Rogue][skill],,虎口拔牙,,Rogue,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運. 精通.,在你投入虎口拔牙到技能檢定後，從你的牌堆頂部揭示卡牌，直到你揭示了能投入到這次檢定的<rog>技能卡。將其投入。將其它每張已揭示卡牌混洗回你的牌堆。,"
+""你是個瘋子，溫妮！""
+""我知道，這難道不是件好事嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06240.png,1.25,0,75,Borja Pindado,TheDreamEaters,240
+迅速撤退 (1) [Survivor][skill],,迅速撤退,,Survivor,None,None,0,1,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+只要在躲避行動中投入迅速撤退，其獲得<agi><agi>和以下文本：""如果這次檢定成功且超過難度至少2點，你可以自動躲避你所在地點的另一名敵人。""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06246.png,1.25,0,75,Ilich Henriquez,TheDreamEaters,246
+渾身是膽 [Guardian][skill],,渾身是膽,,Guardian,None,None,0,0,None,None,None,None,Wild,Wild,Wild,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性.,只能投入到攻擊或嘗試躲避敵人的技能檢定中。該敵人在這次技能期間檢定獲得反擊和警戒。在這次檢定結束後，抽取1張卡牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06111.png,1.25,0,75,Colin Boyer,TheDreamEaters,111
+夢的本質 [Seeker][skill],,夢的本質,,Seeker,None,None,0,0,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",精通. 專家.,"綁定(夢境日記)。
+在夢的本質將要進入你的棄牌堆或被混洗入你的牌堆時，不將其放入，改為將其放在一邊，位於場外 (與你的綁定卡牌一起)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06113.png,1.25,0,75,Ethan Patrick Harris,TheDreamEaters,113
+勢不可擋 (1) [Rogue][skill],,勢不可擋,,Rogue,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",精通.,如果這次技能檢定成功，本階段你執行的下次技能檢定難度降低X，其中X為這次技能檢定超過難度的點數(最多為3)。,"
+你從不走陽關道。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06115.png,1.25,0,75,Pavel Kolomeyets,TheDreamEaters,115
+自我犧牲 [Guardian][skill],,自我犧牲,,Guardian,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"只能投入到你所在地點的另一位調查員執行的(任何類型的)技能檢定中。
+如果這次檢定失敗，檢定失敗的所有效果不由執行檢定的調查員結算，改為必須由你結算。然後，你或執行檢定的調查員抽取2張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06157.png,1.25,0,75,Patrick McEvoy,TheDreamEaters,157
+蠻力 (1) [Survivor][skill],,蠻力,,Survivor,None,None,0,1,None,None,None,None,Combat,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",天性. 熟練.,"每次技能檢定最多投入1張。
+只要在基礎攻擊行動中投入蠻力，其獲得<com><com>和以下文本：""如果這次檢定成功且超過難度至少2點，這次攻擊造成+2傷害。""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06166.png,1.25,0,75,Lukas Banas,TheDreamEaters,166
+驚喜的發現 (1) [Seeker][skill],,驚喜的發現,,Seeker,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運. 研究.,"多重。
+<rea>在你查找你的牌堆時若驚喜的發現在被查找卡牌中：將其放置入你的遊戲區域。你必須將其投入到你執行的下一次能將其投入的技能檢定。如果該檢定成功，抽取1張卡牌。(每次查找最多使用一次<b><i>研究</i></b>能力。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06278.png,1.25,0,75,Jessie Calderon,TheDreamEaters,278
+真理之眼 (5) [Seeker][skill],,真理之眼,,Seeker,None,None,0,5,None,None,None,None,Wild,Wild,Wild,Wild,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術. 精通.,"如果這次技能檢定是詭計卡上的檢定，且檢定成功，將該詭計卡加入勝利牌區，並疊加真理之眼到其上。
+只要真理之眼疊加到詭計卡，其技能圖標會投入到該卡牌的同名卡牌的所有技能檢定。","
+它會一直看著你。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06325.png,1.25,0,75,Adam S. Doyle,TheDreamEaters,325
+英勇無畏 [Guardian][skill],,英勇無畏,,Guardian,None,None,0,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,"如果本次技能檢定成功，將英勇無畏加入到你的遊戲區域，視為一張帶有以下文字的支援卡：
+""你獲得+1<int>、+1<com>和+1<agi>。
+<b>強制</b> - 當本輪結束時：丟棄英勇無畏。""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04192.png,1.25,0,75,Adam Lane,TheForgottenAge,192
+逆反 (2) [Mystic][skill],,逆反,,Mystic,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性. 熟練.,忽略本次檢定期間抽出的所有<sku>、<cul>、<tab>和<mon>符號的效果(包括其修正值)。,"
+""不。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04198.png,1.25,0,75,Nicholas Gregory,TheForgottenAge,198
+重拾信念 [Survivor][skill],,重拾信念,,Survivor,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,"每次技能檢定最多投入1張。
+你可以在任何類型的檢定中投入重拾信念。
+如果這次檢定失敗，執行檢定的調查員抽取2張卡牌並獲得2資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04201.png,1.25,0,75,Andreia Ugrai,TheForgottenAge,201
+孤注一擲 (5) [Rogue][skill],,孤注一擲,,Rogue,None,None,0,5,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",幸運.,"每次技能檢定最多投入1張。
+如果本次檢定成功，你每超過難度1點，抽取1張卡牌，最多可抽取5張。將本效果中抽到的所有弱點洗回你的牌堆，而不進行結算。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04309.png,1.25,0,75,Borja Pindado,TheForgottenAge,309
+佔據先機 [Guardian][skill],,佔據先機,,Guardian,None,None,0,0,None,None,None,None,Wild,Wild,Wild,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",精通. 果斷.,"只能在你執行的技能檢定中投入。
+任何調查員在本階段每完成1個行動，佔據先機失去<wild>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04150.png,1.25,0,75,Tiziano Baracchi,TheForgottenAge,150
+參透真諦 [Seeker][skill],,參透真諦,,Seeker,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",天性.,"只能投入冒險卡上打印的能力中的技能檢定。
+如果本次技能檢定成功，發現你所在地點的1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04153.png,1.25,0,75,Alexander Kozachenko,TheForgottenAge,153
+職業殺手 [Rogue][skill],,職業殺手,,Rogue,None,None,0,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",精通.,如果躲避嘗試期間的這次技能檢定成功，則在本回合中，成功躲避的這名敵人下一次受到傷害時，對其造成額外+1傷害。,"
+喝多的人才會主動找歐巴尼恩的碴。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04155.png,1.25,0,75,Borja Pindado,TheForgottenAge,155
+如痴如醉 [Mystic][skill],,如痴如醉,,Mystic,None,None,0,0,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",精通.,如果調查中的這次技能檢定成功，在你控制的1張支援卡上放置1充能或1秘密。,"
+遠遠地駛離我們那名為無知的平靜小島。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04157.png,1.25,0,75,Douglas Sirois,TheForgottenAge,157
+殊死一搏 [Survivor][skill],,殊死一搏,,Survivor,None,None,0,0,None,None,None,None,Wild,Wild,Wild,Wild,Wild,None,"<family ""Arial""><cop> 2018 FFG</family>",局勢.,"在一次未投入其它卡牌的技能檢定中，才能投入本卡牌。該次技能檢定不能投入其他卡牌。
+你手牌中每有1張卡牌，殊死一搏失去<wild>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04036.png,1.25,0,75,John Pacer,TheForgottenAge,36
+暈眩重擊 [Survivor][skill],,暈眩重擊,,Survivor,None,None,0,0,None,None,None,None,Combat,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",精通.,如果攻擊中的這次技能檢定成功，自動躲避受到攻擊的敵人。,"
+砰。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04112.png,1.25,0,75,Matthew Cowdery,TheForgottenAge,112
+不屈不撓 (1) [Survivor][skill],,不屈不撓,,Survivor,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通.,"每次檢定最多投入1張。
+在你投入不屈不撓到技能檢定後，在混亂袋查找最多3個你選擇的非<ten>混亂標記，並將其封印在不屈不撓上。如果不屈不撓上封印的3個標記都是""+1""、""0""、<ble>和/或<eld>標記，抽取2張卡牌。在這次檢定結束後，釋放此處封印的所有標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07196.png,1.25,0,75,Alexander Chelyshev,TheInnsmouthConspiracy,196
+十字聖號 (2) [Survivor][skill],,十字聖號,,Survivor,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通. 祝福.,"只能在你執行的技能檢定中投入，且該檢定難度必須高於你的基礎技能值。
+在你投入十字聖到技能檢定後，加入X個<ble>標記到混亂袋。X為本檢定難度和你的基礎技能值之差。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07197.png,1.25,0,75,David Hovey,TheInnsmouthConspiracy,197
+無神論者 (1) [Rogue][skill],,無神論者,,Rogue,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通.,這次技能檢定中，將每個<ble>和<cur>標記的修正值改為視為+1。,"
+""哦，別這樣。最壞還能發生什麼事呢？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07115.png,1.25,0,75,Stanislav Dikolenko,TheInnsmouthConspiracy,115
+不擇手段 (3) [Rogue][skill],,不擇手段,,Rogue,None,None,0,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通. 詛咒縈繞.,"你可以投入不擇手段到任何類型的檢定中。
+作為投入不擇手段到技能檢定的額外費用，加入數量等於這次檢定難度的<cur>標記到混亂袋。
+這次檢定自動成功。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07306.png,1.25,0,75,Borja Pindado,TheInnsmouthConspiracy,306
+鬼靈精怪 (1) [Seeker][skill],,鬼靈精怪,,Seeker,None,None,0,1,None,None,None,None,Willpower,Wild,Wild,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",天性. 詛咒縈繞.,如果這次技能檢定中抽出<cur>標記，在這次檢定結束時，你可以將鬼靈精怪返回你的手牌。,"
+""誰叫你'大仙'或是'好迫克'的，
+你就給他幸運，幫他做工……""
+——威廉‧莎士比亞，《仲夏夜之夢》",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07222.png,1.25,0,75,Sarah Lindstrom,TheInnsmouthConspiracy,222
+行動計劃 [Seeker][skill],,行動計劃,,Seeker,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通.,"如果這次技能檢定在本回合的第一個行動中或之前，行動計劃獲得<wil><agi>。
+如果這次技能檢定在本回合的第一個和第三個行動之間且成功，抽取1張卡牌。
+如果這次技能檢定在本回合的第三個行動中或之後，行動計劃獲得<com><int>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07024.png,1.25,0,75,Xia Taptara,TheInnsmouthConspiracy,24
+允諾力量 [Mystic][skill],,允諾力量,,Mystic,None,None,0,0,None,None,None,None,Wild,Wild,Wild,Wild,None,None,"<family ""Arial""><cop> 2020 FFG</family>",精通. 詛咒縈繞.,在你投入允諾力量到技能檢定後，加入1個<cur>標記到混亂袋。如果你不能，改為受到2點恐懼。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07032.png,1.25,0,75,Jessie Calderon,TheInnsmouthConspiracy,32
+既定命運 [Survivor][skill],,既定命運,,Survivor,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",幸運. 祝福.,"每次技能檢定最多投入1張。
+你可以投入既定命運到任意類型的檢定。
+如果這次檢定失敗，加入2個<ble>標記到混亂袋，或從混亂袋移除2個<cur>標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07035.png,1.25,0,75,Imad Awan,TheInnsmouthConspiracy,35
+摯愛 [Survivor][skill],,摯愛,,Survivor,None,None,0,0,None,None,None,None,Agility,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",天性. 祝福.,"如果這次檢定中抽出<ble>標記，你可以將摯愛從遊戲中移除，來將該標記的效果替換為以下文本：""你自動成功。<i>(不要再抽出另一個標記。在這次檢定結束後，將該標記返回混亂袋)</i>。""","
+愛或許才是最強大的法術。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07036.png,1.25,0,75,Derek D. Edgell,TheInnsmouthConspiracy,36
+戰鬥課程 [Guardian][skill],,戰鬥課程,,Guardian,None,None,0,0,None,None,None,None,Agility,Combat,Wild,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",精通.,"只能投入到攻擊或躲避嘗試期間的技能檢定。
+你能將此技能卡投入到位於任意地點調查員的檢定。","
+""瞄準後扣下那該死的扳機。這不會很難的，孩子。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09030.png,1.25,0,75,Carlos Palma Cruchaga,TheScarletKeysInv,30
+伸出援手 [Guardian][skill],,伸出援手,,Guardian,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",天性.,"你可以投入伸出援手到任何類型的檢定。每次檢定最多投入1張。
+投入伸出援手到技能檢定時，將投入到該檢定的其它每張卡牌的技能圖標加倍。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09031.png,1.25,0,75,Rob Laskey,TheScarletKeysInv,31
+剖析 [Seeker][skill],,剖析,,Seeker,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",精通.,在這次技能檢定抽出一個混亂標記後，你可以將你的1個線索放置在你所在地點上來取消該混亂標記，將其返回混亂袋並抽出一個新的標記。<i>(你可以執行此動作任意次。)</i>,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09049.png,1.25,0,75,Roberto Campus,TheScarletKeysInv,49
+風險評估 [Rogue][skill],,風險評估,,Rogue,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",局勢. 定命.,"每次技能檢定最多投入1張。
+只能投入到你執行的任何類型的檢定，並且只能在你的回合投入。
+你本回合每執行一次行動<i>(包含這次)</i>，風險評估獲得<wild>。
+在這次檢定結束後，結束你的回合。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09070.png,1.25,0,75,German Nobile,TheScarletKeysInv,70
+靈異附體咒 (1) [Mystic][skill],,靈異附體咒,,Mystic,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",天性. 法術.,"在你投入靈異附體咒到支援卡上的技能檢定後，選擇一項：
+<bul> 在該支援卡上放置1個毀滅標記。靈異附體咒獲得<wild><wild>。
+<bul> 如果這次檢定成功，從此支援卡上移除1個毀滅標記，或補充其一半的使用值(向下取整數)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09090.png,1.25,0,75,Anders Finer,TheScarletKeysInv,90
+老成 [Survivor][skill],,老成,,Survivor,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",天性. 熟練.,"特製。在你購買老成時，選擇兩個<b><i>屬性</i></b>並記錄在其升級卡上。
+如果此為在遭遇卡上或對該卡牌執行的技能檢定<i>(包含攻擊、躲避或談判)</i>，該遭遇卡每擁有一個所選的屬性，老成獲得<wild><wild>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09101.png,1.25,0,75,David Hovey,TheScarletKeysInv,101
+進取心 (1) [Survivor][skill],,進取心,,Survivor,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",天性.,"每次技能檢定最多投入1張。
+你可以投入進取心到任何類型的技能檢定。
+投入進取心到技能檢定的時候，該檢定難度-2。","
+""現在過來聽聽，先生！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09112.png,1.25,0,75,Andreia Ugrai,TheScarletKeysInv,112

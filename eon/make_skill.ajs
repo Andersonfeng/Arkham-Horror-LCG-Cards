@@ -1,0 +1,66 @@
+//
+// CSV Factory
+//
+
+useLibrary( "threads" );
+importClass( java.io.File );
+importClass( arkham.project.ProjectUtilities );
+importClass( ca.cgjennings.seplugins.csv.CsvFactory );
+
+// File that contains a "starter component" that the CSV will modify
+const TEMPLATE_FILE = "template_skill.eon";
+// File that contains the CSV data to process
+const CSV_FILE = "data_skill.csv";
+// Character encoding used by the CSV file
+const CSV_ENCODING = "utf-8";
+// Subfolder of the task that holds the output files
+const OUTPUT_FOLDER = "output_skill";
+
+let outputFile = requireFile( OUTPUT_FOLDER, "output folder" );
+let templateFile = requireFile( TEMPLATE_FILE, "template file" );
+let csvFile = requireFile( CSV_FILE, "CSV file" );
+// Read the CSV file into a string; you can also pass factory.process a Reader
+let csvString = ProjectUtilities.getFileText(csvFile, CSV_ENCODING);
+// Read the template game component into template
+let template = ResourceKit.getGameComponentFromFile( templateFile, true );
+if( template == null ) exit();
+
+// Set up the factory:
+let factory = new CsvFactory();
+//     separates cell values in the row (default ',')
+factory.setDelimiter( ',' );
+//     surrounds cell values that contain the delimiter (default '"')
+factory.setQuote( '"' );
+//     if true, space around delimiters is ignored (default false)
+factory.setExtraSpaceIgnored( false );
+//     if false, and the CSV has a column that the factory does not know
+//     what to do with, the factory will throw an error (default false)
+factory.setIgnoreUnknownKeys( false );
+//     if true, the template is cleared before each row (default true)
+factory.setTemplateClearedForEachRow( true );
+//     output folder to save generated components in
+factory.setOutputFolder( outputFile );
+
+// 
+ProjectUtilities.deleteAll( outputFile );
+outputFile.mkdirs();
+
+Thread.busyWindow( function() {
+	factory.process( template, csvString );
+	// update output folder contents in project view
+	Thread.invokeLater(function(){task.findChild(OUTPUT_FOLDER).synchronize();});
+});
+
+/**
+ * Returns a File object with the specified file name relative
+ * to the task folder. If the file does not exist, stops the script
+ * with an error message.
+ */
+function requireFile( file, description ) {
+	file = new File( task.getFile(), file );
+	if( !file.exists() ) {
+		alert( "The " + description + " is missing:\n" + file );
+		exit();
+	}
+	return file;
+}

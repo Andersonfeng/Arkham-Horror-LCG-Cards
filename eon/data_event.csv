@@ -1,0 +1,1143 @@
+file,$Unique,name,$Subtitle,$CardClass,$CardClass2,$CardClass3,$ResourceCost,$Level,$Slot,$Slot2,$Stamina,$Sanity,$Skill1,$Skill2,$Skill3,$Skill4,$Skill5,$Skill6,$Copyright,$Traits,$Rules,$Flavor,$Victory,portSource,portScale,portX,portY,$Artist,$Collection,$CollectionNumber
+證據！ [Guardian][event],,證據！,,Guardian,None,None,1,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。在你擊敗一名敵人後打出。
+發現你所在地點的1個線索。","
+跟我想的一樣！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01022.png,1.25,0,118,Mark Behm,CoreSet,22
+閃躲 [Guardian][event],,閃躲,,Guardian,None,None,1,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,"快速。在一名敵人攻擊你所在地點的一位調查員時打出。
+取消那次攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01023.png,1.25,0,118,Dane Cozens,CoreSet,23
+炸藥爆破 [Guardian][event],,炸藥爆破,,Guardian,None,None,5,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,選擇你的地點或一個連接的地點。對所選地點的每名敵人和調查員各造成3點傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01024.png,1.25,0,118,Dimitri Bielak,CoreSet,24
+多餘的彈藥 (1) [Guardian][event],,多餘的彈藥,,Guardian,None,None,2,1,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",供給.,在你所在地點的一位調查員的一張<b><i>槍械</i></b>支援卡上，放置3個子彈標記。,"
+能扛過我子彈的怪物，我還從來沒見過哩。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01026.png,1.25,0,118,Michael J. Williams,CoreSet,26
+心勝於物 [Seeker][event],,心勝於物,,Seeker,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。只能在你回合期間打出。
+直到本輪結束，你可以使用<int>來代替<com>和<agi>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01036.png,1.25,0,118,Maggie Ivy,CoreSet,36
+專業的直覺 [Seeker][event],,專業的直覺,,Seeker,None,None,2,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。只能在你回合期間打出。
+發現你所在地點的1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01037.png,1.25,0,118,Maggie Ivy,CoreSet,37
+屏障 [Seeker][event],,屏障,,Seeker,None,None,0,0,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 策略.,"疊加到你所在地點。
+非<b><i>精英</i></b>敵人不能移動到疊加地點。
+<b>強制</b> - 在一位調查員離開疊加地點時：丟棄屏障。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01038.png,1.25,0,118,Stephen Somers,CoreSet,38
+隱密的研究 (4) [Seeker][event],,隱密的研究,,Seeker,None,None,0,4,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。只能在你回合期間打出。
+選擇你所在地點的一名調查員，該調查員抽取3張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01043.png,1.25,0,118,Tomasz Jedruszek,CoreSet,43
+逃避隱藏 [Rogue][event],,逃避隱藏,,Rogue,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,"快速。只能在你回合期間打出。
+所有與你交戰的敵人解除交戰狀態，你移動到一個沒有敵人的已揭示地點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01050.png,1.25,0,118,Adam Schumpert,CoreSet,50
+背刺 [Rogue][event],,背刺,,Rogue,None,None,3,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,<b>攻擊</b>。這次攻擊不使用<com>，改為使用<agi>。這次攻擊造成+2傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01051.png,1.25,0,118,Federico Piatti,CoreSet,51
+偷襲 [Rogue][event],,偷襲,,Rogue,None,None,2,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,對你所在地點的一名消耗敵人造成2點傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01052.png,1.25,0,118,Stanislav Dikolenko,CoreSet,52
+老千手法 (3) [Rogue][event],,老千手法,,Rogue,None,None,2,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運. 洞察.,"快速。在你抽出一個負數修正值的混亂標記後打出。
+將該標記的""–""變為""+""。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01056.png,1.25,0,118,Sara Biddle,CoreSet,56
+百戰百勝 (4) [Rogue][event],,百戰百勝,,Rogue,None,None,3,4,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,獲得10個資源。,"
+""我又贏囉！親愛的真是抱歉，你今晚只是運氣有點差。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01057.png,1.25,0,118,Sara Biddle,CoreSet,57
+飛蛾撲火 [Mystic][event],,飛蛾撲火,,Mystic,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,抽取遭遇牌堆頂部的卡牌。然後發現你所在地點的2個線索。,"
+""我們生活在無限的黑海中，一個無知的島嶼上，這意味著我們不應該航行太遠。""
+<cite>H. P. 洛夫克拉夫特，《克蘇魯的呼喚》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01064.png,1.25,0,118,Magali Villeneuve,CoreSet,64
+守護結界 [Mystic][event],,守護結界,,Mystic,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術. 勇氣.,"快速。在你抽出一張非弱點詭計卡時打出。
+取消該卡的顯現效果。然後受到1點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01065.png,1.25,0,118,Alexandr Elichev,CoreSet,65
+眩光一閃 [Mystic][event],,眩光一閃,,Mystic,None,None,2,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,<b>躲避</b>。這次躲避嘗試不使用<agi>，改為使用<wil>。如果成功，對躲避的敵人造成1點傷害。如果躲避嘗試期間抽出<sku>、<cul>、<tab>、<mon>或<ten>符號，本回合失去1個行動。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01066.png,1.25,0,118,Stephen Somers,CoreSet,66
+記憶抹消 (1) [Mystic][event],,記憶抹消,,Mystic,None,None,1,1,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,"快速。在一個階段開始後打出。
+選擇你所在地點的一名非<b><i>精英</i></b>敵人。將所選敵人的文字框視為空白，(除<b><i>屬性</i></b>外)直到該階段結束。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01068.png,1.25,0,118,Rafał Hrynkiewicz,CoreSet,68
+眩光一閃 (2) [Mystic][event],,眩光一閃,,Mystic,None,None,1,2,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,<b>躲避</b>。這次躲避嘗試不使用<agi>，改為使用<wil>。如果成功，對躲避的敵人造成2點傷害。如果躲避嘗試期間抽出<sku>、<cul>、<tab>、<mon>或<ten>符號，本回合失去1個行動，並受到1點恐懼。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01069.png,1.25,0,118,Stephen Somers,CoreSet,69
+調虎離山 [Survivor][event],,調虎離山,,Survivor,None,None,5,0,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,<b>躲避</b>。自動躲避你所在地點的所有敵人。,"
+這能為我們爭取點時間。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01078.png,1.25,0,118,JB Casacop,CoreSet,78
+看看我發現了什麼！ [Survivor][event],,"""看看我發現了什麼！""",,Survivor,None,None,2,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在你調查失敗，並且低於難度2點及以內後打出。
+發現你所在地點的2個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01079.png,1.25,0,118,Mark Molnar,CoreSet,79
+運氣好！ [Survivor][event],,運氣好！,,Survivor,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在你的技能檢定將要失敗時打出。
+該次檢定你的技能值+2。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01080.png,1.25,0,118,David Auden Nash,CoreSet,80
+千鈞一髮 (2) [Survivor][event],,千鈞一髮,,Survivor,None,None,2,2,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在一名與你同一地點的非弱點、非<b><i>精英</i></b>敵人被躲避後打出。
+將該敵人與遭遇牌堆混洗。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01083.png,1.25,0,118,Alexandre Dainche,CoreSet,83
+運氣好！ (2) [Survivor][event],,運氣好！,,Survivor,None,None,1,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在你的技能檢定將要失敗時打出。
+該次檢定你的技能值+2。抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01084.png,1.25,0,118,David Auden Nash,CoreSet,84
+生存意志 (3) [Survivor][event],,生存意志,,Survivor,None,None,4,3,None,None,None,None,Combat,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",勇氣.,"快速。只能在你回合期間打出。
+直到你回合結束，你執行任何技能檢定不用抽取混亂標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01085.png,1.25,0,118,Ilich Henriquez,CoreSet,85
+應急物品 [Neutral][event],,應急物品,,Neutral,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",供給.,獲得3個資源。,"
+俗話說多多益善。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\01088.png,1.25,0,118,Vincent Dutrait,CoreSet,88
+最壞的打算 [Guardian][event],,最壞的打算,,Guardian,None,None,1,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,查找你牌堆頂部9張卡牌，將其中1張<b><i>武器</i></b>支援卡加入你手牌。混洗你的牌堆。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02184.png,1.25,0,118,Robert Laskey,TheDunwichLegacy,184
+荒唐的素描像 [Seeker][event],,荒唐的素描像,,Seeker,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"只能在你所在地點有至少1個線索時打出。
+抽取3張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02186.png,1.25,0,118,German Nobile,TheDunwichLegacy,186
+應急物品 (2) [Neutral][event],,應急物品,,Neutral,None,None,0,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",供給.,獲得3個資源，並抽取1張卡牌。,"
+俗話說多多益善。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02194.png,1.25,0,118,Vincent Dutrait,TheDunwichLegacy,194
+嘲諷 [Guardian][event],,嘲諷,,Guardian,None,None,1,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,"快速。只能在你回合中打出。
+與你所在地點的任意數量敵人交戰。","
+你鼓起勇氣，朝黑暗中大喊道：""快來抓我！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02017.png,1.25,0,118,John Pacer,TheDunwichLegacy,17
+團隊合作 [Guardian][event],,團隊合作,,Guardian,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,你所在地點的調查員，可以自由給予或交易任意數量的<b><i>道具</i></b>支援卡、<b><i>盟友</i></b>支援卡和資源。,"
+孤軍奮戰，最為致命。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02018.png,1.25,0,118,Adam Lane,TheDunwichLegacy,18
+嘲諷 (2) [Guardian][event],,嘲諷,,Guardian,None,None,1,2,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,"快速。只能在你回合中打出。
+與你所在地點的任意數量敵人交戰。你每通過該效果與一名敵人交戰，抽取1張卡牌。","
+你鼓起勇氣，朝黑暗中大喊道：""快來抓我！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02019.png,1.25,0,118,John Pacer,TheDunwichLegacy,19
+捷徑 [Seeker][event],,捷徑,,Seeker,None,None,0,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 策略.,"快速。只能在你回合中打出。
+選擇你所在地點的一位調查員。將該調查員移動到一個連接地點。","
+你對這個小鎮瞭如指掌。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02022.png,1.25,0,118,Derk Venneman,TheDunwichLegacy,22
+尋找答案 [Seeker][event],,尋找答案,,Seeker,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,<b>調查</b>。如果你成功，不發現所在地點的一個線索，改為發現連接地點的一個線索。,"
+有些人會不惜一切代價來找到真相。但是有些真相卻能傷人。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02023.png,1.25,0,118,Andreia Ugrai,TheDunwichLegacy,23
+逃跑本能 [Rogue][event],,逃跑本能,,Rogue,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧.,"快速。在敵人將要在你所在地點生成時打出。
+立刻移動到一個連接地點。(該敵人依然在原本地點生成。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02025.png,1.25,0,118,JB Casacop,TheDunwichLegacy,25
+困獸之籠 (2) [Mystic][event],,困獸之籠,,Mystic,None,None,3,2,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,"<b>躲避</b>。這次躲避嘗試不使用<agi>，改為使用<wil>。如果成功並且該敵人為非<b><i>精英</i></b>，躲避並將困獸之籠疊加到該敵人。
+<rea>在被疊加的敵人要準備時：檢定<wil>(3)。如果成功，疊加敵人不準備。如果失敗，丟棄困獸之籠。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02031.png,1.25,0,118,Christina Davis,TheDunwichLegacy,31
+偷樑換柱 [Survivor][event],,偷樑換柱,,Survivor,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧.,<b>躲避</b>。如果成功並且該敵人為非<b><i>精英</i></b>，躲避並將該敵人移動到一個連接地點。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02034.png,1.25,0,118,Rafał Hrynkiewicz,TheDunwichLegacy,34
+屠怪勇士 (5) [Guardian][event],,屠怪勇士,,Guardian,None,None,1,5,None,None,None,None,Combat,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",勇氣.,<b>攻擊</b>。如果這次攻擊目標為1個非<b><i>精英</i></b>敵人並成功，立刻擊敗該敵人。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02300.png,1.25,0,118,Henning Ludvigsen,TheDunwichLegacy,300
+揭開現實的面紗 (5) [Seeker][event],,揭開現實的面紗,,Seeker,None,None,4,5,None,None,None,None,Intellect,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,<b>調查</b>。該次技能檢定難度，等同於場上已揭示的地點中，最高的隱藏值。如果成功，從場上每個已揭示地點各發現1個線索。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02303.png,1.25,0,118,Shane Pierce,TheDunwichLegacy,303
+守護結界 (5) [Mystic][event],,守護結界,,Mystic,None,None,1,5,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術. 勇氣.,"快速。在你抽出一張非弱點的遭遇卡時打出。
+取消該卡的所有效果，並將其丟棄。然後受到1點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02307.png,1.25,0,118,Alexandr Elichev,TheDunwichLegacy,307
+團結一致 (3) [Guardian][event],,團結一致,,Guardian,None,None,0,3,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",勇氣.,選擇你所在地點的另一位調查員。你和該調查員各抽取2張卡牌，並獲得2個資源。,"
+我們絕不倒下！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02148.png,1.25,0,118,Brad Rigney,TheDunwichLegacy,148
+我要走了！ [Rogue][event],,我要走了！,,Rogue,None,None,0,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧. 勇氣.,"只有""撤退""能力的冒險卡在場時才能打出。
+<b>撤退</b>。你從這個鬼地方逃走了。","
+膽小鬼可能不會贏，但不太容易死",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02151.png,1.25,0,118,Caravan Studio,TheDunwichLegacy,151
+催眠術 [Mystic][event],,催眠術,,Mystic,None,None,3,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,"快速。在一名敵人攻擊你所在地點的調查員時打出。
+取消該次攻擊。然後從混亂袋中抽出1個標記。如果是<sku>、<cul>、<tab>、<mon>或<ten>標記，將敵人的傷害轉移給敵人自身。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02153.png,1.25,0,118,Falk,TheDunwichLegacy,153
+誘敵深入 (1) [Survivor][event],,誘敵深入,,Survivor,None,None,1,1,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧.,"疊加到你所在地點。
+在敵軍階段中移動的敵人，改為朝疊加地點以最短路徑移動，而不是其原本路線。
+<b>強制</b> - 當該卡被疊加的輪次結束時：丟棄誘敵深入。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02156.png,1.25,0,118,Sebastian Rodriquez,TheDunwichLegacy,156
+緊急救援 [Guardian][event],,緊急救援,,Guardian,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 科學.,選擇你所在地點的一位調查員。治癒該調查員，或其控制的一張<b><i>盟友</i></b>支援卡2點傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02105.png,1.25,0,118,Stephen Somers,TheDunwichLegacy,105
+我有個計劃！ [Seeker][event],,"""我有個計劃！""",,Seeker,None,None,3,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 策略.,<b>攻擊</b>。這次攻擊使用<int>代替<com>。你每持有1個線索，這次攻擊造成+1傷害(最大+3傷害)。,"
+""這應該是我聽過最爛的計劃了。好吧，那還磨蹭什麼？快動手吧！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02107.png,1.25,0,118,Robert Laskey,TheDunwichLegacy,107
+走私品 [Rogue][event],,走私品,,Rogue,None,None,4,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",供給. 違法.,選擇一張你所在地點的調查員控制的支援卡。將該支援卡上的子彈或補給標記數量翻倍。,"
+管他違不違法，能辦事就成。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02109.png,1.25,0,118,Matt Bradbury,TheDunwichLegacy,109
+過度深入 [Mystic][event],,過度深入,,Mystic,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,按玩家順序，每位調查員抽取1張遭遇卡。然後，將過度深入加入勝利牌區。,"
+有些事情，你一旦看到了，就再也不能無視它。",1,E:\Projects\Arkham-Horror-LCG-Cards\temp\02111.png,1.25,0,118,Anders Finér,TheDunwichLegacy,111
+哎呀！ [Survivor][event],,哎呀！,,Survivor,None,None,2,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在你攻擊與你交戰的敵人失敗，並且低於難度2點及以內後打出。
+對你所在地點的不同敵人造成該次攻擊的傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02113.png,1.25,0,118,Mariusz Gandzel,TheDunwichLegacy,113
+照明彈 (1) [Survivor][event],,照明彈,,Survivor,None,None,2,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,"選擇(一項)：
+ <bul> <b>攻擊</b>。這次攻擊中你+3<com>，造成+2傷害。放逐照明彈。
+ <bul> 查找任意一位調查員的牌堆頂部9張卡牌，並將其中1張<b><i>盟友</i></b>支援卡放置入你的控制下。然後，放逐照明彈，並混洗被查找的牌堆。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02115.png,1.25,0,118,Colin Boyer,TheDunwichLegacy,115
+如果它會流血…… [Guardian][event],,"""如果它會流血……""",,Guardian,None,None,1,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",.,"快速。在你擊敗一名<b><i>怪物</i></b>敵人後打出。
+你所在地點的每位調查員，各治癒等同於該敵人恐懼值的恐懼。","
+小小慰藉，足以安心。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02225.png,1.25,0,118,Ethan Patrick Harris,TheDunwichLegacy,225
+暴露弱點 (1) [Seeker][event],,暴露弱點,,Seeker,None,None,0,1,None,None,None,None,Combat,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。在任何<fre>玩家時間段中打出。
+選擇你所在地點的一名敵人。檢定<int>(X)，X為該敵人攻擊值。你每超過難度1點，該階段中，下一次攻擊該敵人時，其攻擊值降低1點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02228.png,1.25,0,118,Stephen Somers,TheDunwichLegacy,228
+我見過更糟的…… (4) [Guardian][event],,"""我見過更糟的……""",,Guardian,None,None,0,4,None,None,None,None,Agility,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",勇氣.,"快速。在你受到傷害和/或恐懼時打出。
+取消你這次受到的最多5點傷害和/或恐懼。然後獲得同等數量的資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02261.png,1.25,0,118,Tiziano Baracchi,TheDunwichLegacy,261
+殺手鐧 (3) [Rogue][event],,殺手鐧,,Rogue,None,None,0,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧.,"卓越。快速。只能在你的回合中打出。
+該回合中，你可以額外進行3個行動。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02266.png,1.25,0,118,John Pacer,TheDunwichLegacy,266
+月光儀式 [Mystic][event],,月光儀式,,Mystic,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術. 洞察.,將你控制的1張卡上，所有毀滅標記移除。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02267.png,1.25,0,118,Andreia Ugrai,TheDunwichLegacy,267
+不期而遇 [Survivor][event],,不期而遇,,Survivor,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,選擇任意玩家棄牌堆中的一張<b><i>盟友</i></b>支援。將該支援放置入場，置於你的控制之下。當一輪結束時，如果該支援卡依然在場，將其丟棄。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02270.png,1.25,0,118,David Auden Nash,TheDunwichLegacy,270
+喘息時間 (3) [Neutral][event],,喘息時間,,Neutral,None,None,3,3,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",勇氣.,只有在你所在地點沒有敵人時才能打出。治癒3點恐懼，並抽取1張卡牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\02273.png,1.25,0,118,Colin Boyer,TheDunwichLegacy,273
+正面迎擊 [Guardian][event],,正面迎擊,,Guardian,None,None,0,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣. 策略.,<b>攻擊</b>。這次攻擊造成+1傷害並自動成功。作為執行這次攻擊的額外費用，所選敵人攻擊你。,"
+有時候，堅持到底是唯一突破口。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08020.png,1.25,0,118,David Gaillet,EdgeOfTheEarthInv,20
+到我身後！ [Guardian][event],,"""到我身後！""",,Guardian,None,None,0,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣. 策略.,"快速。在任何<fre>時間段中打出。
+直到本階段結束，任何攻擊你所在地點另一位調查員的敵人，改為攻擊你，然後與你交戰。取消每次因此類攻擊造成的1點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08021.png,1.25,0,118,Isuardi Therianto,EdgeOfTheEarthInv,21
+成群結隊 (1) [Guardian][event],,成群結隊,,Guardian,None,None,3,1,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣. 協作.,<b>攻擊</b>。你控制的卡牌之中每有一個不同的職階，你這次攻擊+1<com>並造成+1傷害。,"
+""你要是惹毛了我們之中的哪一個，就是招惹了我們全部人！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08022.png,1.25,0,118,Patrick McEvoy,EdgeOfTheEarthInv,22
+掃堂腿 (1) [Guardian][event],,掃堂腿,,Guardian,None,None,1,1,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣. 策略. 技巧.,<b>攻擊</b>。這次攻擊將你的<agi>加入你的技能值。這次攻擊造成+1傷害。如果你成功，自動躲避被攻擊的敵人。,"
+""非常好，麗麗。現在再來一次。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08023.png,1.25,0,118,Isuardi Therianto,EdgeOfTheEarthInv,23
+閃躲 (2) [Guardian][event],,閃躲,,Guardian,None,None,0,2,None,None,None,None,Agility,Agility,Willpower,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",策略.,"快速。在一名敵人攻擊你所在地點一位調查員時打出。
+取消該次攻擊。然後，檢定<agi>(1)。如果你成功，對該名敵人造成1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08026.png,1.25,0,118,Dane Cozens,EdgeOfTheEarthInv,26
+追獵行動 (3) [Guardian][event],,追獵行動,,Guardian,None,None,0,3,None,None,None,None,Combat,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",策略.,"快速。在神話階段中你將要抽取一張遭遇卡時打出。
+改為在遭遇牌堆中查找一名敵人，將其生成並與你交戰<i>(代替其原有的生成地點)</i>，疊加追獵行動到該敵人，並混洗遭遇牌堆。
+<rea>在你擊敗被疊加的敵人時：獲得3資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08028.png,1.25,0,118,Derk Venneman,EdgeOfTheEarthInv,28
+提爾斯哈之牙 (4) [Guardian][event],,提爾斯哈之牙,,Guardian,None,None,3,4,None,None,None,None,Agility,Agility,Combat,Combat,None,None,"<family ""Arial""><cop> 2021 FFG</family>",法術.,<b>攻擊</b>。選擇任何已揭示地點的一名敵人作為這次攻擊的目標。在結算這次攻擊前，你可以移動到該敵人的地點。這次攻擊將你的<agi>加入你的<com>。這次攻擊造成+3傷害。,"
+廷達洛斯之牙不會放過任何獵物。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08029.png,1.25,0,118,Isuardi Therianto,EdgeOfTheEarthInv,29
+繁星密語 [Seeker][event],,繁星密語,,Seeker,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察.,"快速。只能在你的回合中打出。
+丟棄你牌堆頂部的卡牌。如果該卡牌為弱點，將其混洗回你的牌堆。否則在你的回合剩餘時間內，只要該卡牌在你的棄牌堆中，將其投入到你執行的每個符合條件的技能檢定中。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08034.png,1.25,0,118,Adam S. Doyle,EdgeOfTheEarthInv,34
+加入馬隊 (1) [Seeker][event],,加入馬隊,,Seeker,None,None,5,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察. 協作.,"快速。只能在你的回合中打出。你控制的卡牌之中每有一個不同的職階，本卡牌的費用減1。
+移動到任一個已揭示地點。","
+心之所向才是真正的旅途。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08036.png,1.25,0,118,Juan Carlos Barquet,EdgeOfTheEarthInv,36
+發掘古物 (2) [Seeker][event],,發掘古物,,Seeker,None,None,0,2,None,None,None,None,Agility,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察.,<b>調查</b>。選擇你手中最多2張<see>支援卡。這次技能檢定難度等於所選支援卡費用之和。如果你成功，將所選支援卡依次放置入場。每有1張<b><i>遺物</i></b>支援卡通過此能力放置入場，抽取1張卡牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08039.png,1.25,0,118,Lindsey Messecar,EdgeOfTheEarthInv,39
+提前偵察 [Rogue][event],,提前偵察,,Rogue,None,None,1,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察. 技巧.,<b>移動</b>。移動最多3次。這次移動中敵人不會與你交戰。,"
+""……一種無形的氣息抗拒著我，並讓我遠離這些古老而凶險的秘密，這些秘密不應為人所知，也未曾有人所知。""<cite>H. P. 洛夫克拉夫特，《無名之城》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08047.png,1.25,0,118,Vlad Ricean,EdgeOfTheEarthInv,47
+21點 [Rogue][event],,21點,,Rogue,None,None,2,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",幸運. 局勢.,"依次從混亂袋隨機抽出標記，直到你選擇停下。將每個<sku>、<cul>、<tab>或<mon>視為5；<ten>視為10；<eld>視為1或11。如果這些標記的總和(忽略+/-)為……
+<bul> ...…18或更少，獲得4資源。
+<bul> ...…19，獲得5資源。
+<bul> ...…20，獲得6資源。
+<bul> ...…21，獲得9資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08048.png,1.25,0,118,Vlad Ricean,EdgeOfTheEarthInv,48
+反間諜活動 (1) [Rogue][event],,反間諜活動,,Rogue,None,None,2,1,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",恩惠. 服務.,"快速。在你抽取一張非弱點詭計卡時打出。
+取消該卡牌的顯現效果並抽取遭遇牌堆頂部的卡牌。
+<rea>在你打出反間諜活動時，提升其費用2點：將""遭遇牌堆""換成""你的牌堆""。
+<rea>在你打出反間諜活動時，提升其費用2點：將""你""換成""任一位調查員""。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08049.png,1.25,0,118,Mark-Erwan Tarrisse,EdgeOfTheEarthInv,49
+欺騙制度 (1) [Rogue][event],,欺騙制度,,Rogue,None,None,0,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",技巧. 協作.,"快速。在任何<fre>時間段中打出。
+你控制的卡牌之中每有一個不同的職階，獲得1資源。","
+要是有事是你不該做的，那它當然不會合法。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08050.png,1.25,0,118,Alexandre Dainche,EdgeOfTheEarthInv,50
+不當交易 (1) [Rogue][event],,不當交易,,Rogue,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",恩惠.,揭示你手中的一張<b><i>道具</i></b>支援卡。你所在地點的另一位調查員可以打出該支援卡，如同其在他的手牌中。如果他這麼做，你抽取1張卡牌並獲得等於該支援卡打印費用的資源。,"
+""真的假的？你現在在跟我討價還價？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08051.png,1.25,0,118,Romana Kendelic,EdgeOfTheEarthInv,51
+金錢萬能 (2) [Rogue][event],,金錢萬能,,Rogue,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",恩惠. 局勢.,"快速。在任何地點的調查員發起技能檢定時打出。
+這次檢定不是其標示的技能類型(<wil>、<int>、<com>或<agi>)，而是改為資源技能檢定。執行這次檢定的調查員的基礎技能值等於你資源池內資源數量的一半(向下取整)。抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08054.png,1.25,0,118,Robert Laskey,EdgeOfTheEarthInv,54
+黑市 (2) [Rogue][event],,黑市,,Rogue,None,None,1,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",恩惠.,"快速。當調查階段開始時打出。
+依次從任一調查員的牌堆頂部揭示卡牌，直到正好揭示5張卡牌。將這些卡牌放在一邊，位於場外。只要這些卡牌放在一邊，任何調查員可以將其視為自己的手牌打出。當下次調查階段開始時，將仍放在一邊的這些卡牌混洗入其所有者的牌堆。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08055.png,1.25,0,118,Matt Stawicki,EdgeOfTheEarthInv,55
+冥想放空 [Mystic][event],,冥想放空,,Mystic,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察. 勇氣.,你每有一個法術槽位被佔用，治癒1點傷害或1點恐懼。,"
+你讓自己的思想沉淪，冰冷而漫無目的，萬物皆空。虛無如歸。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08061.png,1.25,0,118,Mauro Dal Bo,EdgeOfTheEarthInv,61
+力量之風 (1) [Mystic][event],,力量之風,,Mystic,None,None,2,1,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣.,"在你控制的一張支援卡上放置2充能。
+<rea>在你的回合中抽取了力量之風後：將其打出。","
+願奧雅之息指引吾等。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08063.png,1.25,0,118,Pavel Kolomeyets,EdgeOfTheEarthInv,63
+先見 (1) [Mystic][event],,先見,,Mystic,None,None,0,1,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",預言.,"快速。在一位你所在地點的調查員將要從其牌堆或從遭遇牌堆抽取一張卡牌時打出。
+聲明一張卡牌。如果抽取的卡牌是聲明的卡牌，該調查員可以(選擇一項)：
+<bul> 取消該卡牌的效果並將其丟棄。
+<bul> 立刻-2費用打出該卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08064.png,1.25,0,118,Pavel Kolomeyets,EdgeOfTheEarthInv,64
+平行命運 (2) [Mystic][event],,平行命運,,Mystic,None,None,0,2,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",預言.,查看一位調查員的牌堆或遭遇牌堆頂部6張卡牌。你可以將它們以任何順序放回該牌堆頂部，或將它們與該牌堆混洗。如果你查看了調查員的牌堆，該調查員可以抽取1張卡牌。,"
+""如果我說，在你瀕死之際我才會把你的命運告訴你，你還想知道嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08066.png,1.25,0,118,Alice Duke,EdgeOfTheEarthInv,66
+應急裝備 [Survivor][event],,應急裝備,,Survivor,None,None,0,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",升級.,"使用(3耐久)。
+疊加到你所在地點調查員控制的一張<b><i>道具</i></b>支援卡。
+<fre>在被疊加的支援卡的技能檢定中，花費1耐久：你這次檢定+2技能值。","
+如果它還沒壞，就好好修繕它。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08074.png,1.25,0,118,Duallbrush,EdgeOfTheEarthInv,74
+閱後即焚 (1) [Survivor][event],,閱後即焚,,Survivor,None,None,1,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察.,"放逐你手中1張等級0-5的卡牌。發現你所在地點的2個線索。如果被放逐卡牌為等級2或更高，從當前密謀移除1個毀滅標記。放逐閱後即焚。
+<b>卡牌設計：Council-in-Exile，Gen Con 2020</b>","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08076.png,1.25,0,118,Romana Kendelic,EdgeOfTheEarthInv,76
+血債血償 (2) [Survivor][event],,血債血償,,Survivor,None,None,1,2,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",契約. 詛咒縈繞.,"快速。在一名敵人攻擊你後打出。每次攻擊最多1張。
+這次攻擊的傷害/恐懼不能被分配給<b><i>盟友</i></b>支援卡。你每從這次攻擊受到1點傷害和/或恐懼，抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08079.png,1.25,0,118,Romain Leguay,EdgeOfTheEarthInv,79
+抵擋 (3) [Survivor][event],,抵擋,,Survivor,None,None,2,3,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",局勢. 技巧.,"快速。在一名非<b><i>精英</i></b>敵人在你所在地點生成時打出。
+該敵人攻擊你。然後，自動躲避該敵人並將抵擋疊加到它。
+被疊加的敵人不能準備。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08082.png,1.25,0,118,Robert Laskey,EdgeOfTheEarthInv,82
+追蹤 (1) [Guardian_Seeker][event],,追蹤,,Guardian,Seeker,None,1,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察. 策略.,選擇你所在地點以外任何地點的一名敵人。朝該敵人移動2次，或在你與所選敵人之間，沿著到達該敵人的最短路徑上的任一個無人地點發現1個線索。,"
+""步步為營！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08084.png,1.25,0,118,Billy Norrby,EdgeOfTheEarthInv,84
+追蹤 (3) [Guardian_Seeker][event],,追蹤,,Guardian,Seeker,None,1,3,None,None,None,None,Agility,Combat,Intellect,Intellect,None,None,"<family ""Arial""><cop> 2021 FFG</family>",洞察. 策略.,選擇你所在地點以外任何地點的一名敵人。朝該敵人移動2次。在每個你因此效果進入的地點各發現1個線索。,"
+""步步為營！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08085.png,1.25,0,118,Billy Norrby,EdgeOfTheEarthInv,85
+狙擊 (1) [Guardian_Rogue][event],,狙擊,,Guardian,Rogue,None,0,1,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",策略.,"你這回合使用<b><i>遠程</i></b>或<b><i>槍械</i></b>支援卡執行的下一個攻擊行動中，將你抽出的每個<sku>、<cul>、<tab>、<mon>或<ten>標記視為""0""標記。本行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08087.png,1.25,0,118,Steve Ellis,EdgeOfTheEarthInv,87
+保護魂靈 (2) [Seeker_Mystic][event],,保護魂靈,,Seeker,Mystic,None,1,2,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",儀式.,"快速。在你所在地點一張<b><i>盟友</i></b>支援卡被卡牌效果丟棄或被擊敗後打出。
+將該支援卡返回其所有者的手中，或其所有者抽取3張卡牌。","
+所有的活物都有著氣息，注意別被他們的氣息詛咒了。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08102.png,1.25,0,118,Chris Pritchard,EdgeOfTheEarthInv,102
+虛影易位 [Rogue_Mystic][event],,虛影易位,,Rogue,Mystic,None,2,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",法術. 技巧.,選擇連接次數不超過2的已揭示地點的一名非<b><i>精英</i></b>敵人。與該敵人交換位置。,"
+""我的下一個特技是……""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08108.png,1.25,0,118,Lin Hsiang,EdgeOfTheEarthInv,108
+虛影易位 (2) [Rogue_Mystic][event],,虛影易位,,Rogue,Mystic,None,1,2,None,None,None,None,Agility,Agility,Willpower,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",法術. 技巧.,選擇任何已揭示地點的一名非<b><i>精英</i></b>敵人。與該敵人交換位置。,"
+""我的下一個特技是……""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08110.png,1.25,0,118,Lin Hsiang,EdgeOfTheEarthInv,110
+再來一張！ [Rogue_Survivor][event],,"""再來一張！""",,Rogue,Survivor,None,1,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",幸運. 局勢.,"快速。你在技能檢定中抽出混亂標記後打出。
+抽出額外一個混亂標記，將其""-""變為""+""。如果該混亂標記是<sku>標記，你自動失敗。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08112.png,1.25,0,118,Drazenka Kimpel,EdgeOfTheEarthInv,112
+請求支援 (2) [Neutral][event],,請求支援,,Neutral,None,None,1,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",恩惠. 協作.,"以任意順序依次結算，如果你控制……
+<bul> <rog>卡牌，你可以移動到連接地點。
+<bul> <gua>卡牌，對你所在地點的一名敵人造成1點傷害。
+<bul> <see>卡牌，發現你所在地點的1個線索。
+<bul> <mys>卡牌，治癒任意卡牌1點恐懼。
+<bul> <sur>卡牌，治癒任意卡牌1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\08129.png,1.25,0,118,Adam Schumpert,EdgeOfTheEarthInv,129
+赦免 [Guardian][event],,赦免,,Guardian,None,None,X,0,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 祝福.,"從混亂袋隨機抽出3個標記，以及X個額外標記。
+每抽出一個非符號標記，就加入1個<ble>標記到混亂袋。每抽出1個<ble>標記，治癒你所在地點一位調查員或一張<b><i>盟友</i></b>支援卡的1點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10024.png,1.25,0,118,Cristi Balanescu,fhvp,24
+信仰引導 [Guardian][event],,信仰引導,,Guardian,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",勇氣. 祝福.,<b>調查</b>。這次調查你可以不使用<int>，改為使用<wil>。在這次檢定抽出混亂標記前，加入2個<ble>標記到混亂袋。如果這次技能檢定期間抽出<ble>或<eld>標記，發現你所在地點的額外1個線索。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10025.png,1.25,0,118,Alexandre Dainche,fhvp,25
+別動 [Guardian][event],,別動,,Guardian,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 技巧.,<b>談判</b>。選擇你所在地點的1名敵人與你手牌中的1張<b><i>道具</i></b>支援卡。對所選敵人執行一次攻擊行動。如果你成功，不造成傷害，改為打出所選支援卡，你每成功且超過難度一點，減少其一點費用。,"
+""把、把手舉起來！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10026.png,1.25,0,118,Rob Laskey,fhvp,26
+作業部隊 [Guardian][event],,作業部隊,,Guardian,None,None,2,0,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 雙倍..,"作為打出作業部隊的額外費用，花費一個行動。一次一個，以任意順序，選擇你所在地點的一位調查員……
+<bul> ...…結算他控制的支援卡上的一個<act>能力，無需支付其<act>費用。
+<bul> ...…移動到一個連接地點。
+<bul> ...…發現他所在地點的1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10027.png,1.25,0,118,Nicholas Stohlman,fhvp,27
+修補 [Guardian][event],,修補,,Guardian,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 升級.,"快速。只能在你的回合期間打出。
+疊加修補到你的遊戲區域中的<b><i>工具</i></b>支援卡。每張支援卡限制1張。
+被疊加的支援卡少佔用1個手部或飾品槽位。","
+""這還能叫扳手嗎？！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10028.png,1.25,0,118,Pixoloid Studios,fhvp,28
+手眼協調 (1) [Guardian][event],,手眼協調,,Guardian,None,None,1,1,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察.,"快速。只能在你的回合期間打出。
+結算你控制的<b><i>工具</i></b>或<b><i>武器</i></b>支援卡上的一個<act>能力，無需支付其<act>費用。","
+眼睛盯緊目標。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10030.png,1.25,0,118,Romana Kendelic,fhvp,30
+恢復元氣 (2) [Guardian][event],,恢復元氣,,Guardian,None,None,0,2,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",勇氣. 果斷.,"只能作為你的第一個行動打出。
+治癒2點傷害(如果你本輪抽取了詭計卡，改為治癒3點傷害)。抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10032.png,1.25,0,118,Tiziano Baracchi,fhvp,32
+疾風連擊 (5) [Guardian][event],,疾風連擊,,Guardian,None,None,2,5,None,None,None,None,Agility,Combat,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 雙倍. 定命.,"只能在你有控制<b><i>近戰</i></b>支援卡時才可打出。作為打出疾風連擊的額外費用，花費一個行動。
+<b>攻擊</b>。選擇你控制的一張<b><i>近戰</i></b>支援卡並立即使用該支援卡進行一次攻擊行動<i>(無需支付其<act>費用)</i>。你可以重複此效果最多三次。在最後一次攻擊結算後，如果這是你的回合，結束你的回合。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10037.png,1.25,0,118,Lin Hsiang,fhvp,37
+奇蹟之願 (5) [Guardian][event],,奇蹟之願,,Guardian,None,None,X,5,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",恩惠. 祝福.,"快速。在你所在地點的技能檢定期間抽出1個以上的<ble>後打出。
+在你的綁定卡牌中查找轉瞬昇華，並將其放置入場。在其上放置最多X個資源，作為願望(最多為抽出的<ble>標記數量)。將奇蹟之願從遊戲中移除。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10038.png,1.25,0,118,Adam S. Doyle,fhvp,38
+詭異生長 [Seeker][event],,詭異生長,,Seeker,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 科學.,"綁定(暴食菌株)。
+<b>調查</b>。在這次檢定結算後，你每成功且超過難度1點，放置1資源在暴食菌株上，作為生長。將詭異生長放在一邊，位於場外。如果你失敗，將詭異生長返回你的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10045.png,1.25,0,118,Edgar Sánchez Hidalgo,fhvp,45
+控制變因 [Seeker][event],,控制變因,,Seeker,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 科學. 詛咒縈繞.,"快速。你所在地點的調查員在技能檢定期間抽出<cur>標記後打出。
+發現你所在地點的1個線索。","
+""他將一種溶液注射進死物的血脈裡，如果它們死亡時間不長，就會產生奇特的反應。""
+—H.P.洛夫克拉夫特，<i>《赫伯特‧韋斯特—幽靈人種》</i>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10046.png,1.25,0,118,D Sourwine,fhvp,46
+快速運算 [Seeker][event],,快速運算,,Seeker,None,None,1,0,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 雙倍..,"作為打出快速運算的額外費用，花費一個行動。
+<b>調查</b>。依隱藏值由低到高依序調查你所在地點與每個連接地點各一次，直到你調查失敗，或成功調查每個符合條件的地點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10047.png,1.25,0,118,Cristi Balanescu,fhvp,47
+研究透徹 [Seeker][event],,研究透徹,,Seeker,None,None,2,0,None,None,None,None,Agility,Intellect,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 雙倍..,"作為打出研究透徹的額外費用，花費一個行動。
+你所在地點的調查員抽取總計5張卡牌<i>(由你決定每位調查員各抽取幾張卡牌)</i>。","
+真相往往近在眼前。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10048.png,1.25,0,118,David Nash,fhvp,48
+用書扔牠們！ [Seeker][event],,"""用書扔牠們！""",,Seeker,None,None,1,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",局勢. 臨時製品.,<b>攻擊</b>。選擇你控制的一張<b><i>書籍</i></b>支援卡。這次攻擊中你+X<com>，其中X為該支援卡的印刷費用。如果你成功，你可以自動躲避被攻擊的敵人，或在本攻擊結束後，你可以結算所選支援卡上的一個<act>或<fre>能力<i>(忽略其<act>費用，如果有的話)</i>。,"
+""孩子你……你比我意料中的懂得更多。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10049.png,1.25,0,118,David Hovey,fhvp,49
+劇烈突變 [Seeker][event],,劇烈突變,,Seeker,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",局勢. 科學.,"<b>躲避</b>。這次躲避你可以不使用<agi>，改為使用<int>。如果你成功且該敵人非<b><i>精英</i></b>，疊加劇烈突變到該敵人。
+被疊加的敵人獲得：""龐大。不能移動。
+<rea>在你躲避該敵人後：發現其所在地點的1個線索。(每輪限制一次。)""","
+""我說的是'炸了牠'，不是'<u>變大</u>牠'""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10050.png,1.25,0,118,Edgar Sánchez Hidalgo,fhvp,50
+精準調校 (1) [Seeker][event],,精準調校,,Seeker,None,None,2,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 升級.,"疊加到你控制的<b><i>工具</i></b>或<b><i>科學</i></b>支援卡。每張支援卡限制1張。
+<rea>在被疊加的支援卡消耗後，消耗精準調校：準備被疊加的支援卡。","
+""我跟你保證沒什麼好怕的！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10054.png,1.25,0,118,Billy Norrby,fhvp,54
+混淆視聽 (3) [Seeker][event],,混淆視聽,,Seeker,None,None,2,3,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",洞察. 技巧.,<b>談判</b>。選擇你所在地點的1名敵人。檢定<int>(X)，其中X為所選敵人的躲避值。如果你成功，發現你所在地點的2個線索。然後，如果所選敵人非<b><i>精英</i></b>，自動躲避該敵人。該敵人在下個補給階段期間不準備。,"
+""赫伯特，這招從來沒成功過。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10057.png,1.25,0,118,Andreia Ugrai,fhvp,57
+銀行劫案 [Rogue][event],,銀行劫案,,Rogue,None,None,2,0,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",局勢. 雙倍. 違法.,"作為打出銀行劫案額外費用，花費一個行動。
+你所在地點的調查員獲得總計8資源，由你自行分配","
+""別喊名字，倒霉蛋。""
+""抱歉，芬恩。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10069.png,1.25,0,118,Lin Hsiang,fhvp,69
+詐降 [Rogue][event],,詐降,,Rogue,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 技巧.,<b>談判</b>。選擇你所在地點的一名敵人並從你手牌中打出一張<b><i>武器</i></b>支援卡，並減少其費用1點。然後你可以使用該武器對所選敵人進行一次攻擊行動，不使用所示的技能，改為使用<agi>。,"
+""你會是個很厲害的牛仔。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10070.png,1.25,0,118,Carlos Palma Cruchaga,fhvp,70
+詐財 [Rogue][event],,詐財,,Rogue,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧. 違法.,<b>談判</b>。選擇你所在地點的一名敵人並檢定<agi>(0)。你每成功且超過難度1點，獲得1資源(最多6資源)。如果你失敗，該敵人攻擊你。,"
+""看啊！有隻笨鳥。""
+""我沒看到啊。""
+""我有。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10071.png,1.25,0,118,Rob Laskey,fhvp,71
+我會還你的！ [Rogue][event],,"""我會還你的！""",,Rogue,None,None,0,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",局勢. 技巧.,"快速。只能在你的回合期間打出。
+選擇你所在地點的一位調查員。將該調查員資源池的所有資源移動到你的資源池。當本輪結束時，將你資源池的所有資源移動到該調查員的資源池。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10072.png,1.25,0,118,Carlos Palma Cruchaga,fhvp,72
+挑撥離間 [Rogue][event],,挑撥離間,,Rogue,None,None,3,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧. 局勢.,<b>談判</b>。選擇你所在地點的一名敵人並檢定<int>(X)，其中X為所選敵人的傷害和恐懼值總和。如果你成功，對你所在地點的每名敵人各造成2點傷害。如果你成功且超過難度至少2點，在此效果結算後，你可以與每名敵人解除交戰，並移動到連接地點。,"
+""他講了你頭髮的壞話…""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10073.png,1.25,0,118,Ibazan Lazcano,fhvp,73
+紅顏禍水 [Rogue][event],,紅顏禍水,,Rogue,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧.,"<b>談判</b>。選擇你所在地點的一名敵人並檢定任意技能(3)。如果你成功，並且你檢定了……
+<bul> ...…<wil>，從該敵人上移除1個毀滅標記。
+<bul> ...…<int>，發現你所在地點的1個線索。
+<bul> ...…<agi>，自動躲避該敵人。如果該敵人非<b><i>精英</i></b>，將其移動到連接地點。
+<bul> ...…<com>，對該敵人造成2點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10074.png,1.25,0,118,Christine Thomas,fhvp,74
+告密者 (2) [Rogue][event],,告密者,,Rogue,None,None,1,2,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",恩惠. 技巧.,"快速。在你進行談判並且技能檢定成功後打出。
+發現你所在地點和連接地點的總計2個線索。","
+""我不應該告訴你的，不過你看起來可以信任……""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10078.png,1.25,0,118,Drazenka Kimpel,fhvp,78
+齷齪生意 (3) [Rogue][event],,齷齪生意,,Rogue,None,None,1,3,None,None,None,None,Agility,Combat,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",恩惠. 雙倍. 違法.,"作為打出齷齪生意的額外費用，花費一個行動。
+在你的牌堆中查找一張<b><i>違法</i></b>支援卡，並支付其費用將其打出。然後，你可以結算該支援卡上的一個<act>或<fre>能力，忽略所有費用<i>(包含其<act>費用，如果有的話)</i>。打出這張卡牌不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10080.png,1.25,0,118,Derek D Edgell,fhvp,80
+紅顏禍水 (3) [Rogue][event],,紅顏禍水,,Rogue,None,None,1,3,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧.,"<b>談判</b>。選擇你所在地點的一名敵人與任意數量的技能。以任意順序依次檢定所選的技能(2)。如果你檢定成功並且檢定了……
+<bul> ...…<wil>，從該敵人上移除1個毀滅標記。
+<bul> ...…<int>，發現該敵人所在地點的1個線索。
+<bul> ...…<agi>，自動躲避該敵人。如果該敵人非<b><i>精英</i></b>，將其移動到連接地點。
+<bul> ...…<com>，對該敵人造成2點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10081.png,1.25,0,118,Christine Thomas,fhvp,81
+挑撥離間 (5) [Rogue][event],,挑撥離間,,Rogue,None,None,3,5,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧. 局勢.,<b>談判</b>。選擇你所在地點的一名敵人並檢定<int>(X)，其中X為所選敵人的傷害/恐懼值總和。如果你成功，對你所在地點的每名敵人造成X點傷害。在此效果結算後，你可以與每名敵人解除交戰，並移動到連接地點。,"
+""…並且他還說你是個蠢貨！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10083.png,1.25,0,118,Ibazan Lazcano,fhvp,83
+深淵腐蝕 [Mystic][event],,深淵腐蝕,,Mystic,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 腐爛. 詛咒縈繞.,"綁定(卡納瑪戈斯的權杖)
+被疊加的敵人不能攻擊。
+<b>強制</b> - 在被疊加的敵人離場時：將深淵腐蝕放在一邊，位於場外。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10086.png,1.25,0,118,Peter Polach,fhvp,86
+珀色腐蝕 [Mystic][event],,珀色腐蝕,,Mystic,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 腐爛. 詛咒縈繞.,"綁定(卡納瑪戈斯的權杖)
+<b>強制</b> - 在被疊加的敵人被擊敗時：獲得等同於其印刷生命值數量的資源(最多5)。
+<b>強制</b> - 在被疊加的敵人離場時：將珀色腐蝕放在一邊，位於場外。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10087.png,1.25,0,118,Peter Polach,fhvp,87
+虛弱腐蝕 [Mystic][event],,虛弱腐蝕,,Mystic,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 腐爛. 詛咒縈繞.,"綁定(卡納瑪戈斯的權杖)
+被疊加的敵人-1攻擊和-1躲避。
+<b>強制</b> - 在被疊加的敵人離場時：將虛弱腐蝕放在一邊，位於場外。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10088.png,1.25,0,118,Peter Polach,fhvp,88
+猩紅腐蝕 [Mystic][event],,猩紅腐蝕,,Mystic,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 腐爛. 詛咒縈繞.,"綁定(卡納瑪戈斯的權杖)
+<b>強制</b> - 當本輪結束時：被疊加的敵人受到1點傷害。
+<b>強制</b> - 在被疊加的敵人離場時：將猩紅腐蝕放在一邊，位於場外。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10089.png,1.25,0,118,Peter Polach,fhvp,89
+邪綠腐蝕 [Mystic][event],,邪綠腐蝕,,Mystic,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 腐爛. 詛咒縈繞.,"綁定(卡納瑪戈斯的權杖)
+被疊加的敵人不能移動。
+<b>強制</b> - 在被疊加的敵人離場時：將邪綠腐蝕放在一邊，位於場外。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10090.png,1.25,0,118,Peter Polach,fhvp,90
+洪荒聖歌 [Mystic][event],,洪荒聖歌,,Mystic,None,None,2,0,None,None,None,None,Combat,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",預言. 雙倍..,"作為打出洪荒聖歌的額外費用，花費一個行動。
+揭示遭遇牌堆頂部的5張卡牌。對於每張揭示的卡牌，你可以加入1個<cur>標記到混亂袋來將該卡牌放到遭遇牌堆底部。 將剩餘卡牌任意順序返回遭遇牌堆頂部 。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10093.png,1.25,0,118,Balance Sheet,fhvp,93
+抽取精質 [Mystic][event],,抽取精質,,Mystic,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術.,<b>談判</b>。選擇你所在地點的一名敵人並檢定<wil>(X)，其中X為所選敵人的攻擊值。如果你成功，將你調查員上的1點傷害移動到所選敵人上(如果所選敵人非<b><i>精英</i></b>，改為最多2點傷害)。,"
+你的一切現在歸我所有。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10094.png,1.25,0,118,JB Casacop,fhvp,94
+召喚彼方 (2) [Mystic][event],,召喚彼方,,Mystic,None,None,0,2,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",儀式. 詛咒縈繞.,"作為打出召喚彼方的額外費用，加入3個<cur>標記到混亂袋。
+選擇你控制的一張有""使用(充能)""或""使用(秘密)""的支援卡。補充該支援卡的所有充能或秘密。然後，你可以結算該支援卡上的一個<act>或<fre>能力，無需支付其<act>費用，如果有的話。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10099.png,1.25,0,118,Leonardo Borazio,fhvp,99
+飄渺靈體 (2) [Mystic][event],,飄渺靈體,,Mystic,None,None,2,2,None,None,None,None,Agility,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術.,<b>躲避</b>。將你的<wil>值加入你這次躲避的技能值。如果你成功，與每名與你交戰的其於敵人解除交戰，並且本輪接下來的時間裡，你視為無形(敵人不能與你交戰，並且你不能攻擊或對敵人造成傷害)。如果這次躲避期間有抽出符號，當你回合結束時將飄渺靈體返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10100.png,1.25,0,118,Pavel Kolomeyets,fhvp,100
+解讀秘符 (2) [Mystic][event],,解讀秘符,,Mystic,None,None,2,2,None,None,None,None,Intellect,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術.,<b>調查</b>。將你的<wil>值加入你這次調查的技能值。你可以忽略這次調查期間將在你所在地點觸發的任意效果或關鍵詞。如果你成功，發現此地點的額外1個線索。如果這次調查期間有抽出符號，當你回合結束時將解讀秘符返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10101.png,1.25,0,118,Ilich Henriquez,fhvp,101
+幽靈利刃 (2) [Mystic][event],,幽靈利刃,,Mystic,None,None,2,2,None,None,None,None,Combat,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術.,<b>攻擊</b>。將你的<wil>值加入你這次攻擊的技能值。在這次攻擊前，你可以立即與被攻擊的敵人交戰。這次攻擊造成+1傷害(如果該敵人非<b><i>精英</i></b>，改為+2傷害)。如果這次攻擊期間有抽出符號，當你回合結束時將幽靈利刃返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10102.png,1.25,0,118,Pavel Kolomeyets,fhvp,102
+以太織法 (3) [Mystic][event],,以太織法,,Mystic,None,None,1,3,None,None,None,None,Agility,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",勇氣. 雙倍..,"作為打出以太織法的額外費用，花費一個行動。
+從你的手牌中揭示最多3張不同的<b><i>法術</i></b>事件卡。一次一張，打出每張揭示的事件，其費用減1。結算這些事件的時候，你+2技能值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10103.png,1.25,0,118,Aleksander Karcz,fhvp,103
+古者封印 (5) [Mystic][event],,古者封印,,Mystic,None,None,0,5,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",法術. 契約. 祝福. 詛咒縈繞.,"快速。在你所在地點，且其中抽出了至少2個<cur>標記或2個<ble>標記的技能檢定結束後打出。
+如果抽出了2個<cur>標記，在你的綁定卡牌中查找黃銅侍從，並將其放置入場。如果抽出了2個<ble>標記，在你的綁定卡牌中查找門鑰守衛並將其放置入場。如果抽出了2個<cur>標記和2個<ble>標記，改為執行兩者。將古者封印從遊戲中移除。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10105.png,1.25,0,118,Rob Laskey,fhvp,105
+精心策畫的誘敵 [Survivor][event],,精心策畫的誘敵,,Survivor,None,None,3,0,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",技巧. 雙倍..,"作為打出精心策畫的誘敵的額外費用，花費一個行動。打出精心策畫的誘敵不會引起趁亂攻擊。
+對於你所在地點與連接地點的每名敵人，選擇以下一項：
+<bul> 如果該敵人非<b><i>精英</i></b>，自動躲避該敵人。
+<bul> 對該敵人造成1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10112.png,1.25,0,118,M Findley,fhvp,112
+物盡其用 [Survivor][event],,物盡其用,,Survivor,None,None,2,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 臨時製品.,"選擇你棄牌堆中的一張<b><i>武器</i></b>或<b><i>工具</i></b>支援卡。結算該支援卡上的一個<act>能力，忽略所有費用<i>(包含其<act>費用)</i>。
+在此效果結算後，將所選支援卡混洗入你的牌堆。 打出此卡牌不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10113.png,1.25,0,118,Lin Hsiang,fhvp,113
+拖延時間 [Survivor][event],,拖延時間,,Survivor,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",策略. 技巧.,<b>談判</b>。選擇你所在地點的一名敵人。檢定<wil>(X)，其中X為所選敵人的攻擊值或躲避值，取其中較低的數值。如果你成功，消耗所選敵人<i>(但不與其解除交戰)</i>. 如果其非<b><i>精英</i></b>，其在下次補給階段期間不準備。如果你失敗，將拖延時間返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10114.png,1.25,0,118,Isuardi Therianto,fhvp,114
+對的時間，錯的地點 [Survivor][event],,對的時間，錯的地點,,Survivor,None,None,0,0,None,None,None,None,Agility,Willpower,Wild,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",勇氣. 雙倍..,"作為打出對的時間，錯的地點的額外費用，花費一個行動。
+將你調查員上的最多5點傷害和/或恐懼移動到你所在地點調查員控制的支援卡上。每有一張支援卡因此效果被擊敗，抽取1張卡牌。將對的時間，錯的地點從遊戲中移除。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10115.png,1.25,0,118,Adam Schumpert,fhvp,115
+堅守信念 (2) [Survivor][event],,堅守信念,,Survivor,None,None,0,2,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",幸運. 祝福.,"快速。在任何<fre>時間段期間打出。
+加入4個<ble>標記到混亂袋。","
+行走於信仰之光者無懼黑暗。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10124.png,1.25,0,118,Roberto Campus,fhvp,124
+靜候時機 [Neutral][event],,靜候時機,,Neutral,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",雙倍..,"作為打出靜候時機的額外費用，花費一個行動。
+在你的下回合期間，你可以進行二個額外行動。","
+距離午夜已經過了半小時，你開始懷疑這一切都是個騙局。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10129.png,1.25,0,118,Lin Hsiang,fhvp,129
+黎明之星 (1) [Neutral][event],,黎明之星,,Neutral,None,None,1,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2024 FFG</family>",儀式. 祝福.,"快速。在你所在地點的技能檢定期間抽出混亂標記後打出。
+忽略這次檢定期間抽出的每個<cur>標記的修正值。每忽略一個<cur>標記，對你所在地點的一名敵人造成1點傷害。","
+唯有堅強的心靈可以擊碎黑暗。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\10131.png,1.25,0,118,Edgar Sánchez Hidalgo,fhvp,131
+曉燭夜深 [Seeker][event],,曉燭夜深,,Seeker,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,<b>調查</b>。在這次行動開始時，獲得2資源。,"
+至死方入眠",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60214.png,1.25,0,118,Paolo Puggioni,CoreSet,14
+神秘筆跡 [Seeker][event],,神秘筆跡,,Seeker,None,None,0,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"獲得2資源。
+<rea>在你自己回合抽到神秘筆跡後：將其打出。","
+""……相比之下，還有少量書籍是以我無法理解的語言寫說的。""
+<cite>H. P. 洛夫克拉夫特，《倫道夫·卡特的供述》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60215.png,1.25,0,118,Anna Christenson,CoreSet,15
+海量研究 [Seeker][event],,海量研究,,Seeker,None,None,12,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"你每有1張其它手牌，海量研究的打出費用減少1點。
+發現你所在地點的2個線索。","
+""這兒也沒發現。我們還差多少沒查？""
+""……瞧瞧你背後這面牆？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60216.png,1.25,0,118,Andreia Ugrai,CoreSet,16
+祕法禱言 [Seeker][event],,祕法禱言,,Seeker,None,None,2,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,"作為打出祕法禱言的額外費用，丟棄你最多2張手牌。
+<b>攻擊</b>。這次攻擊不使用<com>，改為使用<int>。支付本卡牌費用時你每丟棄1張手牌，在這次攻擊中你+1<int>並造成+1傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60217.png,1.25,0,118,Paolo Puggioni,CoreSet,17
+窺看不思議之事 (1) [Seeker][event],,窺看不思議之事,,Seeker,None,None,0,1,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,抽取1張卡牌。將你手牌中任意數量的非弱點卡牌洗入你的牌堆。然後，抽取同等數量的卡牌。,"
+無知是福，但你無福消受。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60221.png,1.25,0,118,Brian Valenzuela,CoreSet,21
+神秘筆跡 (2) [Seeker][event],,神秘筆跡,,Seeker,None,None,0,2,None,None,None,None,Intellect,Wild,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"獲得3個資源(如果你手牌中有至少10張其它卡牌，改為4個資源)。
+<rea>在你自己回合抽取神秘筆跡後：將其打出。","
+""……相比之下，還有少量書籍是以我無法理解的語言寫說的。""
+<cite>H. P. 洛夫克拉夫特，《倫道夫·卡特的供述》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60224.png,1.25,0,118,Anna Christenson,CoreSet,24
+我有個計劃！ (2) [Seeker][event],,"""我有個計劃！""",,Seeker,None,None,2,2,None,None,None,None,Combat,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 策略.,<b>攻擊</b>。這次攻擊不使用<com>，改為使用<int>。這次檢定中你+2<int>。你每持有1個線索，這次攻擊造成+1傷害(最大+3傷害)。,"
+""這應該是我聽過最爛的計畫了。好吧，那麼還蹭什麼？快動手吧！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60225.png,1.25,0,118,Robert Laskey,CoreSet,25
+心勝於物 (2) [Seeker][event],,心勝於物,,Seeker,None,None,1,2,None,None,None,None,Agility,Combat,Wild,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"快速。只能在你回合中打出。
+直到本輪結束，將你的<int>分別增加到<com>和<agi>。抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60226.png,1.25,0,118,Maggie Ivy,CoreSet,26
+尋找答案 (2) [Seeker][event],,尋找答案,,Seeker,None,None,1,2,None,None,None,None,Agility,Agility,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"<b>調查</b>。如果你成功，不發現所在地點的一個線索，改為發現你所在地點和連接地點的總計2個線索。<i>(FAQ, v1.9)</i>","
+有些人會不惜一切代價來找到真相。但是有些真相卻能傷人。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60227.png,1.25,0,118,Andreia Ugrai,CoreSet,27
+平行命運 [Mystic][event],,平行命運,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",預言.,查看遭遇牌堆頂部的4張卡牌。從混亂袋隨機抽出1個標記。如果抽出<sku>、<cul>、<tab>、<mon>或<ten>符號，將這些卡牌混洗入遭遇牌堆。否則，將它們以任意順序放回遭遇牌堆頂部。,"
+""如果我說，在你瀕死之際我才會把你的命運告訴你，你還想知道嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60415.png,1.25,0,118,Alice Duke,JacquelineFine,15
+太陽神之音 [Mystic][event],,太陽神之音,,Mystic,None,None,0,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術.,獲得1個資源。從混亂袋隨機抽出3個標記。每抽出1個<sku>、<cul>、<tab>、<mon>或<ten>符號，額外獲得2個資源。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60416.png,1.25,0,118,Matt Bradbury,JacquelineFine,16
+恐怖靈感 (1) [Mystic][event],,恐怖靈感,,Mystic,None,None,0,1,None,None,None,None,Intellect,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 勇氣.,"快速。在你將要結算一張<mys>卡牌的效果，且該效果在混亂標記抽出時或抽出後觸發時打出。
+取消該效果或額外結算一次該效果。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60420.png,1.25,0,118,Rafał Hrynkiewicz,JacquelineFine,20
+催眠術 (2) [Mystic][event],,催眠術,,Mystic,None,None,2,2,None,None,None,None,Agility,Agility,Combat,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術.,"快速。在一名敵人攻擊你所在地點的調查員時打出。
+取消該次攻擊。然後，從混亂袋隨機抽出1個標記。如果抽出<sku>、<cul>、<tab>、<mon>或<ten>符號，對進行攻擊的敵人造成傷害，傷害點數等於其傷害值或恐懼值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60423.png,1.25,0,118,Falk,JacquelineFine,23
+重新充能 (4) [Mystic][event],,重新充能,,Mystic,None,None,0,4,None,None,None,None,Willpower,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術.,選擇你所在地點的調查員控制的一張<b><i>法術</i></b>或<b><i>遺物</i></b>支援卡，從混亂袋中隨機抽出1個標記。如果抽出<sku>、<cul>、<tab>、<mon>或<ten>符號，所選支援卡增加1充能。否則，所選支援卡增加4充能。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60429.png,1.25,0,118,Martin de Diego Sádaba,JacquelineFine,29
+幹掉他們 [Guardian][event],,幹掉他們,,Guardian,None,None,0,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,<b>攻擊</b>。在這次行動開始時，獲得2資源。,"
+該緊緊螺絲了。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60111.png,1.25,0,118,Patrick McEvoy,NathanielCho,11
+還擊 [Guardian][event],,還擊,,Guardian,None,None,0,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,"快速。在一名敵人攻擊你後打出，不論該次攻擊是否被取消。
+<b>攻擊</b>。這次攻擊將剛剛發動攻擊的敵人作為目標。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60112.png,1.25,0,118,Patrick McEvoy,NathanielCho,12
+到這兒來！ [Guardian][event],,"""到這兒來！""",,Guardian,None,None,2,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,<b>交戰</b>。<b>攻擊</b>。選擇你所在地點或一個連接地點的一名非<b><i>精英</i></b>敵人。將該敵人移動到你所在地點，與其交戰，並攻擊該敵人。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60114.png,1.25,0,118,Derek D. Edgell,NathanielCho,14
+榮譽 [Guardian][event],,榮譽,,Guardian,None,None,1,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。在你擊敗一名敵人後打出。
+抽取2張卡牌。","
+叮，叮，叮！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60115.png,1.25,0,118,Patrick McEvoy,NathanielCho,15
+屠怪勇士 [Guardian][event],,屠怪勇士,,Guardian,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,<b>攻擊</b>。這次攻擊造成+1傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60116.png,1.25,0,118,Henning Ludvigsen,NathanielCho,16
+一二連擊 [Guardian][event],,一二連擊,,Guardian,None,None,2,0,None,None,None,None,Combat,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,<b>攻擊</b>。這次攻擊中你+1<com>。如果你成功，你可以再次攻擊該敵人。該次攻擊中你+2<com>並造成+1傷害。,"
+納撒尼爾以他左手迅速的刺拳、還有他右手標誌性的後手重拳著稱。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60117.png,1.25,0,118,Patrick McEvoy,NathanielCho,17
+團結一致 [Guardian][event],,團結一致,,Guardian,None,None,0,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,選擇你所在地點的另一位調查員。你和該調查員都獲得2資源。,"
+我們絕不倒下！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60118.png,1.25,0,118,Brad Rigney,NathanielCho,18
+證據！ (1) [Guardian][event],,證據！,,Guardian,None,None,1,1,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察.,"快速。在你擊敗一名敵人後打出。
+發現你所在地點的1個線索(如果你本回合擊敗的敵人們總計有至少4點打印的生命值，改為發現2個線索)。","
+跟我想的一樣！",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60120.png,1.25,0,118,Mark Behm,NathanielCho,20
+刺激 (1) [Guardian][event],,刺激,,Guardian,None,None,2,1,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。只能在你回合中打出。
+準備你控制的1張<gua>支援卡。在你回合中，你可以進行額外一個行動，該行動只能用於攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60121.png,1.25,0,118,Tony Foti,NathanielCho,21
+還擊 (2) [Guardian][event],,還擊,,Guardian,None,None,0,2,None,None,None,None,Agility,Combat,Combat,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,"快速。在一名敵人攻擊你時<i>(在該次攻擊結算之前)</i>打出。
+<b>攻擊</b>。這次攻擊將剛剛發動攻擊的敵人作為目標。這次攻擊中你+2<com>並造成+1傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60122.png,1.25,0,118,Patrick McEvoy,NathanielCho,22
+到這兒來！ (2) [Guardian][event],,"""到這兒來！""",,Guardian,None,None,2,2,None,None,None,None,Combat,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,"快速。在任何<fre>時間段中打出。
+<b>交戰</b>。<b>攻擊</b>。選擇一名與你所在地點之間最多相隔2個地點的非<b><i>精英</i></b>敵人。將該敵人移動到你所在地點，與其交戰，並攻擊該敵人。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60123.png,1.25,0,118,Derek D. Edgell,NathanielCho,23
+吸取教訓 (2) [Guardian][event],,吸取教訓,,Guardian,None,None,1,2,None,None,None,None,Intellect,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察. 勇氣.,"快速。在你受到一名敵人攻擊造成的傷害後打出。
+發現你所在地點的2個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60124.png,1.25,0,118,Patrick McEvoy,NathanielCho,24
+單打獨鬥 (2) [Guardian][event],,單打獨鬥,,Guardian,None,None,0,2,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 果斷.,"只可作為你的第一個行動打出。
+對與你交戰的一個敵人造成2點傷害。此行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60125.png,1.25,0,118,Mauro Dal Bo,NathanielCho,25
+炸藥爆破 (3) [Guardian][event],,炸藥爆破,,Guardian,None,None,4,3,None,None,None,None,Combat,Combat,Willpower,Willpower,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,"快速。在任何<fre>時間段中打出。
+選擇你所在地點或一個連接地點。對所選地點的每名敵人和調查員各造成3點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60129.png,1.25,0,118,Dimitri Bielak,NathanielCho,29
+嘲諷 (3) [Guardian][event],,嘲諷,,Guardian,None,None,1,3,None,None,None,None,Agility,Combat,Willpower,Willpower,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,"快速。在任何<fre>時間段中打出。
+與你所在地點的任意數量敵人交戰。對於以此方式與你交戰的每名敵人，對其造成1點傷害並抽取1張卡牌。","
+你鼓起勇氣，朝黑暗中大喊道：""快來抓我！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60130.png,1.25,0,118,John Pacer,NathanielCho,30
+一二連擊 (5) [Guardian][event],,一二連擊,,Guardian,None,None,2,5,None,None,None,None,Combat,Combat,Combat,Combat,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,<b>攻擊</b>。這次攻擊你自動成功並造成+1傷害。你可以再次攻擊。該次攻擊中你+3<com>並造成+2傷害。,"
+納撒尼爾以他左手迅速的刺拳、還有他右手標誌性的後手重拳著稱。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60132.png,1.25,0,118,Patrick McEvoy,NathanielCho,32
+生存意志 [Survivor][event],,生存意志,,Survivor,None,None,4,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。只能在你回合期間打出。
+你這回合執行的下一次技能檢定不用抽取混亂標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60512.png,1.25,0,118,Ilich Henriquez,StellaClark,12
+意志考驗 [Survivor][event],,意志考驗,,Survivor,None,None,1,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。在你所在地點的一位調查員抽取出一張非弱點詭計卡時打出。
+檢定<wil>(3)。如果你成功，取消該卡牌的顯現效果。","
+無論是否看得到希望，你所能做的只有抵抗。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60513.png,1.25,0,118,Stanislav Dikolenko,StellaClark,13
+咬緊牙關 [Survivor][event],,咬緊牙關,,Survivor,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。在你技能檢定失敗後打出。
+在本輪接下來的時間裡，你每項技能+1。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60515.png,1.25,0,118,Andreia Ugrai,StellaClark,15
+意志考驗 (2) [Survivor][event],,意志考驗,,Survivor,None,None,0,2,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"快速。在你所在地點的一位調查員抽取出一張非弱點詭計卡時打出。
+取消該卡牌的顯現效果。然後，檢定<wil>(3)。如果你失敗，放逐意志考驗。","
+無論是否看得到希望，你所能做的只有抵抗。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60523.png,1.25,0,118,Stanislav Dikolenko,StellaClark,23
+看看我發現了什麼！ (2) [Survivor][event],,"""看看我發現了什麼！""",,Survivor,None,None,2,2,None,None,None,None,Agility,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運.,"快速。在你調查失敗，並且低於難度3點及以內後打出。
+發現你所在地點和連接地點的總計2個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60524.png,1.25,0,118,Mark Molnar,StellaClark,24
+狗屎運 (2) [Survivor][event],,狗屎運,,Survivor,None,None,2,2,None,None,None,None,Agility,Agility,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運.,"快速。在你嘗試躲避一個非<b><i>精英</i></b>敵人失敗，並且低於難度3點及以內後打出。
+將該敵人放到遭遇牌堆底部。","
+傻人有傻福。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60525.png,1.25,0,118,Stanislav Dikolenko,StellaClark,25
+運氣好！ (3) [Survivor][event],,運氣好！,,Survivor,None,None,0,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運.,"快速。在你所在地點的調查員的技能檢定將要失敗時打出。
+該調查員該次檢定的技能值+3。該調查員抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60528.png,1.25,0,118,David Auden Nash,StellaClark,28
+小偷小摸 [Rogue][event],,小偷小摸,,Rogue,None,None,4,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,<b>調查</b>。這次調查不使用<int>，改為使用<agi>。如果你成功，額外發現你所在地點2個線索。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60315.png,1.25,0,118,Adam Schumpert,WinifredHabbamock,15
+悄然溜過 [Rogue][event],,悄然溜過,,Rogue,None,None,0,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,<b>躲避</b>。在這次行動開始時，獲得2資源。,"
+別人都勸你別做的事情，溫妮弗雷德會示意你按計畫執行。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60316.png,1.25,0,118,Andreia Ugrai,WinifredHabbamock,16
+藝高膽大 (2) [Rogue][event],,藝高膽大,,Rogue,None,None,0,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",局勢.,"快速。在你的技能檢定將要成功時打出。
+這次技能檢定你的技能值+3。抽取1張卡牌。","
+""麥克格倫，你想讓我們兩個都送命嗎？""
+""這次不會了，夥計。這次不會了。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60322.png,1.25,0,118,Darek Zabrocki,WinifredHabbamock,22
+暗中偷襲 (2) [Rogue][event],,暗中偷襲,,Rogue,None,None,2,2,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,<b>攻擊</b>。這次攻擊中將你的<agi>加入你的技能值。如果你成功且超過難度至少1點，自動躲避受到本次攻擊的敵人。如果你成功且超過難度至少3點，當你回合結束時將暗中偷襲返回你的手牌。,"
+""瞄準眼睛。""他們這麼告訴我的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60323.png,1.25,0,118,Andreia Ugrai,WinifredHabbamock,23
+悄然遁去 (2) [Rogue][event],,悄然遁去,,Rogue,None,None,2,2,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,<b>躲避</b>。這次躲避嘗試將你的<int>加入你的技能值。如果你成功且超過難度至少1點，且被躲避的敵人非<b><i>精英</i></b>，該敵人在下一個補給階段不進入準備狀態。如果你成功且超過難度至少3點，當你回合結束時將悄然遁去返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60324.png,1.25,0,118,Joshua Cairós,WinifredHabbamock,24
+小偷小摸 (3) [Rogue][event],,小偷小摸,,Rogue,None,None,4,3,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,<b>調查</b>。這次調查不使用<int>，改為使用<agi>。如果你成功，額外發現你所在地點的2個線索。如果你成功且超過難度至少2點，當你回合結束時將小偷小摸返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60328.png,1.25,0,118,Adam Schumpert,WinifredHabbamock,28
+背刺 (3) [Rogue][event],,背刺,,Rogue,None,None,3,3,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,<b>攻擊</b>。這次攻擊不使用<com>，改為使用<agi>。這次攻擊造成+2傷害。如果你成功且超過難度至少2點，當你回合結束時將背刺返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\60329.png,1.25,0,118,Federico Piatti,WinifredHabbamock,29
+同歸於盡！ [Guardian][event],,"""同歸於盡！""",,Guardian,None,None,0,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,擊敗與你交戰的每個非<b><i>精英</i></b>敵人。你被擊敗並承受1點肉體創傷。本行動不會引起趁亂攻擊。,"
+他點燃了打火機，內心平靜了下來。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03189.png,1.25,0,118,Ivan Dixon,ThePathToCarcosa,189
+邏輯推理 [Seeker][event],,邏輯推理,,Seeker,None,None,2,0,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,"你至少擁有1個線索時才可打出。
+選擇你所在地點的一位調查員。該調查員治癒2點恐懼或丟棄其威脅區域中的1張<b><i>恐怖</i></b>卡。","
+""我是活著的最智慧的人，因為我知道一件事，那就是我知道我一無所知。""
+<cite>《理想國》，柏拉圖著</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03191.png,1.25,0,118,Andreas Zafiratos,ThePathToCarcosa,191
+暗中偷襲 [Rogue][event],,暗中偷襲,,Rogue,None,None,2,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",技巧.,<b>攻擊</b>。本次攻擊中將你的<agi>數值加入你的技能值。如果你成功且超過難度2點或以上，自動躲避本次攻擊的敵人。,"
+""瞄準眼睛。""他們這麼告訴我的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03194.png,1.25,0,118,Andreia Ugrai,ThePathToCarcosa,194
+量子通量 [Mystic][event],,量子通量,,Mystic,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,將你的棄牌堆洗入你的牌堆並抽取1張卡牌。從遊戲中移除量子通量。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03196.png,1.25,0,118,Andreas Zafiratos,ThePathToCarcosa,196
+重新充能 (2) [Mystic][event],,重新充能,,Mystic,None,None,0,2,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術.,選擇你所在地點的一位調查員控制的1張<b><i>法術</i></b>或<b><i>遺物</i></b>支援卡，並從混亂袋中隨機抽取1個混亂標記。如果抽出<sku>、<cul>、<tab>、<mon>或<ten>標記，丟棄選擇的支援卡。否則，為選擇的支援卡增加3充能。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03197.png,1.25,0,118,Martin de Diego Sádaba,ThePathToCarcosa,197
+誘捕陷阱 (2) [Survivor][event],,誘捕陷阱,,Survivor,None,None,2,2,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",陷阱. 臨時製品.,"疊加到你所在地點。每個地點限制1張。
+<b>強制</b> - 在1名非<b><i>精英</i></b>敵人進入被疊加地點後：消耗該敵人，解除它與所有調查員的交戰狀態，並對其疊加誘捕陷阱。
+<b>強制</b> - 在被疊加的敵人將要準備時：改為丟棄誘捕陷阱。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03199.png,1.25,0,118,Preston Stone,ThePathToCarcosa,199
+追獵行動 [Guardian][event],,追獵行動,,Guardian,None,None,1,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,"快速。在神話階段你將要抽取一張遭遇卡時打出。
+改為在遭遇牌堆頂上的9張卡牌中查找一個敵人，生成該敵人並與它交戰<i>(代替原有的生成地點)</i>，並混洗遭遇牌堆。如果你不能這麼做，抽取遭遇牌堆頂上的1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03263.png,1.25,0,118,Derk Venneman,ThePathToCarcosa,263
+指導 [Seeker][event],,指導,,Seeker,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,選擇你所在地點的另一位本輪尚未進行其回合的調查員。該調查員可以在本輪自己回合中進行額外一次行動。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03265.png,1.25,0,118,Bryce Cook,ThePathToCarcosa,265
+僥倖逃脫 [Rogue][event],,僥倖逃脫,,Rogue,None,None,0,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",幸運.,"快速。在敵人對你進行趁亂攻擊時打出。
+取消該次攻擊。本回合中你下一次技能檢定+2技能值。","
+""下次讓我來開車！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03267.png,1.25,0,118,Jake Murray,ThePathToCarcosa,267
+守護結界 (2) [Mystic][event],,守護結界,,Mystic,None,None,1,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術. 勇氣.,"快速。在任意地點的調查員抽出一張非弱點詭計卡時打出。
+取消該卡牌的顯現效果。然後，受到1點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03270.png,1.25,0,118,Alexandr Elichev,ThePathToCarcosa,270
+求生高手 (3) [Survivor][event],,求生高手,,Survivor,None,None,3,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,將你棄牌堆中的3張<b><i>天性</i></b>技能卡返回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03273.png,1.25,0,118,Rafał Hrynkiewicz,ThePathToCarcosa,273
+吃槍子吧！ (2) [Guardian][event],,"""吃槍子吧！""",,Guardian,None,None,0,2,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,"快速。在你啟動<b><i>槍械</i></b>支援卡上的<b>攻擊</b>能力時打出。
+你可以花費該支援卡上的額外X子彈。本次攻擊中，在你抽取混亂標記時，抽取額外X個混亂標記。選擇其中一個結算並忽略其餘標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03304.png,1.25,0,118,David Demaret,ThePathToCarcosa,304
+遺覺記憶 (3) [Seeker][event],,遺覺記憶,,Seeker,None,None,-,3,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,將遺覺記憶作為任意一個調查員棄牌堆中一張<b><i>洞察</i></b>事件卡打出<i>(包括其資源費用)</i>。從遊戲中移除該事件卡。不要丟棄遺覺記憶，改為將其從遊戲中移除。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03306.png,1.25,0,118,Maggie Ivy,ThePathToCarcosa,306
+殫精竭慮 (5) [Seeker][event],,殫精竭慮,,Seeker,None,None,2,5,None,None,None,None,Intellect,Wild,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,"快速。在任何<fre>玩家時間段中打出。
+選擇你所在地點的一位調查員。該調查員在其牌堆中查找並抽取1張卡牌，並且混洗自己的牌堆。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03307.png,1.25,0,118,Ilich Henriquez,ThePathToCarcosa,307
+死裡逃生 (5) [Rogue][event],,死裡逃生,,Rogue,None,None,1,5,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",技巧. 定命.,快速。在你將要被擊敗時打出。你解除交戰狀態，丟棄你威脅區域中所有卡牌，治癒2點恐懼和2點傷害，並移動到任意一個沒有敵人的已揭示地點。如果這是你的回合，結束你的回合。從遊戲中移除死裡逃生。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03310.png,1.25,0,118,Antonio Maínez,ThePathToCarcosa,310
+時間曲折 (2) [Mystic][event],,時間曲折,,Mystic,None,None,1,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術. 悖論.,"快速。你所在地點的一位調查員在其回合結算完畢一次行動之後，你立即打出本卡。撤銷該行動<i>(遊戲返回到該行動執行之前的狀態，但仍然視作你打出了時間曲折，且本卡牌打出的費用不會返還)</i>。<i>(FAQ, v1.4)</i>","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03311.png,1.25,0,118,Stephen Somers,ThePathToCarcosa,311
+內訌 (3) [Survivor][event],,內訌,,Survivor,None,None,1,3,None,None,None,None,Agility,Agility,Intellect,Intellect,None,None,"<family ""Arial""><cop> 2017 FFG</family>",技巧.,快速。敵軍階段開始時打出。取消本階段所有非<b><i>精英</i></b>敵人對你的攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03314.png,1.25,0,118,Tim Arney-O'Neil,ThePathToCarcosa,314
+英勇救援 [Guardian][event],,英勇救援,,Guardian,None,None,1,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣. 策略.,快速。在一個非<b><i>精英</i></b>敵人將要攻擊你所在地點的另一位調查員時打出。改為與該敵人交戰並結算它對你的攻擊。然後，對其造成1點傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03106.png,1.25,0,118,Cynthia Sheppard,ThePathToCarcosa,106
+解剖圖表 [Seeker][event],,解剖圖表,,Seeker,None,None,1,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,"快速。在任意調查員的回合中打出。你剩餘神智值為5點或以上時才可打出。
+選擇你所在地點中一個非<b><i>精英</i></b>敵人。在當前調查員回合結束前，該敵人-2攻擊並-2躲避。","
+它們再怎樣也只是動物。但那只是我們的想法。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03108.png,1.25,0,118,Stephen Somers,ThePathToCarcosa,108
+放著我來！ [Guardian][event],,"""放著我來！""",,Guardian,None,None,0,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,"快速。另一位調查員抽取了1張非禍害遭遇卡後，結算該卡牌效果前打出。
+改為你被視為抽取了該遭遇卡。結算該卡牌的顯現效果時，你每項技能+2。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03022.png,1.25,0,118,Nicholas Gregory,ThePathToCarcosa,22
+時刻警惕 (1) [Guardian][event],,時刻警惕,,Guardian,None,None,0,1,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,每次1張，打出你手牌中最多3張支援卡，每張資源費用減少1點。,"
+不得不說，
+洛根這傢伙對世界末日真的留了一手。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03023.png,1.25,0,118,Mauro Dal Bo,ThePathToCarcosa,23
+殫精竭慮 [Seeker][event],,殫精竭慮,,Seeker,None,None,2,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,選擇你所在地點的一位調查員。該調查員在其牌堆頂部的6張卡牌中查找並抽取1張卡牌，並且混洗自己的牌堆。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03026.png,1.25,0,118,Ilich Henriquez,ThePathToCarcosa,26
+障眼戲法 [Rogue][event],,障眼戲法,,Rogue,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",技巧.,快速。只能在你回合中打出。將手牌中的一張<b><i>道具</i></b>支援卡放置入場。當你回合結束時，如果該支援卡還在場上，將其收回你的手牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03029.png,1.25,0,118,Ilich Henriquez,ThePathToCarcosa,29
+藝高膽大 [Rogue][event],,藝高膽大,,Rogue,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",局勢.,"快速。在你技能檢定將要成功時打出。
+這次技能檢定你+2技能值。","
+""麥克格倫，你想讓我們兩個都送命嗎？""
+""這次不會了，夥計。這次不會了。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03030.png,1.25,0,118,Darek Zabrocki,ThePathToCarcosa,30
+解錮靈魂 [Mystic][event],,解錮靈魂,,Mystic,None,None,0,0,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,打出你手牌中一張<b><i>法術</i></b>或<b><i>儀式</i></b>，其資源費用降低3點。,"
+力量攫獲了她，讓她渾身戰慄，痙攣。
+能量與她融為一體，
+然後，她睜開了雙眼……",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03033.png,1.25,0,118,Antonio José Manzanedo,ThePathToCarcosa,33
+星界旅行 [Mystic][event],,星界旅行,,Mystic,None,None,3,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術.,<b>移動</b>。移動到任意一個已揭示的地點並從混亂袋中隨機抽取1個標記。如果抽出<sku>、<cul>、<tab>、<mon>或<ten>標記，你必須丟棄一張你控制的<b><i>道具</i></b>或<b><i>盟友</i></b>支援卡(如果你不能這麼做，則受到1點傷害)。,"
+跨維度的旅行存在著風險，這他很清楚。但誰能抗拒那超越時空的疆域呢?",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03034.png,1.25,0,118,Adam Schumpert,ThePathToCarcosa,34
+藏身地點 [Survivor][event],,藏身地點,,Survivor,None,None,1,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略. 技巧.,"快速。將藏身地點疊加到一個任意地點。
+被疊加地點上每名非<b><i>精英</i></b>敵人獲得冷漠。
+<b>強制</b> - 當敵軍階段結束時，如果該地點上有準備的敵人：丟棄藏身地點。","
+一隻羊、兩隻羊……",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03038.png,1.25,0,118,Adam Schumpert,ThePathToCarcosa,38
+單打獨鬥 (1) [Guardian][event],,單打獨鬥,,Guardian,None,None,0,1,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣. 果斷.,"只可作為你的第一個行動打出。
+對與你交戰的一個敵人造成1點傷害。此行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03229.png,1.25,0,118,Mauro Dal Bo,ThePathToCarcosa,229
+捷徑 (2) [Seeker][event],,捷徑,,Seeker,None,None,1,2,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察. 策略.,"快速。只能在你回合中打出。
+疊加到你所在地點。被疊加的地點獲得：""<fre>消耗捷徑：<b>移動</b><i>(到一個連接地點)</i>，位於該地點的所有調查員均可觸發此能力。""<i>(FAQ, v1.4)</i>","
+你對這小鎮瞭如指掌。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03232.png,1.25,0,118,Derk Venneman,ThePathToCarcosa,232
+中途伏擊 [Survivor][event],,中途伏擊,,Survivor,None,None,3,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,選擇你所在地點一個消耗的非<b><i>精英</i></b>敵人並檢定<agi>(X)，其中X為該敵人的躲避值。如果你成功，擊敗該敵人。,"
+""結……結束了嗎？""她跪倒在地，雙手顫抖不止，""終於結束了嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03237.png,1.25,0,118,Matthew Cowdery,ThePathToCarcosa,237
+不期而遇 (2) [Survivor][event],,不期而遇,,Survivor,None,None,X,2,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",幸運.,選擇任意玩家棄牌堆中的一張打印資源費用為X的<b><i>盟友</i></b>支援。將該支援放置入場，置於你的控制之下。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03238.png,1.25,0,118,David Auden Nash,ThePathToCarcosa,238
+應急物品 (3) [Neutral][event],,應急物品,,Neutral,None,None,0,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",供給.,獲得4資源，或者將4補給標記分配給你所在地點的調查員控制的支援卡，或者以任意形式組合，分配的補給標記總數為4。,"
+俗話說多多益善。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03239.png,1.25,0,118,Vincent Dutrait,ThePathToCarcosa,239
+埋伏 (1) [Guardian][event],,埋伏,,Guardian,None,None,2,1,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,"疊加到你所在地點。
+如果被疊加的地點沒有調查員，丟棄埋伏。
+<b>強制</b> - 有敵人生成在被疊加的地點後：對該敵人造成2點傷害並丟棄埋伏。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03148.png,1.25,0,118,Monztre,ThePathToCarcosa,148
+預先警告 (1) [Seeker][event],,預先警告,,Seeker,None,None,0,1,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",洞察.,"快速。在你抽出一張非弱點詭計卡時打出。
+將你的1個線索放置到你所在地點上。然後，取消該卡牌的顯現效果。","
+知己知彼者，百戰不殆。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03150.png,1.25,0,118,Mark Molnar,ThePathToCarcosa,150
+偷襲 (2) [Rogue][event],,偷襲,,Rogue,None,None,2,2,None,None,None,None,Combat,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",策略.,對你所在地點的一個未與你交戰的敵人造成2點傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03152.png,1.25,0,118,Stanislav Dikolenko,ThePathToCarcosa,152
+靈力風暴 [Mystic][event],,靈力風暴,,Mystic,None,None,3,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",法術.,"<b>攻擊</b>。這次攻擊不使用<com>，改為使用<wil>。如果你成功，這次攻擊不造成基礎傷害，而是對被攻擊敵人所在地點的每名敵人造成2點傷害<i>(所有額外傷害只對受到攻擊的敵人造成)</i>。<i>(FAQ, v2.0)</i>如果這次攻擊中抽出<sku>、<cul>、<tab>、<mon>或<ten>標記，對所在地點每位調查員造成1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03153.png,1.25,0,118,Monztre,ThePathToCarcosa,153
+戰鬥或逃跑 [Survivor][event],,戰鬥或逃跑,,Survivor,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,"快速。只能在你回合中打出。
+直到本輪結束，你獲得+X<com>和+X<agi>，其中X等於你身上的恐懼數量。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03155.png,1.25,0,118,Priscilla Kim,ThePathToCarcosa,155
+意志考驗 (1) [Survivor][event],,意志考驗,,Survivor,None,None,1,1,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",勇氣.,"快速。在你所在地點的一位調查員抽出一張非弱點詭計卡時打出。
+取消該卡牌的顯現效果。放逐意志考驗。","
+無論是否看得到希望，你所能做的只有抵抗。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03156.png,1.25,0,118,Stanislav Dikolenko,ThePathToCarcosa,156
+吉人天相 (1) [Survivor][event],,吉人天相,,Survivor,None,None,1,1,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",幸運.,"快速。在你受到傷害和/或恐懼時打出。
+取消最多10點你剛才受到的傷害和/或恐懼。放逐吉人天相。","
+""那可是我最喜歡的帽子！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03157.png,1.25,0,118,John Pacer,ThePathToCarcosa,157
+施恩求報 [Neutral][event],,施恩求報,,Neutral,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2017 FFG</family>",恩惠.,選擇一張你控制的<b><i>盟友</i></b>支援卡並將其返回你的手牌。然後，在你牌堆頂部9張卡牌中查找並打出一張<b><i>盟友</i></b>支援卡，其費用降低X點，其中X為返回你手牌的<b><i>盟友</i></b>支援卡的費用。混洗你的牌堆。,"
+""接線員，你先不要掛，等我一下。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\03158.png,1.25,0,118,Adam Lane,ThePathToCarcosa,158
+荒唐的素描像 (2) [Seeker][event],,荒唐的素描像,,Seeker,None,None,0,2,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,"只能在你所在地點有線索時打出。
+抽取3張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\51003.png,1.25,0,118,German Nobile,TheDunwichLegacy,3
+走私品 (2) [Rogue][event],,走私品,,Rogue,None,None,3,2,None,None,None,None,Intellect,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",供給. 違法.,"選擇一張你所在地點的調查員控制的支援卡。選擇以下一項：
+<bul> 在該支援卡上放置2子彈或補給標記並抽取1張卡牌。
+<bul> 將該支援卡上的子彈或補給標記數量翻倍。","
+管他違不違法，能辦事就成。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\51005.png,1.25,0,118,Matt Bradbury,TheDunwichLegacy,5
+逃跑本能 (2) [Rogue][event],,逃跑本能,,Rogue,None,None,0,2,None,None,None,None,Agility,Agility,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",技巧.,"快速。在敵人將要進入你所在地點時打出。
+立刻移動到一個連接地點。(該敵人依然進入你原本地點。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\51006.png,1.25,0,118,JB Casacop,TheDunwichLegacy,6
+哎呀！ (2) [Survivor][event],,哎呀！,,Survivor,None,None,2,2,None,None,None,None,Agility,Combat,Combat,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,"快速。在你攻擊失敗，並且低於難度3點及以內後打出。
+對你所在地點的任意一名敵人造成該次攻擊的傷害。如果被攻擊的敵人與另一位調查員交戰，這次攻擊不會對該調查員造成傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\51009.png,1.25,0,118,Mariusz Gandzel,TheDunwichLegacy,9
+炸藥爆破 (2) [Guardian][event],,炸藥爆破,,Guardian,None,None,4,2,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",策略.,選擇你所在地點或一個連接的地點。對所選地點的每名敵人和每位調查員各造成3點傷害。此行動不會引起趁亂攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\50002.png,1.25,0,118,Dimitri Bielak,ReturnToTheNightOfTheZealot,2
+屏障 (3) [Seeker][event],,屏障,,Seeker,None,None,0,3,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察. 策略.,"疊加到你所在地點。
+非<b><i>精英</i></b>敵人不能移動進入或生成在疊加地點。每當有非<b><i>精英</i></b>敵人將要生成在疊加地點，便改為將其生成在一個連接地點(如果可能的話)。
+<b>強制</b> - 在一位調查員離開疊加地點時：丟棄屏障。<i>(Errata v1.4)</i>","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\50004.png,1.25,0,118,Stephen Somers,ReturnToTheNightOfTheZealot,4
+百戰百勝 (2) [Rogue][event],,百戰百勝,,Rogue,None,None,5,2,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",幸運.,獲得10個資源。,"
+""我又贏囉！親愛的真是抱歉，你今晚只是運氣有點差。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\50006.png,1.25,0,118,Sara Biddle,ReturnToTheNightOfTheZealot,6
+記憶抹消 (3) [Mystic][event],,記憶抹消,,Mystic,None,None,1,3,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術.,"快速。在一個階段開始後打出。
+選擇你所在地點的一名非<b><i>精英</i></b>敵人。減少所選敵人的傷害值和恐懼值各1點，並將其文字框視為空白(除<b><i>屬性</i></b>外)，直到本階段結束。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\50008.png,1.25,0,118,Rafał Hrynkiewicz,ReturnToTheNightOfTheZealot,8
+吃槍子吧！ [Guardian][event],,"""吃槍子吧！""",,Guardian,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,"快速。在你啟動<b><i>槍械</i></b>支援卡上的<b>攻擊</b>能力時打出。
+花費該支援卡上的額外1子彈。本次攻擊中，在你抽取混亂標記時，抽取額外1個混亂標記。選擇其中一個結算並忽略其餘標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\52002.png,1.25,0,118,David Demaret,ReturnToThePathToCarcosa,2
+邏輯推理 (4) [Seeker][event],,邏輯推理,,Seeker,None,None,2,4,None,None,None,None,Willpower,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察.,你每有1個線索(最多3個)，治癒你所在地點的一位調查員的2點恐懼，或丟棄你所在地點的1張<b><i>恐怖</i></b>卡牌。,"
+""我是活著的最智慧的人，因為我知道一件事，那就是我知道我一無所知。""
+<cite>《理想國》，柏拉圖著</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\52003.png,1.25,0,118,Andreas Zafiratos,ReturnToThePathToCarcosa,3
+靈力風暴 (3) [Mystic][event],,靈力風暴,,Mystic,None,None,3,3,None,None,None,None,Combat,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,"<b>攻擊</b>。這次攻擊不使用<com>，改為使用<wil>。你這次攻擊獲得+2<wil>。如果你成功，這次攻擊不造成基礎傷害，而是對被攻擊敵人所在地點的每個敵人造成3點傷害<i>(所有額外傷害只對受到攻擊的敵人造成)</i>。<i>(FAQ, v2.0)</i>如果這次攻擊中抽出<sku>、<cul>、<tab>、<mon>或<ten>標記，對所在地點每位調查員造成2點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\52008.png,1.25,0,118,Monztre,ReturnToThePathToCarcosa,8
+勇闖火線 (3) [Survivor][event],,勇闖火線,,Survivor,None,None,2,3,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2021 FFG</family>",勇氣.,"快速。只能在你的回合中打出。
+你回合結束之前，將你所有技能的基礎值設為5，或將你一項技能的基礎值設為7。","
+只有在你性命受到威脅時，你才會認識到自己能力的極限。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\54010.png,1.25,0,118,Javier Charro Martinez,ReturnToTheCircleUndone,10
+鮮血失色 (1) [Guardian][event],,鮮血失色,,Guardian,None,None,1,1,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術. 勇氣.,"作為打出鮮血失色的額外費用，受到2點傷害。
+<b>攻擊</b>。這次攻擊不使用<com>，改為使用<wil>。這次攻擊中你+2<wil>並造成+2傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\53001.png,1.25,0,118,Ryohei Hase,ReturnToTheForgottenAge,1
+去偽存真 (2) [Seeker][event],,去偽存真,,Seeker,None,None,1,2,None,None,None,None,Intellect,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",洞察.,在你所在地點上的調查員控制的支援卡上放置總共2秘密(如果你所在地點有線索，改為3秘密)。,"
+""你怎麼知道我是瘋的？""愛麗絲說。
+""你肯定瘋了。""柴郡貓說，""不然你不會到這兒來。""
+<cite>路易斯·卡羅，《愛麗絲夢遊仙境》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\53003.png,1.25,0,118,Maggie Ivy,ReturnToTheForgottenAge,3
+改變命運 (1) [Survivor][event],,改變命運,,Survivor,None,None,3,1,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2016 FFG</family>",法術. 祝福.,選擇並丟棄場上一張沒有疊加到<b><i>精英</i></b>敵人的非弱點詭計卡。,"
+我們的命運由自己書寫。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\53009.png,1.25,0,118,Stanislav Dikolenko,ReturnToTheForgottenAge,9
+舒緩旋律 [Guardian][event],,舒緩旋律,,Guardian,None,None,0,0,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術.,"綁定(聖化之鏡)。
+治癒你所在地點的調查員和/或<b><i>盟友</i></b>支援卡的2點傷害或2恐懼(或者以任意方式組合，總計2點)。抽取1張卡牌。","
+……他們的歌聲融入月光，
+融入那淒美靜謐的夜光……
+<cite>保羅·魏爾倫，《月光》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05314.png,1.25,0,118,Nele Diel,TheCircleUndone,314
+我見過更糟的…… (2) [Guardian][event],,"""我見過更糟的……""",,Guardian,None,None,0,2,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,"快速。在你受到傷害和/或恐懼時打出。
+取消你這次受到的最多2點傷害和/或恐懼。然後，獲得同等數量的資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05315.png,1.25,0,118,Tiziano Baracchi,TheCircleUndone,315
+鮮血儀式 [Seeker][event],,鮮血儀式,,Seeker,None,None,0,0,None,None,None,None,Combat,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術.,"綁定(密教辭典)。
+抽取2張卡牌。丟棄你最多2張手牌。每有1張卡牌因此被丟棄，你可以獲得1資源，或花費1資源來對你所在地點的1名敵人造成1點傷害。此行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05317.png,1.25,0,118,Andreia Ugrai,TheCircleUndone,317
+窺看不思議之事 (5) [Seeker][event],,窺看不思議之事,,Seeker,None,None,1,5,None,None,None,None,Intellect,Intellect,Intellect,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,將你手牌中任意數量的非弱點卡牌混洗入你的牌堆。抽取卡牌，直到手牌數量達到上限。將窺看不思議之事移出遊戲。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05318.png,1.25,0,118,Brian Valenzuela,TheCircleUndone,318
+你欠我一次！ [Rogue][event],,"""你欠我一次！""",,Rogue,None,None,0,0,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",恩惠. 局勢.,查看另一位調查員的手牌。你可以打出該調查員手牌中的一張非弱點卡牌，置於你的控制之下。如果你這麼做，你和該調查員每人抽取1張卡牌。,"
+""對對，當然了。你之前三次也是這麼說的。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05319.png,1.25,0,118,James Hall,TheCircleUndone,319
+誘敵深入 (2) [Survivor][event],,誘敵深入,,Survivor,None,None,1,2,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",技巧.,"疊加到你所在地點或一個連接地點。
+在敵人階段中，每名敵人不以正常移動方向移動，改為以最短路現朝向疊加地點移動。
+ <b>強制</b> - 疊加狀態下，當一輪結束時：丟棄誘敵深入。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05323.png,1.25,0,118,Sebastian Rodriquez,TheCircleUndone,323
+美滿結局 (3) [Survivor][event],,美滿結局,,Survivor,None,None,2,3,None,None,None,None,Wild,Wild,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",幸運. 祝福.,"快速。在你技能檢定中抽出1個會令你的技能值減少到零的混亂標記時打出(包括<ten>標記)。
+取消該標記並改為將其視為<eld>標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05324.png,1.25,0,118,Julian Kok,TheCircleUndone,324
+恐怖揭露 [Seeker][event],,恐怖揭露,,Seeker,None,None,0,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,發現你所在地點的3個線索。將你任意數量的線索交給其他一位調查員，或將你任意數量的線索放置在任意一個地點上。你被擊敗並受到1點精神創傷。此行動不會引起趁亂攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05275.png,1.25,0,118,David Auden Nash,TheCircleUndone,275
+幫個小忙 [Rogue][event],,幫個小忙,,Rogue,None,None,2,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",恩惠. 服務.,"對你所在地點的一名非<b><i>精英</i></b>敵人造成1點傷害。
+<rea>在你打出幫個小忙時，提升其費用2點：將""造成1點傷害""變為""造成2點傷害""。
+<rea>在你打出幫個小忙時，提升其費用2點：將""你所在地點""變為""1個與你所在地點之間連接次數不超過2的地點""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05277.png,1.25,0,118,John Pacer,TheCircleUndone,277
+否決存在 (5) [Mystic][event],,否決存在,,Mystic,None,None,0,5,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 悖論.,"快速。在遭遇卡或一名敵人攻擊將會導致你執行以下一項(選擇一項)時打出：丟棄手牌、失去資源、失去行動、受到傷害或受到恐懼。
+你忽略該效果的影響。然後，對應地執行與之相反的效果(抽取卡牌、獲得資源、獲得額外行動、治癒傷害或治癒恐懼)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05280.png,1.25,0,118,Ilich Henriquez,TheCircleUndone,280
+勇闖火線 [Survivor][event],,勇闖火線,,Survivor,None,None,3,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,"快速。只能在你回合中打出。
+選擇你的一項技能。直到你的回合結束，將該技能的基礎值設為5。","
+只有在你性命受到威脅時，你才會認識到自己能力的極限。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05281.png,1.25,0,118,Javier Charro Martinez,TheCircleUndone,281
+偷樑換柱 (3) [Survivor][event],,偷樑換柱,,Survivor,None,None,1,3,None,None,None,None,Agility,Agility,Intellect,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",技巧.,"選擇以下一項：
+<bul> <b>躲避</b>。如果你成功且該敵人為非<b><i>精英</i></b>，躲避該敵人並將其移動到一個連接地點。
+<bul> <b>躲避</b>。只能對連接地點的一名非<b><i>精英</i></b>敵人使用，如果你成功，躲避並與該敵人交換地點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05282.png,1.25,0,118,Rafał Hrynkiewicz,TheCircleUndone,282
+拷問 [Guardian][event],,拷問,,Guardian,None,None,2,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 洞察.,<b>談判</b>。選擇你所在地點的一名<b><i>類人</i></b>敵人並檢定<com>(3)。這次檢定難度+X，X為所選敵人的傷害值。如果你成功，發現你所在地點的1個線索和其它任意地點的1個線索。,"
+他在隱瞞著什麼……但他為什麼要隱瞞？",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05020.png,1.25,0,118,John Pacer,TheCircleUndone,20
+劫數延後 [Guardian][event],,劫數延後,,Guardian,None,None,2,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察. 勇氣. 策略.,"快速。只能在你回合中打出。疊加到你所在地點的一位調查員，置於該調查員的控制之下。
+<rea>在你受到傷害和/或恐懼時：丟棄劫數延後並取消你這次受到的全部傷害和/或恐懼。
+<b>強制</b> - 在神話階段結束時：你必須花費2資源或丟棄劫數延後。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05021.png,1.25,0,118,Stephen Somers,TheCircleUndone,21
+串聯線索 [Seeker][event],,串聯線索,,Seeker,None,None,4,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"快速。在你發現你所在地點最後一個線索後打出。
+發現一個地點的2個線索，該地點的打印隱藏值須低於你所在地點。","
+他們曾認為你變得不可理喻。偏執。妄想。但結果證明，你一直以來都是對的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05025.png,1.25,0,118,Quintin Gleim,TheCircleUndone,25
+金錢萬能 [Rogue][event],,金錢萬能,,Rogue,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",恩惠. 局勢.,"快速。在你發起技能檢定時打出。
+這次檢定不是其標示的技能類型(<wil>、<int>、<com>或<agi>)，而是改為資源技能檢定。這次檢定你的基礎技能值等於你的資源池中的資源數目的一半(向下取整數)。","
+錢買不來幸福，但你可以買到除此之外的一切好東西。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05029.png,1.25,0,118,Robert Laskey,TheCircleUndone,29
+否決存在 [Mystic][event],,否決存在,,Mystic,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 悖論.,"快速。在遭遇卡或一名敵人攻擊將會導致你執行以下一項(選擇一項)時打出：丟棄手牌、失去資源、失去行動、受到傷害或受到恐懼。
+你忽略該效果的影響。<i>(其它效果正常結算。)</i>","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05032.png,1.25,0,118,Ilich Henriquez,TheCircleUndone,32
+恐怖靈感 [Mystic][event],,恐怖靈感,,Mystic,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 勇氣.,"快速。在你將要結算一張<mys>卡牌的效果，且該效果在抽出<sku>、<cul>、<tab>、<mon>或<ten>符號時、如果抽出或在抽出後觸發時打出。<i>(FAQ, v1.5)</i>
+取消該效果，或額外結算一次該效果。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05033.png,1.25,0,118,Rafał Hrynkiewicz,TheCircleUndone,33
+絕望之舉 [Survivor][event],,絕望之舉,,Survivor,None,None,0,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 局勢.,"作為打出絕望之舉的額外費用，從你手牌或遊戲區域選擇並丟棄一張佔用至少1個手部槽位的<b><i>道具</i></b>支援卡。
+<b>攻擊</b>。你這次攻擊+X<com>並造成+1傷害，X為所選支援卡的打印資源 費用。如果你成功且該支援卡是從你的遊戲區域中丟棄的，獲得X資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05037.png,1.25,0,118,Joshua Cairós,TheCircleUndone,37
+水落石出 [Seeker][event],,水落石出,,Seeker,None,None,0,0,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"快速。在一位調查員發現你所在地點的最後一個線索後打出。
+位於該地點的調查員獲得總計X資源，由你自行分配，X為該地點的隱藏值。","
+""……當你排除掉一切不可能的情況後，不論剩下的有多不可思議，都一定是真相。""<cite>亞瑟·柯南·道爾《白化士兵》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05110.png,1.25,0,118,Greg Bobrowski,TheCircleUndone,110
+情報報告 [Rogue][event],,情報報告,,Rogue,None,None,2,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",恩惠. 服務.,"發現你所在地點的1個線索。
+<rea>在你打出情報報告時，提升其費用2點：將""發現……的1個線索""變為""發現……的2個線索。""
+<rea>在你打出情報報告時，提升其費用2點：將""你所在地點""變為""1個與你所在地點之間連接次數不超過2的地點""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05111.png,1.25,0,118,Alexandre Dainche,TheCircleUndone,111
+驅除 (1) [Mystic][event],,驅除,,Mystic,None,None,2,1,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術.,<b>躲避</b>。僅可對非<b><i>精英</i></b>敵人使用。這次躲避嘗試不使用<agi>，改為使用<wil>。如果你成功，將剛剛躲避的敵人移動到場上任意一個地點。如果你成功，且這次躲避嘗試期間抽出<sku>、<cul>、<tab>或<mon>符號，該敵人在下一個補給階段中不準備。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05113.png,1.25,0,118,Stephen Somers,TheCircleUndone,113
+鳴槍示警 [Guardian][event],,鳴槍示警,,Guardian,None,None,2,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 技巧.,"作為打出鳴槍示警的額外費用，花費你控制的1張<b><i>槍械</i></b>支援卡的1子彈。
+移動你所在地點所有非<b><i>精英</i></b>敵人到一個連接地點。此行動不會引起趁亂攻擊。","
+""退後！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05229.png,1.25,0,118,Borja Pindado,TheCircleUndone,229
+瞄準鏡 (3) [Guardian][event],,瞄準鏡,,Guardian,None,None,3,3,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",道具. 升級.,"快速。疊加到你控制的一張佔用2個手部槽位的<b><i>槍械</i></b>支援卡。被疊加支援卡不能被用來攻擊與你交戰的敵人。
+<rea>在你使用被疊加的支援卡執行<b>攻擊</b>行動時，如果你未與敵人交戰，消耗瞄準鏡：這次攻擊可以選擇位於一個連接地點的一名非<b><i>精英</i></b>敵人作為目標。這次攻擊忽略冷漠和反擊關鍵詞。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05230.png,1.25,0,118,Tiziano Baracchi,TheCircleUndone,230
+知識就是力量 [Seeker][event],,知識就是力量,,Seeker,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"快速。只能在你回合中打出。
+選擇你控制的一張<b><i>書籍</i></b>或<b><i>法術</i></b>支援卡，或揭示你手牌裡的一張<b><i>書籍</i></b>或<b><i>法術</i></b>支援卡。結算該支援卡上的一項<act>或<fre>能力，忽略所有費用<i>(包括其<act>費用)</i>。然後，如果該支援卡是從你的手牌裡揭示的，你可以將其丟棄來抽取1張卡牌。","
+……這股力量也會墮落。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05231.png,1.25,0,118,Michal Milkowski,TheCircleUndone,231
+誘敵 [Rogue][event],,誘敵,,Rogue,None,None,2,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",恩惠. 服務.,"<b>躲避</b>。自動躲避你所在地點的一名非<b><i>精英</i></b>敵人。
+<rea>在你打出誘敵時，提升其費用2點：將""一名非<b><i>精英</i></b>敵人""變為""最多2名非<b><i>精英</i></b>敵人""。
+<rea>在你打出誘敵時，提升其費用2點：將""你所在地點""變為""1個與你所在地點之間連接次數不超過2的地點。""","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05234.png,1.25,0,118,Tim Tsang,TheCircleUndone,234
+幸運或是注定 (2) [Survivor][event],,幸運或是注定,,Survivor,None,None,2,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",幸運. 祝福.,"快速。在毀滅標記將被放置到任何一張冒險卡上時打出。
+每場遊戲最多1次。
+取消剛要被放置到該卡牌上的1個毀滅標記。放逐幸運或是注定。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05237.png,1.25,0,118,Joshua Cairós,TheCircleUndone,237
+妥善養護 (1) [Guardian][event],,妥善養護,,Guardian,None,None,0,1,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",升級.,"快速。只能在你回合中打出。
+疊加到你控制的一張<b><i>道具</i></b>支援卡。每張支援卡限制1張。
+<rea>在被疊加的支援卡被丟棄後：將其返回其所有者手牌，疊加到該支援卡的每張其它<b><i>升級</i></b>卡也返回各自所有者的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05152.png,1.25,0,118,John Pacer,TheCircleUndone,152
+反應靈敏 [Rogue][event],,反應靈敏,,Rogue,None,None,2,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",局勢.,"快速。在任意調查員的回合中(不含行動中)打出。
+立刻進行一個行動，如同在你的回合。這個行動不計入你每回合可進行的行動數。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05156.png,1.25,0,118,Miguel Coimbra,TheCircleUndone,156
+勇闖虎穴 [Survivor][event],,勇闖虎穴,,Survivor,None,None,1,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",局勢. 技巧.,"快速。在你成功躲避一名敵人並超過難度至少2點後打出。
+發現該敵人所在地點的1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\05160.png,1.25,0,118,Stephen Somers,TheCircleUndone,160
+熟能生巧 [Seeker][event],,熟能生巧,,Seeker,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",局勢. 策略.,"快速。在你所在地點的技能檢定中打出。
+在你的牌堆頂部9張卡牌中查找一張<b><i>精通</i></b>技能卡，並將其投入這次技能檢定(如可能)。將其餘卡牌混洗回你的牌堆。在這次檢定結束後，如果檢定成功，不將該技能卡丟棄，改為將其加入你的手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06197.png,1.25,0,118,Romana Kendelic,TheDreamEaters,197
+海量研究 (1) [Seeker][event],,海量研究,,Seeker,None,None,10,1,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察.,"你每有1張其它手牌，降低海量研究的打出費用1點。
+發現你所在地點的2個線索。","
+""這兒也沒發現。我們還差多少沒查？""
+""……瞧瞧你背後這面牆？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06198.png,1.25,0,118,Andreia Ugrai,TheDreamEaters,198
+幽靈利刃 [Mystic][event],,幽靈利刃,,Mystic,None,None,2,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,<b>攻擊</b>。將你的<wil>值加入這次攻擊的技能值。在這次攻擊前，你可以立即與被攻擊的敵人交戰。這次攻擊造成+1傷害(如果該敵人為非<b><i>精英</i></b>，改為+2傷害)。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06201.png,1.25,0,118,Pavel Kolomeyets,TheDreamEaters,201
+命令真言 (2) [Mystic][event],,命令真言,,Mystic,None,None,2,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,聲名一張<b><i>法術</i></b>卡牌。在你的牌堆中查並抽取1張聲名的卡牌。混洗你的牌堆。,"
+為明視野，要有光。
+為暖體膚，要有熱。
+為救靈魂，要有火。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06202.png,1.25,0,118,Andreas Zafiratos,TheDreamEaters,202
+清醒夢 (2) [Neutral][event],,清醒夢,,Neutral,None,None,1,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,選擇你遊戲區域的一張卡牌，或揭示你的一張手牌。在你的牌堆中查找並抽取另一張該卡牌的同名卡牌。混洗你的牌堆。,"
+""……所有這些生命都僅僅只是大腦的一串圖像，這些圖像不管是來自真實，還是來自內在夢境，他們之間並無區別……""
+——H. P. 洛夫克拉夫特《銀鑰匙》",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06205.png,1.25,0,118,Romana Kendelic,TheDreamEaters,205
+英勇救援 (2) [Guardian][event],,英勇救援,,Guardian,None,None,0,2,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣. 策略.,"快速。在一名非<b><i>精英</i></b>敵人將要攻擊你所在地點或連接地點的另一位調查員時打出。
+如果你此時不在該地點，移動到那裡。該敵人改為與你交戰，並對你結算該次攻擊。然後，對其造成1點傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06234.png,1.25,0,118,Cynthia Sheppard,TheDreamEaters,234
+希望微光 [Survivor][event],,希望微光,,Survivor,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",祝福. 幸運.,"多重。
+只能從你的棄牌堆打出希望微光。
+將你棄牌堆中所有希望微光加入你的手牌<i>(包括本卡牌)</i>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06245.png,1.25,0,118,Jason Caffoe,TheDreamEaters,245
+頭班守夜 [Guardian][event],,頭班守夜,,Guardian,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,"快速。在神話階段的""抽取遭遇卡""步驟將要開始時打出。
+不結算該步驟，改為查看遭遇牌堆頂部X張卡牌，其中X等於調查員人數。在任意調查員之間分發那些卡牌，你以外的每位調查員最多分發1張卡牌。然後，每位調查員依序抽取分發給他們的卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06110.png,1.25,0,118,Matt Bradbury,TheDreamEaters,110
+跟蹤 [Rogue][event],,跟蹤,,Rogue,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略.,<b>調查</b>。選擇你所在地點的一名敵人。所選敵人上每有1點傷害，這次調查你+1<int>(最多+5<int>)。如果你成功，在此地點發現額外1個線索。此行動不會引起所選敵人的趁亂攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06114.png,1.25,0,118,Joshua Cairós,TheDreamEaters,114
+解讀秘符 [Mystic][event],,解讀秘符,,Mystic,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,<b>調查</b>。將你的<wil>值加入你這次調查的技能值。你可以忽略在這次調查中將在你所在地點觸發的任意效果或關鍵詞。如果你成功，在此地點發現額外1個線索。,"
+可怕的未來就在你眼前。
+你是要轉頭就跑，還是對它敞開胸懷？",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06117.png,1.25,0,118,Ilich Henriquez,TheDreamEaters,117
+駭人真相 [Seeker][event],,駭人真相,,Seeker,None,None,-,0,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",研究.,"多重。
+不能打出駭人真相。
+<rea>在你查找你的牌堆時若駭人真相在被查找卡牌中，將其丟棄：獲得2資源或在你控制的支援卡上放置1秘密。(每次查找最多使用一次<b><i>研究</i></b>能力。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06023.png,1.25,0,118,Aleksander Karcz,TheDreamEaters,23
+冤大頭 (1) [Rogue][event],,冤大頭,,Rogue,None,None,0,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",技巧.,"多重。
+獲得2資源並抽取1張卡牌。
+<rea>在你打出冤大頭後：從你手牌中免費打出另一張冤大頭。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06026.png,1.25,0,118,Matt Bradbury,TheDreamEaters,26
+仰望星空 (1) [Mystic][event],,仰望星空,,Mystic,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察. 預言.,"每場遊戲最多兩次。
+遭遇牌堆有10張以上卡牌時才能打出。
+在你的綁定卡牌中查找1張群星正確之時，並將其混洗入遭遇牌堆頂部10張卡牌中。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06027.png,1.25,0,118,Adam S. Doyle,TheDreamEaters,27
+群星正確之時 [Mystic][event],,群星正確之時,,Mystic,None,None,-,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",預言.,"綁定(仰望星空)。
+<b>顯現</b> - 將群星正確之時移出遊戲。選擇一位調查員。該調查員抽取1張卡牌，獲得1資源，並且可以立即進行一次行動，如同在自己回合(本行動不計入該調查員每回合可進行的行動數)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06028.png,1.25,0,118,Katy Grierson,TheDreamEaters,28
+開啟大門 [Mystic][event],,開啟大門,,Mystic,None,None,1,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,"多重。 快速。
+只能在你的回合中打出。
+疊加到你所在地點。團隊在場上限制3張。
+調查員可以在任何2個疊加開啟大門的地點之間移動，如同兩地點連接。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06029.png,1.25,0,118,Dleoblack,TheDreamEaters,29
+意外的發現 [Survivor][event],,意外的發現,,Survivor,None,None,X,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運. 洞察.,"多重。
+X為你棄牌堆中其餘的意外的發現張數。
+<b>調查</b>。這次調查你+X<int>。如果你成功，額外發現你所在地點的X個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06034.png,1.25,0,118,Derek D. Edgell,TheDreamEaters,34
+吃一塹…… (1) [Guardian][event],,"""吃一塹……""",,Guardian,None,None,1,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",洞察. 策略.,"快速。在你結算一張詭計卡的任何效果後，將要丟棄該卡牌時打出。
+將""吃一塹……""放置入你的遊戲區域，並疊加該詭計卡到其上。
+<rea>在任一調查員抽取到一張與疊加的詭計卡同名的卡牌時，丟棄""吃一塹……""：取消該卡牌的顯現效果。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06156.png,1.25,0,118,Patrick McEvoy,TheDreamEaters,156
+讓上帝分辨去吧…… [Rogue][event],,"""讓上帝分辨去吧……""",,Rogue,None,None,0,0,None,None,None,None,Combat,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略. 定命.,"只能在你擊敗了總計生命值至少6點的敵人的回合中打出。
+將""讓上帝分辨去吧……""加入勝利牌區，並立即結束你的回合。在這場冒險結局中獲得經驗值時，你獲得額外1點經驗值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06160.png,1.25,0,118,Matthew Cowdery,TheDreamEaters,160
+快速裝填 (2) [Rogue][event],,快速裝填,,Rogue,None,None,3,2,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",策略. 技巧.,"快速。只能在你的回合中打出。
+選擇你控制的一張子彈標記數量少於其""使用(X)""中的X的<b><i>槍械</i></b>支援卡。在該支援卡上放置子彈，直到其子彈等於其""使用(X)""中的X。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06161.png,1.25,0,118,Stephen Somers,TheDreamEaters,161
+飄渺靈體 [Mystic][event],,飄渺靈體,,Mystic,None,None,2,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",法術.,<b>躲避</b>。將你的<wil>值加入你這次躲避嘗試的技能值。如果你成功，與每名與你交戰的其餘敵人解除交戰，並且本輪接下來的時間裡，你視為無形(敵人不能與你交戰，且你不能攻擊或對敵人造成傷害)。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06164.png,1.25,0,118,Pavel Kolomeyets,TheDreamEaters,164
+搜刮補給 [Survivor][event],,搜刮補給,,Survivor,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",幸運.,選擇你棄牌堆中一張0級卡牌。將所選卡牌加入你的手牌。,"
+你掰開屍體的手把東西拿了下來。
+反正他也不會發牢騷。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06165.png,1.25,0,118,Patrick McEvoy,TheDreamEaters,165
+背水一戰 (3) [Survivor][event],,背水一戰,,Survivor,None,None,0,3,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2019 FFG</family>",勇氣.,"如果你的資源少於5，獲得資源，直到你有5資源。
+如果你手牌少於5張，抽取卡牌，直到你有5張手牌。
+將背水一戰移出遊戲。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\06284.png,1.25,0,118,Aleksander Karcz,TheDreamEaters,284
+特製彈藥 (3) [Guardian][event],,特製彈藥,,Guardian,None,None,3,3,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",升級. 供給. 祝福.,"快速。只能在你的回合中打出。
+疊加到你所在地點的一位調查員控制的一張<b><i>槍械</i></b>支援卡。在該支援卡上放置2子彈。每張支援卡限制疊加1張。
+被疊加的支援卡對<b><i>怪物</i></b>敵人執行攻擊時造成+1傷害。","
+""你讓我求福？給什麼求福？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04193.png,1.25,0,118,John Pacer,TheForgottenAge,193
+暴露弱點 (3) [Seeker][event],,暴露弱點,,Seeker,None,None,0,3,None,None,None,None,Combat,Intellect,Wild,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"快速。在任何<fre>玩家時間段中打出。
+選擇你所在地點的一個敵人。檢定<int>(X)，X為該敵人的攻擊值。如果你成功，本階段下次對該敵人執行攻擊時，將其攻擊值視為0。抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04195.png,1.25,0,118,Stephen Somers,TheForgottenAge,195
+危險預感 [Mystic][event],,危險預感,,Mystic,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",預言.,"快速。在任何<fre>玩家時間段中打出。
+將危險預感放置入場，從混亂袋隨機抽出1個混亂標記，將它封印在危險預感上。
+<b>強制</b> - 在1個混亂標記將要從混亂袋中被抽出時：改為結算封印在此的標記，視為該標記剛剛從混亂袋中抽出。然後，丟棄危險預感。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04199.png,1.25,0,118,David Gaillet,TheForgottenAge,199
+學無止境 [Survivor][event],,學無止境,,Survivor,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,"快速。在你技能檢定失敗且完畢後<i>(結算該次檢定的所有效果後)</i>打出。
+再次嘗試該次檢定。你本次檢定+2技能值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04200.png,1.25,0,118,Stanislav Dikolenko,TheForgottenAge,200
+勇鬥異劫 (2) [Survivor][event],,勇鬥異劫,,Survivor,None,None,2,2,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,"快速。在你執行一次技能檢定，且該檢定的難度高於你的基礎技能值時打出。
+為本次技能檢定額外抽出X個混亂標記。選出其中1個標記來結算，忽略其餘標記。X為本次檢定難度和你基礎技能值的差值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04202.png,1.25,0,118,Anders Finer,TheForgottenAge,202
+有利位置 [Seeker][event],,有利位置,,Seeker,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"快速。在一位調查員的回合內，在一個地點入場或被翻開後打出。
+該地點-1隱藏值，直到當前調查員的回合結束。你可以將其它任何地點上的1個線索移動到該地點上。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04306.png,1.25,0,118,Jose Vega,TheForgottenAge,306
+臨時路障 [Survivor][event],,臨時路障,,Survivor,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 臨時製品.,"你可以從你棄牌堆中打出臨時路障。如果你這麼做，結算效果後將其洗回你的牌堆。
+<b>躲避</b>。本次躲避嘗試所選敵人-1躲避。(如果你從你棄牌堆打出臨時路障，你可以躲避同一地點的一個額外的敵人，且該敵人的躲避值必須不超過X，其中X為你成功並超出的點數。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04312.png,1.25,0,118,Borja Pindado,TheForgottenAge,312
+改變命運 (3) [Survivor][event],,改變命運,,Survivor,None,None,1,3,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 祝福.,"快速。在任何<fre>玩家時間段中打出。
+選擇並丟棄場上一張沒有疊加在<b><i>精英</i></b>敵人上的非弱點詭計卡。","
+我們的命運由自己書寫。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04313.png,1.25,0,118,Stanislav Dikolenko,TheForgottenAge,313
+恢復元氣 [Guardian][event],,恢復元氣,,Guardian,None,None,1,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣. 果斷.,"只可作為你的第一個行動打出。
+治癒1點傷害(如果你本輪抽出了1張詭計卡，改為治癒2點傷害)。然後，抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04149.png,1.25,0,118,Tiziano Baracchi,TheForgottenAge,149
+去偽存真 [Seeker][event],,去偽存真,,Seeker,None,None,2,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,"只有當你所在地點有線索時才能打出。
+在你控制的1張支援卡上放置2秘密。","
+""你怎麼知道我是瘋的？""愛麗絲說。
+""你肯定瘋了。""柴郡貓說，""不然你不會到這兒來。""
+<cite>路易斯·卡羅，《愛麗絲夢遊仙境》</cite>",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04152.png,1.25,0,118,Maggie Ivy,TheForgottenAge,152
+悄然遁去 [Rogue][event],,悄然遁去,,Rogue,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",技巧.,<b>躲避</b>。本次躲避嘗試將你的<int>加入你的技能值。如果你成功且超過難度至少2點，且被躲避的敵人非<b><i>精英</i></b>，該敵人在下一個補給階段不進入準備狀態。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04232.png,1.25,0,118,Joshua Cairós,TheForgottenAge,232
+收穫日 (1) [Rogue][event],,收穫日,,Rogue,None,None,0,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",違法. 定命.,你獲得資源，數量等同於你本回合已執行的行動數量<i>(包括本行動)</i>。如果此時是你的回合，則結束你的回合。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04233.png,1.25,0,118,Dual Brush Studios,TheForgottenAge,233
+獻祭貢品 (1) [Mystic][event],,獻祭貢品,,Mystic,None,None,0,1,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",儀式.,丟棄你控制的1張<mys>支援卡。然後，抽取3張卡牌，或者獲得3資源，或者以任意形式組合，卡牌和/或資源的總數為3。,"
+萬事起頭難。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04234.png,1.25,0,118,Melissa Findley,TheForgottenAge,234
+鮮血失色 (3) [Guardian][event],,鮮血失色,,Guardian,None,None,1,3,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 勇氣.,"作為打出鮮血失色的額外費用，受到最多3點傷害。
+<b>攻擊</b>。這次攻擊不使用<com>，改為使用<wil>。支付本卡牌費用時你每受到1點傷害，這次攻擊中你+1<wil>並造成+1傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04266.png,1.25,0,118,Ryohei Hase,TheForgottenAge,266
+最後的槍擊 [Rogue][event],,最後的槍擊,,Rogue,None,None,2,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 定命.,對你所在地點的1個敵人造成1點傷害。如果本效果擊敗該敵人，抽取1張卡牌。如果此時是你的回合，則結束你的回合。此行動不會引起趁亂攻擊。,"
+兩發子彈擊穿了這個生物的頭顱。然後又是一發，砰。繼續，砰。再來，砰。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04269.png,1.25,0,118,Jorge Matar,TheForgottenAge,269
+將就一下 [Survivor][event],,將就一下,,Survivor,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 臨時製品.,"你可以從你棄牌堆打出將就一下。如果你這麼做，結算效果後將其洗回你的牌堆。
+<b>調查</b>。這次調查中，你所在地點隱藏值-1。(如果你從你的棄牌堆打出將就一下，並且調查成功，發現1個額外的線索。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04272.png,1.25,0,118,Borja Pindado,TheForgottenAge,272
+肝膽相照 [Guardian][event],,肝膽相照,,Guardian,None,None,1,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",升級.,"快速。只能在你的回合中打出。
+疊加到你控制的一張<b><i>盟友</i></b>支援卡。
+被疊加的支援卡生命值+1，神智值+1。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04019.png,1.25,0,118,Anders Finer,TheForgottenAge,19
+值得信賴 (1) [Guardian][event],,值得信賴,,Guardian,None,None,1,1,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",升級.,"快速。只能在你的回合中打出。
+疊加到你控制的一張<b><i>道具</i></b>支援卡。
+結算被疊加的支援卡上的觸發能力時，你每項技能+1。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04020.png,1.25,0,118,Terry Pavlet,TheForgottenAge,20
+發掘古物 [Seeker][event],,發掘古物,,Seeker,None,None,1,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察.,<b>調查</b>。選擇你手牌中的1張<see>支援卡。本次技能檢定難度等於所選支援卡上打印的費用。如果成功，不發現線索，改為將該支援卡放置入場。如果該支援卡帶有<b><i>遺物</i></b>屬性，抽取1張卡牌。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04024.png,1.25,0,118,Lindsey Messecar,TheForgottenAge,24
+竊聽 [Rogue][event],,竊聽,,Rogue,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察. 技巧.,選擇你所在地點的一名未處於交戰狀態的敵人。檢定<int>(X)，X為所選敵人的躲避值。如果你成功，你發現所在地點的2個線索。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04027.png,1.25,0,118,John Pacer,TheForgottenAge,27
+交給你了！ [Rogue][event],,"""交給你了！""",,Rogue,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",技巧.,"快速。在你抽取1張非禍害遭遇卡後，結算該卡牌效果前打出。
+選擇另一位調查員。改為視為該調查員抽取了該遭遇卡。獲得1資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04028.png,1.25,0,118,Borja Pindado,TheForgottenAge,28
+黑暗預言 [Mystic][event],,黑暗預言,,Mystic,None,None,1,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",預言.,"快速。在你將要抽出混亂標記時打出。
+改為抽出5個混亂標記，而不是1個。從這些標記中選擇1個<sku>、<cul>、<tab>、<mon>或<ten>標記來結算，忽略其餘標記。(如果沒有抽出上述標記，從這些標記中選擇任意1個標記來結算，忽略其餘標記。)","
+真相就寫在星辰之間。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04032.png,1.25,0,118,Alice Duke,TheForgottenAge,32
+臨時武器 [Survivor][event],,臨時武器,,Survivor,None,None,1,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略. 臨時製品.,"你可以從棄牌堆打出臨時武器。如果你這麼做，結算效果後將其洗回你的牌堆。
+<b>攻擊</b>。這次攻擊中，受到攻擊的敵人-1攻擊。(如果你從棄牌堆打出了臨時武器，這次攻擊造成+1傷害。)","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04033.png,1.25,0,118,Borja Pindado,TheForgottenAge,33
+狗屎運 [Survivor][event],,狗屎運,,Survivor,None,None,2,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",幸運.,"快速。躲避嘗試一個非<b><i>精英</i></b>敵人期間，在你失敗且低於難度2點以內後打出。
+將該敵人放到遭遇牌堆頂。","
+傻人有傻福。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04034.png,1.25,0,118,Stanislav Dikolenko,TheForgottenAge,34
+犯罪現場 [Guardian][event],,犯罪現場,,Guardian,None,None,2,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察. 果斷.,"只可作為你的第一個行動打出。
+發現你所在地點的1個線索(如果該地點有敵人，改為發現2個線索)。此行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04103.png,1.25,0,118,Andreia Ugrai,TheForgottenAge,103
+槍法如神 (1) [Guardian][event],,槍法如神,,Guardian,None,None,2,1,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",策略.,"快速。在你啟動一張<b><i>槍械</i></b>或<b><i>遠程</i></b>支援卡的<b>攻擊</b>能力時打出。
+這次攻擊可以選擇一個連接地點上的一個敵人作為目標。這次攻擊忽略冷漠和反擊關鍵詞。如果這次攻擊的目標未與你交戰，且你攻擊成功，這次攻擊造成+1傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04104.png,1.25,0,118,Alexander Kozachenko,TheForgottenAge,104
+勸服 [Seeker][event],,勸服,,Seeker,None,None,2,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",洞察. 技巧.,<b>談判</b>。選擇你所在地點的一個非弱點的<b><i>類人</i></b>敵人，檢定<int>(3)。這次檢定難度+X，X為該敵人的恐懼值。如果你成功，將所選的敵人洗回遭遇牌堆。如果所選的敵人為<b><i>精英</i></b>，改為自動躲避它。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04105.png,1.25,0,118,Rafał Hrynkiewicz,TheForgottenAge,105
+反擊法術 (2) [Mystic][event],,反擊法術,,Mystic,None,None,2,2,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",法術. 祝福.,"快速。在你所在地點的技能檢定期間抽出<sku>、<cul>、<tab>或<mon>混亂標記時打出。
+取消該混亂標記。<i>(不要再抽1個混亂標記來替代。)</i>","
+""有我在，不用擔心。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04110.png,1.25,0,118,Matthew Cowdery,TheForgottenAge,110
+堅韌不拔 [Survivor][event],,堅韌不拔,,Survivor,None,None,2,0,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2018 FFG</family>",勇氣.,"快速。在你將被分配傷害和/或恐懼，且其數值足夠擊敗你時打出。
+取消該傷害和/或恐懼中的最多4點。","
+她只需要一雙長滿繭子的手，還有一顆堅定的心。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\04111.png,1.25,0,118,Dual Brush Studios,TheForgottenAge,111
+耀燦一擊 (1) [Guardian][event],,耀燦一擊,,Guardian,None,None,1,1,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 勇氣. 祝福.,<b>攻擊</b>。這次攻擊你可以不使用<com>，改為使用<wil>。在你發動這次攻擊時，在混亂袋中查找最多3個<ble>標記，並將其封印在此。耀燦一擊上每有一個封印的<ble>標記，這次攻擊你+1技能值並造成+1傷害。如果這次攻擊擊敗被攻擊的敵人，將封印的標記返回供應堆。否則，將其釋放。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07153.png,1.25,0,118,Imad Awan,TheInnsmouthConspiracy,153
+真相的呼喚 [Seeker][event],,真相的呼喚,,Seeker,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",洞察.,"只能在你未與敵人交戰時打出。
+<b>移動</b>。選擇一個未揭示地點。朝向該地點最短的路徑移動(一次一個地點)，直到你進入該地點。如果你翻開了地點，或與敵人交戰，或你的移動被阻擋，結束此效果。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07154.png,1.25,0,118,Greg Bobrowski,TheInnsmouthConspiracy,154
+沃科施的凝視 (2) [Seeker][event],,沃科施的凝視,,Seeker,None,None,2,2,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 詛咒縈繞.,從混亂袋隨機抽出7個。對你所在地點的敵人造成總計為1+抽出的<cur>和<ten>標記數量的傷害。這個行動不會引起趁亂攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07155.png,1.25,0,118,Romana Kendelic,TheInnsmouthConspiracy,155
+密切監視 (1) [Rogue][event],,密切監視,,Rogue,None,None,3,1,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",策略. 陷阱.,"疊加到你所在地點。每個地點限制1張。
+<b>強制</b> - 在一名非<b><i>精英</i></b>敵人進入疊加地點後，丟棄密切監視：自動躲避該敵人並在疊加地點發現1個線索。該敵人在下一個補給階段中不準備。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07157.png,1.25,0,118,Alexandr Elichev,TheInnsmouthConspiracy,157
+蝴蝶效應 (1) [Survivor][event],,蝴蝶效應,,Survivor,None,None,0,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",悖論. 祝福. 詛咒縈繞.,"快速。在你所在地點的技能檢定中抽出帶有符號的混亂標記時打出<i>(在結算其效果之前)</i>。
+你或執行檢定的調查員可投入一張卡牌到這次技能檢定，或將其投入到這次檢定的一張卡牌返回其手牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07160.png,1.25,0,118,Adam S. Doyle,TheInnsmouthConspiracy,160
+事不過三 (2) [Survivor][event],,事不過三,,Survivor,None,None,1,2,None,None,None,None,Agility,Combat,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",勇氣.,"快速。在你所在地點技能檢定開始時打出。
+這次檢定中兩次，在調查員抽出混亂標記時，可以將其取消，返回混亂袋，並抽出一個新的混亂標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07161.png,1.25,0,118,Matt Stawicki,TheInnsmouthConspiracy,161
+操縱命運 (2) [Neutral][event],,操縱命運,,Neutral,None,None,1,2,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術.,"從混亂袋抽出標記，直到你抽出一個<cur>、<ten>、<ble>或<eld>標記。如果你抽出……
+<bul> ...…<cur>或<ten>標記，對你所在地點一名敵人造成2點傷害。
+<bul> ...…<ble>或<eld>標記，治癒你所在地點一位調查員或<b><i>盟友</i></b>支援卡2點傷害。
+這個行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07162.png,1.25,0,118,Imad Awan,TheInnsmouthConspiracy,162
+狂怒畸變 (1) [Rogue][event],,狂怒畸變,,Rogue,None,None,0,1,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 勇氣. 詛咒縈繞.,<b>攻擊</b>。在你發動這次攻擊時，加入最多3個<cur>標記到混亂袋。每以此方式加入1個<cur>標記到混亂袋，你這次攻擊+1<com>並造成+1傷害。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07193.png,1.25,0,118,Jorge Ramos Márquez,TheInnsmouthConspiracy,193
+正義獵殺 (1) [Guardian][event],,正義獵殺,,Guardian,None,None,1,1,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",策略. 祝福.,<b>交戰</b>。選擇一名最多2個連接地點遠的敵人。移動(一次一個地點)到該敵人的地點，與其交戰，並加入等於該敵人的恐懼值數量的<ble>標記到混亂袋。,"
+麗塔眼睛瞇起，手上攥緊。牠們逃不掉了。這次一定。不會失手。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07109.png,1.25,0,118,Alexandr Elichev,TheInnsmouthConspiracy,109
+掀起麻煩 (1) [Seeker][event],,掀起麻煩,,Seeker,None,None,0,1,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",洞察. 詛咒縈繞.,"作為打出掀起麻煩的額外費用，加入數量等於你所在地點隱藏值的<cur>標記到混亂袋。
+發現你所在地點的2個線索。","
+要是你追蹤線索，很難說你在另一頭究竟會找到什麼。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07112.png,1.25,0,118,Winona Nelson,TheInnsmouthConspiracy,112
+破門而入 [Rogue][event],,破門而入,,Rogue,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",技巧.,<b>調查</b>。將你的<agi>值加入你這次調查的技能值。如果你成功且超過難度至少2點，你可以自動躲避此地點的一名敵人。這個行動不會引起趁亂攻擊。,"
+要是你小心點，這就只是一次""進入""。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07114.png,1.25,0,118,Lake Hurwitz,TheInnsmouthConspiracy,114
+聖潔 (3) [Guardian][event],,聖潔,,Guardian,None,None,3,3,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 祝福.,"作為打出聖潔的額外費用，將混亂袋內或封印在場上卡牌上的總計10個<ble>標記返回供應堆。
+移除場上任一卡牌上的1個毀滅標記。","
+黑暗至深之處，光明仍會綻放。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07301.png,1.25,0,118,Romana Kendelic,TheInnsmouthConspiracy,301
+均衡儀式 (5) [Mystic][event],,均衡儀式,,Mystic,None,None,0,5,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 祝福. 詛咒縈繞.,"選擇以下一項：
+<bul> 加入X個<cur>標記到混亂袋，來加入X個<ble>標記到混亂袋。
+<bul> 從混亂袋移除X個<cur>和X個<ble>標記，來治癒你所在地點卡牌的總計X點恐懼。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07308.png,1.25,0,118,Adam S. Doyle,TheInnsmouthConspiracy,308
+命運三女神的祭壇 (3) [Survivor][event],1,命運三女神的祭壇,,Survivor,None,None,1,3,None,None,None,None,Agility,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",幸運. 祝福. 詛咒縈繞.,"疊加到你所在地點。使用(3貢品)。
+疊加地點獲得：""<fre>抽取遭遇牌堆頂部的卡牌，消耗命運三女神的祭壇，並花費1貢品：從你的棄牌堆將最多2張等級總計5以下的卡牌返回你的手牌。位於該地點的所有調查員均可觸發此能力。<i>(FAQ, v2.0)</i>""
+<b>卡牌由命運三女神於阿卡姆之夜2019設計。</b>","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07310.png,1.25,0,118,Alexander Chelyshev,TheInnsmouthConspiracy,310
+恢復和諧 (2) [Survivor][event],,恢復和諧,,Survivor,None,None,3,2,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",幸運. 祝福.,在混亂袋中查找X個<cur>標記，並將其返回供應堆。X為混亂袋內<ble>標記的數量。每以此方式移除一個<cur>標記，獲得1資源。,"
+糾葛的命運之線亦可解開，即便只是片刻。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07230.png,1.25,0,118,Adam S. Doyle,TheInnsmouthConspiracy,230
+附魔武器 (3) [Guardian][event],,附魔武器,,Guardian,None,None,3,3,None,None,None,None,Combat,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 升級.,"疊加到你所在地點調查員控制的一張<b><i>武器</i></b>支援卡。每張支援卡限制一張。
+疊加支援卡獲得<b><i>遺物</i></b>關鍵詞，並且額外佔用一個法術槽位。
+<rea>在你使用疊加支援卡執行<b>攻擊</b>行動時，消耗此卡牌：這次攻擊將此卡牌所有者的<wil>加入你的<com>。這次攻擊造成+1傷害。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07261.png,1.25,0,118,Sarah Lindstrom,TheInnsmouthConspiracy,261
+幽暗之眼 (3) [Seeker][event],,幽暗之眼,,Seeker,None,None,10,3,None,None,None,None,Willpower,Willpower,Willpower,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",洞察. 詛咒縈繞.,"快速。只能在你的回合中打出。
+混亂袋內每有一個<cur>標記，打出幽暗之眼的費用減1。
+直到本輪結束，你的每項技能+3。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07263.png,1.25,0,118,Sara Biddle,TheInnsmouthConspiracy,263
+警戒和平 (3) [Survivor][event],,警戒和平,,Survivor,None,None,1,3,None,None,None,None,Willpower,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",勇氣. 祝福.,"作為打出警戒和平的額外費用，在混亂袋和/或場上的卡牌中查找總共5個<ble>標記，並將其返回供應堆。
+快速。在神話階段的""抽取遭遇卡""步驟(步驟1.4)將要開始時打出。跳過神話階段的此步驟。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07269.png,1.25,0,118,Romana Kendelic,TheInnsmouthConspiracy,269
+命運之手 [Guardian][event],,命運之手,,Guardian,None,None,3,0,None,None,None,None,Combat,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 祝福.,"快速。在一名敵人攻擊你所在地點一位調查員時打出。
+取消該次攻擊。然後，加入數量等同於該攻擊敵人的傷害值和恐懼值總和的<ble>標記到混亂袋。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07020.png,1.25,0,118,Jon Bosco,TheInnsmouthConspiracy,20
+深沉知識 [Seeker][event],,深沉知識,,Seeker,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",洞察. 詛咒縈繞.,"作為打出深沉知識的額外費用，加入2個<cur>標記到混亂袋。
+你所在地點的調查員抽取總計3張卡牌<i>(由你決定每位調查員各抽取幾張卡牌)</i>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07023.png,1.25,0,118,Michael Komarck,TheInnsmouthConspiracy,23
+浮士德的交易 [Rogue][event],,浮士德的交易,,Rogue,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",契約. 詛咒縈繞.,"作為打出浮士德的交易的額外費用，加入2個<cur>標記到混亂袋。
+你所在地點的調查員獲得總計5資源，由你自行分配。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07028.png,1.25,0,118,Felicia Cano,TheInnsmouthConspiracy,28
+命運之潮 [Mystic][event],,命運之潮,,Mystic,None,None,1,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",法術. 祝福.,"快速。在任何<fre>玩家時間段中，或當一輪開始時打出。
+將混亂袋內所有的<cur>標記替換為相同數量的<ble>標記。當該輪結束時，將混亂袋內所有的<ble>標記替換為相同數量的<cur>標記。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07030.png,1.25,0,118,Alexandr Elichev,TheInnsmouthConspiracy,30
+光輝結界 [Mystic][event],,光輝結界,,Mystic,None,None,0,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",洞察. 祝福.,"快速。你所在地點一位調查員在抽取一張非弱點詭計卡時打出。
+從混亂袋隨機抽出5個混亂標記。
+如果抽初<ble>或<eld>標記，取消該詭計卡的顯現效果。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07031.png,1.25,0,118,Torstein Nordstrand,TheInnsmouthConspiracy,31
+堅守信念 [Survivor][event],,堅守信念,,Survivor,None,None,2,0,None,None,None,None,Willpower,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",幸運. 祝福.,"快速。在任何<fre>玩家時間段中打出。
+加入4個<ble>標記到混亂袋。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07034.png,1.25,0,118,Roberto Campus,TheInnsmouthConspiracy,34
+人定勝天 [Neutral][event],,人定勝天,,Neutral,None,None,0,0,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2020 FFG</family>",幸運. 祝福. 詛咒縈繞.,"快速。在任何<fre>玩家時間段中打出。
+加入3個<cur>標記到混亂袋。然後，加入3個<ble>標記到混亂袋並抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\07037.png,1.25,0,118,Diana Martínez,TheInnsmouthConspiracy,37
+火器改良 [Guardian][event],,火器改良,,Guardian,None,None,3,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",升級. 供給.,"特製。
+疊加到你控制的一張<b><i>槍械</i></b>支援卡。每張支援卡限制1張。
+<rea>在疊加支援卡的攻擊中抽出一個非<ten>混亂標記時，消耗火器改良：取消該標記，將其返回混亂袋，並抽出一個新的標記。","
+就像老朋友一樣可靠。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09023.png,1.25,0,118,Mauro Dal Bo,TheScarletKeysInv,23
+絆腳索 [Guardian][event],,絆腳索,,Guardian,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略.,"<b>躲避</b>。不使用<agi>，改為使用<com>嘗試躲避。如果你成功且該敵人非<b><i>精英</i></b>，疊加絆腳索到該敵人。
+被疊加的敵人-1躲避值。
+<b>強制</b>-在被疊加的敵人移動後：將其消耗。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09025.png,1.25,0,118,Rob Laskey,TheScarletKeysInv,25
+突破門扉 [Guardian][event],,突破門扉,,Guardian,None,None,2,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 策略. 警察.,"檢定<com>(1)。如果你成功，疊加突破門扉到你所在地點，並且你每成功且超過難度1點就在其上放置1資源，作為導引。
+突破門扉上每有1導引，疊加地點隱藏值降低1點。","
+""讓我看看！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09026.png,1.25,0,118,Caravan Studio,TheScarletKeysInv,26
+慘烈重傷 [Guardian][event],,慘烈重傷,,Guardian,None,None,1,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略.,"快速。在你使用<b><i>近戰</i></b>支援卡攻擊非<b><i>精英</i></b>敵人成功後打出。
+疊加慘烈重傷到被攻擊的敵人。
+<b>強制</b>-當一輪結束時：對疊加敵人造成1點傷害。","
+這可是會很痛的。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09027.png,1.25,0,118,Pixoloid Studios,TheScarletKeysInv,27
+勵志演說 [Guardian][event],,勵志演說,,Guardian,None,None,0,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",勇氣.,<b>談判</b>。選擇你所在地點的一位調查員。該調查員可以從他手牌打出一張<b><i>盟友</i></b>支援卡，其費用降低3點。,"
+""你覺得他們會對這個說辭買單？""
+""他們當然不會懷疑這個世界正在終結，凱恩先生。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09028.png,1.25,0,118,Isuardi Therianto,TheScarletKeysInv,28
+最後通牒 [Guardian][event],,最後通牒,,Guardian,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",幸運. 策略.,"快速。當花費掉你控制的一張<b><i>槍械</i></b>支援卡上最後一發子彈的攻擊或效果結束時打出。
+增加1子彈到該支援卡上。本輪你用該支援卡的下次攻擊+3技能值。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09029.png,1.25,0,118,Rob Laskey,TheScarletKeysInv,29
+最壞的打算 (2) [Guardian][event],,最壞的打算,,Guardian,None,None,0,2,None,None,None,None,Agility,Combat,Intellect,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略.,選擇你所在地點的一位調查員。該調查員在他的牌堆頂部9張卡牌中查找一張<b><i>武器</i></b>支援卡，並將其加入他的手牌或打出<i>(支付其資源費用)</i>，並混洗他的牌堆。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09036.png,1.25,0,118,Robert Laskey,TheScarletKeysInv,36
+時刻警惕 (4) [Guardian][event],,時刻警惕,,Guardian,None,None,0,4,None,None,None,None,Intellect,Intellect,Willpower,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略.,每次一張，你所在地點的調查員們作為一個團隊，可以打出他們手牌中總計最多4張支援卡，每張資源費用降低1點。,"
+不得不說，洛根這傢伙對世界末日真的留了一手。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09039.png,1.25,0,118,Mauro Dal Bo,TheScarletKeysInv,39
+鴉羽筆 [Seeker][event],1,鴉羽筆,,Seeker,None,None,3,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",道具. 遺物. 升級.,"特製。在你購買鴉羽筆時，指定一張<b><i>書籍</i></b>或<b><i>法術</i></b>支援卡，並記錄該名稱在鴉羽筆的升級卡上。
+疊加到你控制的指定支援卡。
+<rea>在你撤退或遊戲結束時：選擇勾選一個鴉羽筆的升級卡上的勾選框，或在下場冒險前將升級疊加支援卡的經驗值費用降低1點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09042.png,1.25,0,118,Ethan Patrick Harris,TheScarletKeysInv,42
+詭異的診斷 [Seeker][event],,詭異的診斷,,Seeker,None,None,0,0,None,None,None,None,Intellect,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 科學.,"將你的1個線索放置在你所在地點上。
+然後，治癒你所在地點的一位調查員或一張<b><i>盟友</i></b>支援卡3點傷害。","
+非常疾病需要非常療法。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09046.png,1.25,0,118,Darek Zabrocki,TheScarletKeysInv,46
+爆炸性發現 [Seeker][event],,爆炸性發現,,Seeker,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察.,在你的牌堆頂部查找6張卡牌。你可以將你的最多3個線索放置在你所在地點上。每以此方式放置1個線索，選擇2張查找的卡牌並加入你的手牌。混洗你的牌堆。,"
+""你不知道這代表什麼嗎？你何不先冷靜坐下來解釋給我聽？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09047.png,1.25,0,118,Stephen Somers,TheScarletKeysInv,47
+製圖學 [Seeker][event],,製圖學,,Seeker,None,None,1,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 策略.,"<b>調查</b>。將你的<wil>或<agi>加入你這次調查的技能值。如果你成功，不發現此地點的線索，改為疊加製圖學在此地點。每個地點限制1張。
+降低疊加地點所有技能檢定的難度1點。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09048.png,1.25,0,118,Pixoloid Studios,TheScarletKeysInv,48
+存在成謎 (1) [Seeker][event],,存在成謎,,Seeker,None,None,1,1,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 悖論.,"<b>談判</b>。選擇你所在地點的一名非<b><i>精英</i></b>敵人並檢定<wil>或<int>(8)。你每有1張其它手牌，這次檢定難度-1。如果你成功，自動躲避所選的敵人並疊加存在成謎到該敵人。
+被疊加的敵人獲得冷漠。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09052.png,1.25,0,118,Adam Doyle,TheScarletKeysInv,52
+指導 (1) [Seeker][event],,指導,,Seeker,None,None,0,1,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察.,選擇你所在地點的另一位本輪尚未進行其回合的調查員。所選調查員本輪在其回合中每項技能+1，並且可以進行額外一次行動。打出指導不會引起趁亂攻擊。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09053.png,1.25,0,118,Bryce Cook,TheScarletKeysInv,53
+地下酒友 [Rogue][event],,地下酒友,,Rogue,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",恩惠.,"特製。在你購買地下酒友時，選擇一個<b><i>屬性</i></b>並記錄在其升級卡上。
+查看你牌堆頂部的6張卡牌。對於查看到的每張帶有所選<b><i>屬性</i></b>的卡牌，你可以花費1資源來將該卡牌加入你的手牌。將剩餘卡牌混洗入你的牌堆。","
+""很高興和你做生意，歐巴尼恩女士。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09060.png,1.25,0,118,Borja Pindado,TheScarletKeysInv,60
+磨練本能 [Rogue][event],,磨練本能,,Rogue,None,None,1,0,None,None,None,None,Agility,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",局勢.,"特製。快速。只能在達成以下條件之一後打出本卡牌：
+<bul> 密謀或場景推進。
+<bul> 你技能檢定成功且超過難度至少3點。
+立即進行一次行動，如同在你的回合(每輪最多一次)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09061.png,1.25,0,118,Tiziano Baracchi,TheScarletKeysInv,61
+隱藏口袋 [Rogue][event],,隱藏口袋,,Rogue,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",升級. 違法.,"快速。只能在你的回合中打出。
+疊加到你控制的<b><i>服裝</i></b>或<b><i>護甲</i></b>支援卡。
+被疊加的支援卡獲得：""你擁有額外1個手部或飾品槽位(由你選擇)，只能用於放置<b><i>違法</i></b>支援卡。""","
+""謝天謝地！它有口袋！""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09065.png,1.25,0,118,Pixoloid Studios,TheScarletKeysInv,65
+打帶跑 [Rogue][event],,打帶跑,,Rogue,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略. 技巧.,"快速。只能在你的回合中打出。
+將你手牌中的一張<b><i>盟友</i></b>支援卡放置入場。當你的回合結束時，如果該支援卡仍然在場，將其返回你的手牌。","
+""這時機恰到好處，費格斯先生。""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09066.png,1.25,0,118,Robert Laskey,TheScarletKeysInv,66
+交給我吧！ [Rogue][event],,"""交給我吧！""",,Rogue,None,None,0,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",技巧. 升級. 違法.,"快速。在你成功躲避<b><i>類人</i></b>敵人或調查成功時打出。
+打出你手牌中的一張<b><i>道具</i></b>支援卡，降低其費用X點，其中X為你成功且超過難度的數量。疊加""交給我吧！""到該支援卡。被疊加的支援卡獲得<b><i>違法</i></b>。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09067.png,1.25,0,118,Aleksander Karcz,TheScarletKeysInv,67
+直搗蜂窩 [Rogue][event],,直搗蜂窩,,Rogue,None,None,0,0,None,None,None,None,Combat,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",局勢. 策略.,在遭遇牌堆頂部9張卡牌中查找一名非<b><i>精英</i></b>敵人，<i>(不將其生成在原本生成地點，改為)</i>將其生成並與你交戰。然後，發現你所在地點的1個線索並獲得X資源，其中X為該敵人的生命值。混洗遭遇牌堆。,"
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09068.png,1.25,0,118,Aleksander Karcz,TheScarletKeysInv,68
+調頭就跑 [Rogue][event],,調頭就跑,,Rogue,None,None,2,0,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",技巧.,"快速。在一名敵人攻擊你時打出。
+<b>躲避</b>。嘗試躲避該攻擊敵人。如果你成功，取消該敵人的攻擊。","
+他會離開視線，但不會離開心頭。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09069.png,1.25,0,118,Adam Schumpert,TheScarletKeysInv,69
+破門而入 (2) [Rogue][event],,破門而入,,Rogue,None,None,2,2,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",技巧.,<b>調查</b>。將你的<agi>值加入你這次調查的技能值。如果你成功且超過難度至少1點，你可以自動躲避此地點的一名敵人。如果你成功且超過難度至少3點，當你的回合結束時將破門而入返回你的手牌。本行動不會引起趁亂攻擊。,"
+要是你小心點，這就只是一次""進入""。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09074.png,1.25,0,118,Lake Hurwitz,TheScarletKeysInv,74
+不留痕跡 (4) [Rogue][event],,不留痕跡,,Rogue,None,None,0,4,None,None,None,None,Agility,Agility,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",局勢. 技巧.,"快速。只能在你的回合中打出。
+你所在地點每有一名消耗的非蜂擁敵人，選擇一個不同的選項：
+<bul>獲得2資源。
+<bul> 對該敵人造成2點傷害。
+<bul> 發現你所在地點的1個線索。
+<bul> 抽取1張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09078.png,1.25,0,118,Lin Hsiang,TheScarletKeysInv,78
+真言術 [Mystic][event],,真言術,,Mystic,None,None,3,0,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",法術.,"特製。快速。只能在你的回合中打出。
+疊加到你所在地點的一名非<b><i>精英</i></b>敵人。
+<act>如果被疊加的敵人在你所在地點：<b>談判</b>。給它一個命令(每輪每命令限制1次) -
+<bul> <i>""滾。""</i>此敵人朝你選擇的方向移動一次。
+<bul> <i>""懦夫。""</i>消耗此敵人。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09081.png,1.25,0,118,Anders Finer,TheScarletKeysInv,81
+悚異之始 [Mystic][event],,悚異之始,,Mystic,None,None,1,0,None,None,None,None,Intellect,Willpower,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",儀式.,你每擁有一個法術槽位，抽取1張卡牌(最多5張)。你每擁有一個已被佔用的法術槽位，選擇並丟棄1張你的手牌。,"
+光影二者/
+願黃昏生黎明；
+世界輪迴/
+終為永恆力量。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09086.png,1.25,0,118,Anders Finer,TheScarletKeysInv,86
+爆裂護咒 [Mystic][event],,爆裂護咒,,Mystic,None,None,X,0,None,None,None,None,Combat,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",法術.,"在你打出爆裂護咒前，你可以從你的法術槽位丟棄任意張數的卡牌。
+對一名與你交戰的非<b><i>精英</i></b>敵人造成X點傷害。X不能大於你擁有的空法術槽位。這次行動不會引起趁亂攻擊。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09087.png,1.25,0,118,Anders Finer,TheScarletKeysInv,87
+咒死之絲 [Mystic][event],,咒死之絲,,Mystic,None,None,1,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",法術.,"<b>談判</b>。選擇你所在地點一名非<b><i>精英</i></b>敵人並且(選擇一項)：
+<bul> 自動躲避該敵人，並在其上放置1個毀滅標記。本輪的剩餘時間裡其不能受到傷害。發現你所在地點的1個線索。
+<bul> 如果該敵人上有毀滅標記，將其擊敗。每有1個曾在其上的毀滅標記，獲得1資源。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09088.png,1.25,0,118,Brian Valenzuela,TheScarletKeysInv,88
+月光儀式 (2) [Mystic][event],,月光儀式,,Mystic,None,None,0,2,None,None,None,None,Agility,Intellect,Wild,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",法術. 洞察.,"快速。只能在你的回合中打出。
+移除你所在地點一張非<b><i>精英</i></b>卡牌上的所有毀滅標記。","
+""以月亮之名…""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09093.png,1.25,0,118,Andreia Ugrai,TheScarletKeysInv,93
+解錮靈魂 (3) [Mystic][event],,解錮靈魂,,Mystic,None,None,0,3,None,None,None,None,Willpower,Wild,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",勇氣.,你可以丟棄一張你控制的<b><i>法術</i></b>或<b><i>儀式</i></b>支援卡。從你的手牌或棄牌堆中打出一張<b><i>法術</i></b>或<b><i>儀式</i></b>卡，降低其資源費用3點。,"
+力量攫獲了她，讓她渾身戰慄，痙攣。
+能量與她融為一體，然後，
+她睜開了雙眼……",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09095.png,1.25,0,118,Antonio José Manzanedo,TheScarletKeysInv,95
+臨時陷阱 [Survivor][event],,臨時陷阱,,Survivor,None,None,1,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",臨時製品. 陷阱.,"特製。使用(2次數)。如果臨時陷阱沒有次數，將其丟棄。
+疊加到你所在地點。
+在疊加地點的每名非<b><i>精英</i></b>敵人-1攻擊和-1躲避。
+<b>強制</b>-當一輪結束時：從臨時陷阱上移除1次數。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09100.png,1.25,0,118,Tiziano Baracchi,TheScarletKeysInv,100
+窮途末路 [Survivor][event],,窮途末路,,Survivor,None,None,0,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 勇氣.,"快速。只能在你的回合中且最終密謀在場時才能打出。
+抽取1張卡牌，獲得1資源並獲得額外1次行動。將窮途末路從遊戲中移除。","
+""所以…我們該回頭了嗎？""",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09104.png,1.25,0,118,Roman Semenenko,TheScarletKeysInv,104
+致命弱點 [Survivor][event],,致命弱點,,Survivor,None,None,2,0,None,None,None,None,Agility,Combat,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",策略. 技巧.,"快速。在你執行攻擊或躲避嘗試期間抽出混亂標記前，且這次檢定當前難度為0才能打出。
+這次檢定自動成功。不結算這次檢定的基礎效果，改為丟棄被攻擊或躲避的敵人(如果其為<b><i>精英</i></b>，改為自動躲避它並對其造成3點傷害)。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09105.png,1.25,0,118,Lin Hsiang,TheScarletKeysInv,105
+有備而來 [Survivor][event],,有備而來,,Survivor,None,None,-,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",困境. 策略.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-選擇兩項技能(<wil>、<int>、<com>或<agi>)。直到調查階段結束，每名調查員每項所選的技能+1，並且其它技能-1。","
+在這殘酷的生存難題中一定有某些明晰之虞。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09106.png,1.25,0,118,Lin Hsiang,TheScarletKeysInv,106
+獵人或獵物 [Survivor][event],,獵人或獵物,,Survivor,None,None,-,0,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",困境. 策略.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-如果沒有敵人在場，抽取1張卡牌。否則，你必須決定(選擇一項)：
+<bul> 每名未交戰的敵人朝最近的調查員移動一次。
+<bul> 每位調查員與每名與其交戰的敵人解除交戰，並以遠離最近敵人的方向移動一次。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09107.png,1.25,0,118,David Hovey,TheScarletKeysInv,107
+洞察明光 [Survivor][event],,洞察明光,,Survivor,None,None,2,0,None,None,None,None,Agility,Intellect,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察. 技巧.,"快速。在你執行調查中抽出混亂標記前，並且這次檢定當前難度為0才能打出。
+這次檢定自動成功。你發現此地點的額外1個線索，並發現任意地點的額外1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09108.png,1.25,0,118,Anders Finer,TheScarletKeysInv,108
+十字路口 (1) [Survivor][event],,十字路口,,Survivor,None,None,-,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",困境. 洞察.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-選擇一位調查員並決定(選擇一項):
+<bul> 所選的調查員必須立即進行一次行動，如同是在他的回合，然後隨機丟棄他的1張手牌。
+<bul> 所選的調查員在他的下回合中失去1次行動，然後抽取3張卡牌。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09109.png,1.25,0,118,Aleksander Karcz,TheScarletKeysInv,109
+救生索 (1) [Survivor][event],,救生索,,Survivor,None,None,1,1,None,None,None,None,Wild,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",幸運.,"每回合最多1張。
+快速。在調查員的回合將要結束時打出。
+該調查員可以在其回合中進行額外X次行動。X為在他回合中他技能檢定失敗的次數。放逐救生索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09110.png,1.25,0,118,Robert Laskey,TheScarletKeysInv,110
+野獸的本質 (1) [Survivor][event],,野獸的本質,,Survivor,None,None,-,1,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",困境. 洞察.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-翻開遭遇牌堆頂部3張卡牌。選擇一位調查員抽取其中1張翻開的卡牌，並丟棄其餘卡牌。然後，選擇一位調查員發現任意已揭示地點的1個線索。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09111.png,1.25,0,118,David Hovey,TheScarletKeysInv,111
+尋夢決意 (2) [Survivor][event],,尋夢決意,,Survivor,None,None,-,2,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",預言. 困境.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-翻開每位調查員牌堆頂部的卡牌並將其放置在一堆。再重複此步驟兩次。選擇三堆的其中一堆。每名調查員從該牌堆抽取各自的卡牌。將其它堆中的每張弱點混洗入其所有者的牌堆。將其它每張翻開的卡牌從遊戲中移除。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09115.png,1.25,0,118,Quintin Gleim,TheScarletKeysInv,115
+廢物利用 (2) [Survivor][event],,廢物利用,,Survivor,None,None,0,2,None,None,None,None,Intellect,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",洞察.,"選擇你棄牌堆中一張<b><i>道具</i></b>支援卡。選擇一項：
+<bul> 將該支援卡從遊戲中移除，並獲得等於其費用的資源。
+<bul> 打出該支援卡<i>(支付其費用)</i>。","
+你也覺得有點被拋棄。",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09116.png,1.25,0,118,Robert Laskey,TheScarletKeysInv,116
+命運多舛 (3) [Survivor][event],,命運多舛,,Survivor,None,None,0,3,None,None,None,None,None,None,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",困境. 幸運.,"每輪最多2張<b><i>困境</i></b>。
+<b>顯現</b>-你必須決定(選擇一項)：
+<bul> 在當前密謀上放置1個毀滅標記。每位調查員治癒3點傷害和3點恐懼。
+<bul> 從當前密謀上移除1個毀滅標記。每名調查員受到1點直接傷害和1點直接恐懼。將命運多舛從遊戲中移除。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09118.png,1.25,0,118,Billy Norrby,TheScarletKeysInv,118
+改良 [Neutral][event],,改良,,Neutral,None,None,3,0,None,None,None,None,Agility,Willpower,None,None,None,None,"<family ""Arial""><cop> 2022 FFG</family>",供給. 雙倍.,"作為打出改良的額外費用，花費一次行動。
+立即勾選一個你特製卡牌的升級卡上的勾選框，即使該特製卡牌不在場。
+每位調查員每場遊戲最多一次。","
+",,E:\Projects\Arkham-Horror-LCG-Cards\temp\09121.png,1.25,0,118,Drazenka Kimpel,TheScarletKeysInv,121
